@@ -4,4 +4,28 @@ var store = [{
         "tags": [],
         "url": "https://blog.no-problem.cc/si/en/Interview/",
         "teaser": null
+      },{
+        "title": "Project Management: Is it a proliferation of buzz words or a vital necessity?",
+        "excerpt":"Within the last decades, the importance of project management has been skyrocketing, or at least such an impression can be built. Combinations of words ‘an innovative project’, ‘a strategic project’, ‘a special project’, and countless many “projects” alike, can be met everywhere: on a website of any company, in promotional...","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/si/en/PMandTasks/",
+        "teaser": null
+      },{
+        "title": "PM & HR: Strangers or Buddies",
+        "excerpt":"HR is often perceived by employees as a conservative and purely supportive or administrative function within a company. Even in organizations, where HR has a strong governing role and acts as a business partner on the top level, on the bottom level these HR roles might be invisible. Why it...","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/si/en/PM-HR_strangers-or-buddies/",
+        "teaser": null
+      },{
+        "title": "Hindrances in HR projects",
+        "excerpt":"Usually, an HR project is started as a response to changes in business strategy, as a value-add HR initiative, digitalization of processes, or any combination of these. HR projects are diverse by purpose, nature, duration, available resources, and budget, however, some common critical issues and roadblocks can be present in...","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/si/en/Hindrances-in-HRprojects/",
+        "teaser": null
+      },{
+        "title": "Project management is HR Transformation’s best friend: a true story of one project",
+        "excerpt":"Digitalization and agility are now ways of life and speed up business transformation, which drastically affects people and their work. HR takes a leading role in workplace transformation and lends a supporting hand to business in the upskilling of companies’ workforce with the primary focus on strategic capabilities and competencies....","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/si/en/PM-and-HRtransformation/",
+        "teaser": null
       }]
