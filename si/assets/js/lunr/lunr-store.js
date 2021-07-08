@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "https://blog.no-problem.cc/si/en/PM-and-HRtransformation/",
         "teaser": null
+      },{
+        "title": "Chart Your Development Trail",
+        "excerpt":"Today’s speed of changes and a life-tempo open for many people new development horizons. At the same time, it requires continuous learning and upskilling. If a decade ago an employee with a learning aptitude could fully rely on an employee development strategy of his/her company to keep an appropriate level...","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/si/en/chart-your-developemnt-trail/",
+        "teaser": null
       }]
