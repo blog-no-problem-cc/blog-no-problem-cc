@@ -1,0 +1,473 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>FOSDEM 2020 - Memory Leaks</title>
+<meta name="description" content="Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился в потрясающую атмосферу FOSDEM 2020 — сборища разработчиков свободного программного обеспечения со всего мира.">
+
+
+  <meta name="author" content="Anton Kuzmin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Memory Leaks">
+<meta property="og:title" content="FOSDEM 2020">
+<meta property="og:url" content="https://blog.no-problem.cc/ak/ru/fosdem-20/">
+
+
+  <meta property="og:description" content="Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился в потрясающую атмосферу FOSDEM 2020 — сборища разработчиков свободного программного обеспечения со всего мира.">
+
+
+
+  <meta property="og:image" content="https://blog.no-problem.cc/ak/assets/images/2021/fosdem20.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-06-01T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://blog.no-problem.cc/ak/ru/fosdem-20/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Anton Kuzmin",
+      "url": "https://blog.no-problem.cc/ak/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/ak/feed.xml" type="application/atom+xml" rel="alternate" title="Memory Leaks Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ak/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<link rel="icon" type="image/x-icon" href="/ak/assets/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/ak/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/ak/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/ak/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/ak/assets/site.webmanifest">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ak/">
+          Memory Leaks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ak/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/en/">&#127468;&#127463;</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/ru/">&#127479;&#127482;</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/ak/assets/images/2021/fosdem20.jpg" alt="FOSDEM 2020" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FOSDEM 2020">
+    <meta itemprop="description" content="Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузилсяв потрясающую атмосферу FOSDEM 2020 —сборища разработчиков свободного программного обеспечения со всего мира.">
+    <meta itemprop="datePublished" content="2021-06-01T00:00:00+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">FOSDEM 2020
+</h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился
+в потрясающую атмосферу <a href="https://archive.fosdem.org/2020/">FOSDEM 2020</a> —
+сборища разработчиков свободного программного обеспечения со всего мира.</p>
+
+<p>Помимо возможности попробовать местное пиво и брюссельские вафли,
+FOSDEM — это два дня общения и встреч с интересными людьми, возможность
+узнать, что происходит в мире разработки свободного ПО и смежных
+областях, и просто хороший повод вырваться из повседневной рутины.</p>
+
+<p>Участие в качестве слушателя было бы для меня недостаточно сильным
+поводом для поездки, так что я подал заявки на два выступления,
+надеясь, что какая-нибудь одна будет принята. Неожиданно для меня, обе
+заявки были одобрены, что заметно изменило все планы на пару месяцев
+до поездки.</p>
+
+<p>Тем не менее, два дня в Брюсселе оставили очень приятные воспоминания,
+а подготовленные и сохранённые на GitHub’е
+<a href="https://github.com/ak-fau/fosdem20">слайды выступлений</a> всегда можно
+использовать ещё раз или просто сослаться на них. Краткое содержание
+выступлений и комментарии к ним год спустя приведены ниже.</p>
+
+<h2 id="разработка-и-отладка-fpga-с-использованием-свободного-программного-обеспечения">Разработка и отладка FPGA с использованием свободного программного обеспечения</h2>
+
+<p>В выступлении продемонстрирован подход к разработке и отладке
+функциональных блоков (IP cores) на ПЛИС (FPGA) с использованием
+свободного программного обеспечения. Отладка непосредственно на
+аппаратуре и сопутствующие проблемы рассматриваются с разных сторон
+вместе с программными инструментами для их решения, такими как OpenOCD,
+sigrok/PulseView, GHDL. На плате разработки с открытой документацией
+(open hardware) представлен реальный работающий пример отладочной
+конфигурации со всеми необходимыми фрагментами программного
+обеспечения.</p>
+
+<p>Отладка функциональных блоков на ПЛИС всегда является сложной задачей
+и часто может вызывать разочарование, особенно если доступные
+инструменты ненадёжны. Слишком часто процесс превращается в разработку
+и отладку инструментов вместо основного блока.</p>
+
+<p>Для этих задачи доступны коммерческие решения (SignalTap, ChipScope,
+Synopsys Identify RTL Debugger, MicroSemi Smart Debug), но с ними
+связано много хорошо известных проблем: привязка к поставщику, работа
+с единственной платформой, не всегда достаточно гибкое программное
+обеспечение с закрытым исходным кодом, лицензионные условия и
+стоимость лицензий.</p>
+
+<p>Благодаря программистам, разрабатывающим свободное программное
+обеспечение, сегодня доступны все ключевые инструменты для отладки
+функциональных блоков на аппаратуре. Однако и эти инструменты не
+лишены проблем. Среди самых заметных из них слабая интеграция между
+отдельными инструментами и множество недостающих фрагментов связующего
+кода и настроек. В выступлении представлена работающая комбинация
+инструментов, и объясняется, как они могут совместно использоваться для
+отладки.</p>
+
+<p>Исходный код функциональных блоков, использованных в демонстрационном
+примере, файлы настройки и слайды выступления доступны на GitHub.
+Демонстрационный пример объединяет блок логического анализатора внутри
+ПЛИС, который через интерфейс JTAG обменивается данными с sigrok PulseView.</p>
+
+<p>Выступление завершается обзором нерешённых задач и возможных
+направлений разработки.</p>
+
+<h3 id="ссылки">Ссылки</h3>
+
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/">страница</a>
+на архивном сайте FOSDEM’а с видео выступления</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf">слайды (pdf)</a></li>
+  <li><a href="https://github.com/ak-fau/la-demo">исходный код (VHDL, Tcl, C)</a></li>
+</ul>
+
+<h2 id="перенос-luajit-на-архитектуру-risc-v-мотивация-первые-шаги-и-перспективы">Перенос luajit на архитектуру RISC-V. <em>Мотивация, первые шаги и перспективы</em></h2>
+
+<p>Для экспериментов с расширениями набора команд RISC-V желательно иметь
+простые и компактные программные средства. Добавление поддержки
+нестандартных команд процессора к binutils/gcc/llvm находится за
+пределом возможностей многих разработчиков архитектуры. LuaJIT
+включает небольшой и гибкий ассемблер: dynaasm, доступный
+непосредственно из интерпретатора Lua. В настоящее время dynasm
+поддерживает несколько 64-х и 32-битых архитектур: x86, x64, ARM,
+PowerPC и MIPS. Поэтому представляется логичным добавить поддержку
+архитектуры RISC-V.</p>
+
+<p>Lua является очень компактным, простым и мощным динамическим языком, а
+реализация компилятора времени выполнения (luajit, just in time, JIT)
+делает Lua одним из самых быстрых, если не самым быстрым,
+интерпретируемым языком, и используется во многих программных
+системах. Таким образом, перенос luajit на архитектуру RISC-V может
+быть полезен и помимо удовлетворения внутренних потребностей в
+экспериментальной платформе.</p>
+
+<h3 id="предсказания--взгляд-18-месяцев-спустя">Предсказания – взгляд 18 месяцев спустя</h3>
+
+<p>В начале 2020-го года в
+<a href="https://riscv.org/exchange/software/">списке доступного программного обеспечения</a>
+на сайте фонда RISC-V не было ни одного языка с поддержкой
+JIT-компиляции. В своём выступлении я набрался смелости предсказать,
+какие языки первыми реализуют её и тем самым повлияют на J-расширение
+набора команд RISC-V, отведённое для поддержки JIT.</p>
+
+<p>Интересно посмотреть на эти предсказания сегодня. Слайд 11 содержал
+такой список:</p>
+
+<blockquote>
+  <ul>
+    <li>
+      <p>RISC-V J extension — what language will be the first to shape it?</p>
+
+      <ul>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>what else?…</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<p>Посмотрим, что доступно сегодня на странице программного обеспечения
+фонда RISC-V (в разделе языков и сред исполнения, кроме C)</p>
+
+<ul>
+  <li>Java — <strong>5 (!)</strong> реализаций виртуальной машины</li>
+  <li>JavaScript: V8 и Node.js</li>
+  <li>Mono (C#)</li>
+  <li>Forth — 3 различные системы</li>
+  <li>Eclipse OMR</li>
+  <li>Ada, Nim, Pascal, Go, Rust…</li>
+</ul>
+
+<p>Итак, был ли я прав или нет?.. Вероятно, и так, и так.</p>
+
+<p>Я явно недооценил интерес к переносу Java на архитектуру RISC-V, но
+все языки, которые я ожидал увидеть в ближайшее время, сейчас уже
+доступны, как и многие другие, которыx я не ожидал, или даже о которых
+до этого ничего не слышал. Хотя я и не был совсем уж точен в
+предсказаниях, мне это кажется очень хорошим признаком: общий импульс
+развития архитектуры RISC-V вышел за пределы разработки
+процессорных ядер, и набирают обороты усилия по переносу
+разнообразного программного обеспечения.</p>
+
+<p>Единственной ложкой дёгтя для меня является то, что luajit всё ещё не
+в списке доступных программ, однако и про J-расширение пока нет
+никаких новостей.  Возможность повлиять на формирование этого
+расширения пока остаётся, а вал разработок, связанных с архитектурой
+RISC-V и программным обеспечением вокруг неё, только поднимается, так
+что можно ожидать больше интересных новостей и событий.</p>
+
+<h3 id="ссылки-1">Ссылки</h3>
+
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/">страница</a>
+на архивном сайте FOSDEM’а с видео выступления</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf">слайды (pdf)</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Создано:</strong> <time datetime="2021-06-01T00:00:00+02:00">
+
+
+
+    1
+    июня
+    2021 г.
+
+</time></p>
+
+
+
+        
+    
+
+    
+
+    
+    <footer class="lang-options">
+        <br/>
+        <strong>Эта страница доступна на другом языке: </strong>
+        
+          <a href="/ak/en/fosdem-20/" title="View in English">&#127468;&#127463;</a>
+        
+    </footer>
+    
+
+
+      </footer>
+
+      
+
+      
+
+
+
+
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Назад</a>
+    
+    
+      <a href="/ak/ru/mi-v-announcement/" class="pagination--pager" title="Онлайн конференция и выставка Mi-V Summit 2021
+">Вперёд</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/ak/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> RSS feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">Copyright &copy; 2021 Anton Kuzmin<br/>
+<img alt="Creative Commons Icon" src="/ak/assets/images/cc.png" /> <img alt="Attribution Icon" src="/ak/assets/images/by.png" /> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>
+</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ak/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

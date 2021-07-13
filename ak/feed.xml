@@ -1,1 +1,346 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-06-17T02:03:40+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">Welcome</title><link href="https://blog.no-problem.cc/ak/en/hello/" rel="alternate" type="text/html" title="Welcome" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/hello</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/hello/"></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><summary type="html"></summary></entry><entry xml:lang="ru"><title type="html">Добро пожаловать</title><link href="https://blog.no-problem.cc/ak/ru/hello/" rel="alternate" type="text/html" title="Добро пожаловать" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/hello</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/hello/"></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-07-13T10:38:24+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">Mi-V Virtual Summit Conference 2021</title><link href="https://blog.no-problem.cc/ak/en/mi-v-announcement/" rel="alternate" type="text/html" title="Mi-V Virtual Summit Conference 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/mi-v-announcement/">&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/ak/assets/images/2021/miv-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to make a presentation on behalf of ARIES
+Embedded at the first Mi-V Virtual Summit Conference.  The
+presentation will start at &lt;strong&gt;9:30 a.m. Pacific (18:30 CEST) on July, 21st,&lt;/strong&gt; and will be followed
+by a live Q&amp;amp;A session.&lt;/p&gt;
+
+&lt;p&gt;During the conference you will be able to learn about many companies
+participating in
+&lt;a href=&quot;https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem&quot;&gt;Mi-V partner ecosystem&lt;/a&gt;
+and their products built around RISC-V Instruction Set Architecture
+and PolarFire FPGA and SoC-FPGA family.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.aries-embedded.com/node/492&quot;&gt;ARIES Embdedded&lt;/a&gt;
+will showcase
+&lt;a href=&quot;https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes&quot;&gt;M100PF&lt;/a&gt;
+and
+&lt;a href=&quot;https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes&quot;&gt;M100PFS&lt;/a&gt;
+modules based on Michrochip PolarFire family.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-more-and-register-at-microchip-site&quot;&gt;Learn more and register at Microchip site&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;https://microchip.com/mi-vsummit&lt;/a&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><summary type="html"></summary></entry><entry xml:lang="ru"><title type="html">Онлайн конференция и выставка Mi-V Summit 2021</title><link href="https://blog.no-problem.cc/ak/ru/mi-v-announcement/" rel="alternate" type="text/html" title="Онлайн конференция и выставка Mi-V Summit 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-06-28T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/mi-v-announcement/">&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/ak/assets/images/2021/miv-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В июле этого года я буду представлять ARIES Embedded на онлайн
+конференции, организованной Microchip для компаний-участников
+партнёрской программы Mi-V. Выступление будет транслироваться &lt;strong&gt;21
+июля в 19:30 MSK&lt;/strong&gt;, после выступления запланировано время для ответов на
+вопросы.&lt;/p&gt;
+
+&lt;p&gt;На выставке-конференции у посетителей будет возможность познакомиться
+со многими компаниями, участвующими в
+&lt;a href=&quot;https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem&quot;&gt;партнёрской программе Mi-V&lt;/a&gt;,
+и продуктами основанными на архитектуре системы команд RISC-V
+и семействе ПЛИС и систем-на-кристалле PolarFire.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.aries-embedded.com/node/492&quot;&gt;ARIES Embdedded&lt;/a&gt;
+представляет на выставке модули, построенные на семействе PolarFire:
+&lt;a href=&quot;https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes&quot;&gt;M100PF&lt;/a&gt;
+и
+&lt;a href=&quot;https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes&quot;&gt;M100PFS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;узнать-больше-и-зарегистрироваться-на-сайте-microchip&quot;&gt;Узнать больше и зарегистрироваться на сайте Microchip&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;https://microchip.com/mi-vsummit&lt;/a&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><summary type="html"></summary></entry><entry xml:lang="en"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/en/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fosdem-20/">&lt;p&gt;On the first weekend of February 2020, I visited Brussels to experience
+an exciting atmosphere of a global gathering of free software
+developers: &lt;a href=&quot;https://archive.fosdem.org/2020/&quot;&gt;FOSDEM 2020&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Besides a unique opportunity to taste local beer and Belgian waffles
+FOSDEM provides two days filled in with conversations with interesting
+people, a possibility to learn what is going on in free and open
+source software development and many areas next to it, and just a good
+reason to break a day-to-day routine.&lt;/p&gt;
+
+&lt;p&gt;Going there as a mere visitor would not have been for me a
+sufficiently potent motivator to bother with all the arrangements and
+expenses. To boost self-motivation I had submitted applications for
+two talks in a hope one or the other would be accepted. Surprisingly,
+both were approved, and that messed up almost all the plans for a
+couple months in front of the event.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, those two days in Brussels left behind pleasant
+reminiscence, and &lt;a href=&quot;https://github.com/ak-fau/fosdem20&quot;&gt;presentations&lt;/a&gt;
+saved on GitHub may be reused or just referenced to. Below are the
+annotations of those presentations accompanied by a few comments
+looking past.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-hardware-debugging-of-ip-cores-with-free-tools&quot;&gt;On-hardware debugging of IP cores with free tools&lt;/h2&gt;
+
+&lt;p&gt;An approach to challenges of an on-FPGA debugging of IP cores based on
+free software tools is demonstrated. Various aspects and related
+problems of an on-hardware debugging are presented along with the
+tools to address them, such as OpenOCD, sigrok/PulseView, GHDL.
+Real-life working configuration and missing bits of software are
+accompanied by the live debug session demo running on Open-source
+Hardware.&lt;/p&gt;
+
+&lt;p&gt;Debugging of hardware blocks on an FPGA is always challenging and may
+be frustrating, especially with no reliable tools at hands. Way too
+often the process turns into developing and debugging of the tools,
+instead of a target.&lt;/p&gt;
+
+&lt;p&gt;Commercial solutions are available (SignalTap, ChipScope, Synopsys
+Identify RTL Debugger, Microsemi Smart Debug), at the same time there
+are a lot of well-known problems associated with them: vendor lock,
+single target, closed source and not always flexible enough, license
+terms and costs.&lt;/p&gt;
+
+&lt;p&gt;Owing to free software developers, essential tools for on-hardware
+debugging of IP cores are available today. However, there are problems
+associated with these tools too. The most notable ones are a weak
+integration between separate tools and small bits of code and
+configuration files missing here and there. A working combination of
+tools among with explanations of how they may be used together to
+debug IP cores is provided. A presentation covers such free software
+as GHDL, sigrok/PulseView, and OpenOCD. Source code of free IP cores,
+all configuration and script files and presentation slides are
+available on GitHub.&lt;/p&gt;
+
+&lt;p&gt;A live demonstration of the PulseView connected to an in-FPGA logic
+analyzer via JTAG interface with an open and low-cost hardware is
+presented.&lt;/p&gt;
+
+&lt;p&gt;An outline of the open tasks and future development directions
+concludes the presentation.&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/&quot;&gt;talk page&lt;/a&gt; on the FOSDEM archive site (with links to video recording)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ak-fau/la-demo&quot;&gt;demo sources on github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;port-luajit-to-risc-vmotivation-first-steps-and-perspectives&quot;&gt;Port luajit to RISC-V&lt;br /&gt;&lt;em&gt;Motivation, first steps and perspectives&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;There is a need for a lightweight tools for experiments with RISC-V
+custom extensions. Adding support for custom instructions in
+binutils/gcc/llvm is out of range for many hardware architects. LuaJIT
+includes a small and powerful assembler: dynasm, accessible from
+within Lua interpreter. Currently dynasm supports following 32 and
+64-bit instruction sets: x86, x64, ARM, PowerPC, and MIPS, and it is
+just reasonable to extend this support to RISC-V.&lt;/p&gt;
+
+&lt;p&gt;Lua itself is a very compact and simple yet powerful dynamic language,
+its JIT compiler (luajit) makes it one of the fastest, if not the
+fastest, interpreted language, and it is used in many projects, so
+having it running on RISC-V would have use besides the mere internal
+need for experimental platform.&lt;/p&gt;
+
+&lt;h3 id=&quot;looking-back-at-the-predictions-made-18-months-ago&quot;&gt;Looking back at the predictions made 18 months ago&lt;/h3&gt;
+
+&lt;p&gt;At the beginning of 2020 there were no single language with JIT
+support in the RISC-V foundation
+&lt;a href=&quot;https://riscv.org/exchange/software/&quot;&gt;list of Available Software&lt;/a&gt;. I
+was sufficiently bold in my talk to predict what languages were to be
+first to provide it and, consequently, to shape &lt;strong&gt;J&lt;/strong&gt; RISC-V ISA
+extension, reserved for such languages.&lt;/p&gt;
+
+&lt;p&gt;It is entertaining to look at these predictions today. Slide 11
+included this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;RISC-V J extension — what language will be the first to shape it?&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Java&lt;/li&gt;
+        &lt;li&gt;JavaScript&lt;/li&gt;
+        &lt;li&gt;C#&lt;/li&gt;
+        &lt;li&gt;what else?…&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Let’s see what is available today in the RISC-V software list (in the
+Non-C Compilers/Runtimes section):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Java — &lt;strong&gt;5 (!)&lt;/strong&gt; Virtual Machines&lt;/li&gt;
+  &lt;li&gt;JavaScript: V8 and Node.js&lt;/li&gt;
+  &lt;li&gt;Mono (C#)&lt;/li&gt;
+  &lt;li&gt;Forth — 3 different systems&lt;/li&gt;
+  &lt;li&gt;Eclipse OMR&lt;/li&gt;
+  &lt;li&gt;Ada, Nim, Pascal, Go, Rust…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, was I right or wrong?.. Perhaps, both.&lt;/p&gt;
+
+&lt;p&gt;I obviously underestimated interest in porting Java to RISC-V
+architecture, but all the languages I expected to be available soon
+are in the list now, along with many others I did not expect to see or
+even have not heard about before. So, even if I was not exactly
+accurate with this prediction, I see it as a very positive sign:
+overall momentum behind RISC-V architecture is moving beyond cores and
+gaining a traction in all sorts of software ported to the
+architecture.&lt;/p&gt;
+
+&lt;p&gt;The only pity part for me is that luajit is not in the list, but the J
+extension is not in sight either. An opportunity window is still ajar
+and a tide of development in both RISC-V architecture and software
+ecosystem around it is just at the very beginning with bigger waves to
+be expected.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-1&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/&quot;&gt;talk page&lt;/a&gt; on the FOSDEM archive site (with links to video recording)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><summary type="html">On the first weekend of February 2020, I visited Brussels to experience an exciting atmosphere of a global gathering of free software developers: FOSDEM 2020.</summary></entry><entry xml:lang="ru"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/ru/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fosdem-20/">&lt;p&gt;Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился
+в потрясающую атмосферу &lt;a href=&quot;https://archive.fosdem.org/2020/&quot;&gt;FOSDEM 2020&lt;/a&gt; —
+сборища разработчиков свободного программного обеспечения со всего мира.&lt;/p&gt;
+
+&lt;p&gt;Помимо возможности попробовать местное пиво и брюссельские вафли,
+FOSDEM — это два дня общения и встреч с интересными людьми, возможность
+узнать, что происходит в мире разработки свободного ПО и смежных
+областях, и просто хороший повод вырваться из повседневной рутины.&lt;/p&gt;
+
+&lt;p&gt;Участие в качестве слушателя было бы для меня недостаточно сильным
+поводом для поездки, так что я подал заявки на два выступления,
+надеясь, что какая-нибудь одна будет принята. Неожиданно для меня, обе
+заявки были одобрены, что заметно изменило все планы на пару месяцев
+до поездки.&lt;/p&gt;
+
+&lt;p&gt;Тем не менее, два дня в Брюсселе оставили очень приятные воспоминания,
+а подготовленные и сохранённые на GitHub’е
+&lt;a href=&quot;https://github.com/ak-fau/fosdem20&quot;&gt;слайды выступлений&lt;/a&gt; всегда можно
+использовать ещё раз или просто сослаться на них. Краткое содержание
+выступлений и комментарии к ним год спустя приведены ниже.&lt;/p&gt;
+
+&lt;h2 id=&quot;разработка-и-отладка-fpga-с-использованием-свободного-программного-обеспечения&quot;&gt;Разработка и отладка FPGA с использованием свободного программного обеспечения&lt;/h2&gt;
+
+&lt;p&gt;В выступлении продемонстрирован подход к разработке и отладке
+функциональных блоков (IP cores) на ПЛИС (FPGA) с использованием
+свободного программного обеспечения. Отладка непосредственно на
+аппаратуре и сопутствующие проблемы рассматриваются с разных сторон
+вместе с программными инструментами для их решения, такими как OpenOCD,
+sigrok/PulseView, GHDL. На плате разработки с открытой документацией
+(open hardware) представлен реальный работающий пример отладочной
+конфигурации со всеми необходимыми фрагментами программного
+обеспечения.&lt;/p&gt;
+
+&lt;p&gt;Отладка функциональных блоков на ПЛИС всегда является сложной задачей
+и часто может вызывать разочарование, особенно если доступные
+инструменты ненадёжны. Слишком часто процесс превращается в разработку
+и отладку инструментов вместо основного блока.&lt;/p&gt;
+
+&lt;p&gt;Для этих задачи доступны коммерческие решения (SignalTap, ChipScope,
+Synopsys Identify RTL Debugger, MicroSemi Smart Debug), но с ними
+связано много хорошо известных проблем: привязка к поставщику, работа
+с единственной платформой, не всегда достаточно гибкое программное
+обеспечение с закрытым исходным кодом, лицензионные условия и
+стоимость лицензий.&lt;/p&gt;
+
+&lt;p&gt;Благодаря программистам, разрабатывающим свободное программное
+обеспечение, сегодня доступны все ключевые инструменты для отладки
+функциональных блоков на аппаратуре. Однако и эти инструменты не
+лишены проблем. Среди самых заметных из них слабая интеграция между
+отдельными инструментами и множество недостающих фрагментов связующего
+кода и настроек. В выступлении представлена работающая комбинация
+инструментов, и объясняется, как они могут совместно использоваться для
+отладки.&lt;/p&gt;
+
+&lt;p&gt;Исходный код функциональных блоков, использованных в демонстрационном
+примере, файлы настройки и слайды выступления доступны на GitHub.
+Демонстрационный пример объединяет блок логического анализатора внутри
+ПЛИС, который через интерфейс JTAG обменивается данными с sigrok PulseView.&lt;/p&gt;
+
+&lt;p&gt;Выступление завершается обзором нерешённых задач и возможных
+направлений разработки.&lt;/p&gt;
+
+&lt;h3 id=&quot;ссылки&quot;&gt;Ссылки&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/&quot;&gt;страница&lt;/a&gt;
+на архивном сайте FOSDEM’а с видео выступления&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf&quot;&gt;слайды (pdf)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ak-fau/la-demo&quot;&gt;исходный код (VHDL, Tcl, C)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;перенос-luajit-на-архитектуру-risc-v-мотивация-первые-шаги-и-перспективы&quot;&gt;Перенос luajit на архитектуру RISC-V. &lt;em&gt;Мотивация, первые шаги и перспективы&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Для экспериментов с расширениями набора команд RISC-V желательно иметь
+простые и компактные программные средства. Добавление поддержки
+нестандартных команд процессора к binutils/gcc/llvm находится за
+пределом возможностей многих разработчиков архитектуры. LuaJIT
+включает небольшой и гибкий ассемблер: dynaasm, доступный
+непосредственно из интерпретатора Lua. В настоящее время dynasm
+поддерживает несколько 64-х и 32-битых архитектур: x86, x64, ARM,
+PowerPC и MIPS. Поэтому представляется логичным добавить поддержку
+архитектуры RISC-V.&lt;/p&gt;
+
+&lt;p&gt;Lua является очень компактным, простым и мощным динамическим языком, а
+реализация компилятора времени выполнения (luajit, just in time, JIT)
+делает Lua одним из самых быстрых, если не самым быстрым,
+интерпретируемым языком, и используется во многих программных
+системах. Таким образом, перенос luajit на архитектуру RISC-V может
+быть полезен и помимо удовлетворения внутренних потребностей в
+экспериментальной платформе.&lt;/p&gt;
+
+&lt;h3 id=&quot;предсказания--взгляд-18-месяцев-спустя&quot;&gt;Предсказания – взгляд 18 месяцев спустя&lt;/h3&gt;
+
+&lt;p&gt;В начале 2020-го года в
+&lt;a href=&quot;https://riscv.org/exchange/software/&quot;&gt;списке доступного программного обеспечения&lt;/a&gt;
+на сайте фонда RISC-V не было ни одного языка с поддержкой
+JIT-компиляции. В своём выступлении я набрался смелости предсказать,
+какие языки первыми реализуют её и тем самым повлияют на J-расширение
+набора команд RISC-V, отведённое для поддержки JIT.&lt;/p&gt;
+
+&lt;p&gt;Интересно посмотреть на эти предсказания сегодня. Слайд 11 содержал
+такой список:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;RISC-V J extension — what language will be the first to shape it?&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Java&lt;/li&gt;
+        &lt;li&gt;JavaScript&lt;/li&gt;
+        &lt;li&gt;C#&lt;/li&gt;
+        &lt;li&gt;what else?…&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Посмотрим, что доступно сегодня на странице программного обеспечения
+фонда RISC-V (в разделе языков и сред исполнения, кроме C)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Java — &lt;strong&gt;5 (!)&lt;/strong&gt; реализаций виртуальной машины&lt;/li&gt;
+  &lt;li&gt;JavaScript: V8 и Node.js&lt;/li&gt;
+  &lt;li&gt;Mono (C#)&lt;/li&gt;
+  &lt;li&gt;Forth — 3 различные системы&lt;/li&gt;
+  &lt;li&gt;Eclipse OMR&lt;/li&gt;
+  &lt;li&gt;Ada, Nim, Pascal, Go, Rust…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Итак, был ли я прав или нет?.. Вероятно, и так, и так.&lt;/p&gt;
+
+&lt;p&gt;Я явно недооценил интерес к переносу Java на архитектуру RISC-V, но
+все языки, которые я ожидал увидеть в ближайшее время, сейчас уже
+доступны, как и многие другие, которыx я не ожидал, или даже о которых
+до этого ничего не слышал. Хотя я и не был совсем уж точен в
+предсказаниях, мне это кажется очень хорошим признаком: общий импульс
+развития архитектуры RISC-V вышел за пределы разработки
+процессорных ядер, и набирают обороты усилия по переносу
+разнообразного программного обеспечения.&lt;/p&gt;
+
+&lt;p&gt;Единственной ложкой дёгтя для меня является то, что luajit всё ещё не
+в списке доступных программ, однако и про J-расширение пока нет
+никаких новостей.  Возможность повлиять на формирование этого
+расширения пока остаётся, а вал разработок, связанных с архитектурой
+RISC-V и программным обеспечением вокруг неё, только поднимается, так
+что можно ожидать больше интересных новостей и событий.&lt;/p&gt;
+
+&lt;h3 id=&quot;ссылки-1&quot;&gt;Ссылки&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/&quot;&gt;страница&lt;/a&gt;
+на архивном сайте FOSDEM’а с видео выступления&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf&quot;&gt;слайды (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><summary type="html">Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился в потрясающую атмосферу FOSDEM 2020 — сборища разработчиков свободного программного обеспечения со всего мира.</summary></entry></feed>

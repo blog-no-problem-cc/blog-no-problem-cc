@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://blog.no-problem.cc/ak/en/hello/</loc>
+<loc>https://blog.no-problem.cc/ak/en/fosdem-20/</loc>
 <lastmod>2021-06-01T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>https://blog.no-problem.cc/ak/ru/hello/</loc>
+<loc>https://blog.no-problem.cc/ak/ru/fosdem-20/</loc>
 <lastmod>2021-06-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://blog.no-problem.cc/ak/en/mi-v-announcement/</loc>
+<lastmod>2021-06-28T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://blog.no-problem.cc/ak/ru/mi-v-announcement/</loc>
+<lastmod>2021-06-28T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>https://blog.no-problem.cc/ak/about/</loc>
@@ -22,6 +30,6 @@
 </url>
 <url>
 <loc>https://blog.no-problem.cc/ak/assets/files/fpga-cad-future.pdf</loc>
-<lastmod>2021-06-17T02:03:39+02:00</lastmod>
+<lastmod>2021-07-13T10:38:23+02:00</lastmod>
 </url>
 </urlset>
