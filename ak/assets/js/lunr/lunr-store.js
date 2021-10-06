@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "https://blog.no-problem.cc/ak/ru/mi-v-announcement/",
         "teaser": null
+      },{
+        "title": "Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA",
+        "excerpt":"Preparations are on the way to co-present on the first live-session of the two-webinar series: “Building Applications on multi-core RISC-V based on Microchip Technology Inc. PolarFire SoC-FPGA”. The first session will take place on October, 13, from 9:00 to 10:30 CEST. The webinar focuses on hardware related aspects of the...","categories": ["en"],
+        "tags": [],
+        "url": "https://blog.no-problem.cc/ak/en/atg-webinar/",
+        "teaser": null
       }]
