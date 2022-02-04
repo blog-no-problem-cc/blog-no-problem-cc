@@ -25,7 +25,7 @@ var store = [{
       },{
         "title": "Project management is HR Transformation’s best friend: a true story of one project",
         "excerpt":"Digitalization and agility are now ways of life and speed up business transformation, which drastically affects people and their work. HR takes a leading role in workplace transformation and lends a supporting hand to business in the upskilling of companies’ workforce with the primary focus on strategic capabilities and competencies....","categories": ["en"],
-        "tags": [],
+        "tags": ["hr-project","hr-transformation","digitalisation","case-study"],
         "url": "https://blog.no-problem.cc/si/en/PM-and-HRtransformation/",
         "teaser": null
       },{
@@ -33,5 +33,11 @@ var store = [{
         "excerpt":"Today’s speed of changes and a life-tempo open for many people new development horizons. At the same time, it requires continuous learning and upskilling. If a decade ago an employee with a learning aptitude could fully rely on an employee development strategy of his/her company to keep an appropriate level...","categories": ["en"],
         "tags": [],
         "url": "https://blog.no-problem.cc/si/en/chart-your-developemnt-trail/",
+        "teaser": null
+      },{
+        "title": "Critical Issues and Success Factors in HR projects: Stakeholders",
+        "excerpt":"“No matter what you stand for, no matter what your ultimate purpose may be, you must take into account the effects of your actions on others, as well as their potential effects on you.” R. Edward Freeman You have received a new challenging task — to lead one of the...","categories": ["en"],
+        "tags": ["stakeholder","hr-project","risk","success-factor"],
+        "url": "https://blog.no-problem.cc/si/en/Stakeholders/",
         "teaser": null
       }]
