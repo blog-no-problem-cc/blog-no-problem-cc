@@ -28,4 +28,10 @@ var store = [{
         "tags": ["event","riscv","polarfire","fpga"],
         "url": "https://blog.no-problem.cc/ak/en/atg-webinar/",
         "teaser": null
+      },{
+        "title": "ПЛИС: закат или заря новой эры?",
+        "excerpt":"В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними. Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас...","categories": ["ru"],
+        "tags": ["fpga"],
+        "url": "https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/",
+        "teaser": null
       }]

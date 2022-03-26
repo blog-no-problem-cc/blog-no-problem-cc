@@ -1,0 +1,515 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ПЛИС: закат или заря новой эры? - Memory Leaks</title>
+<meta name="description" content="В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас занимает Scala, а второй — одобрением второй крупной сделки в отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после покупки Altera/Intel.">
+
+
+  <meta name="author" content="Anton Kuzmin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Memory Leaks">
+<meta property="og:title" content="ПЛИС: закат или заря новой эры?">
+<meta property="og:url" content="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/">
+
+
+  <meta property="og:description" content="В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас занимает Scala, а второй — одобрением второй крупной сделки в отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после покупки Altera/Intel.">
+
+
+
+  <meta property="og:image" content="https://blog.no-problem.cc/ak/assets/images/2022/sunrise.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-03-26T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Anton Kuzmin",
+      "url": "https://blog.no-problem.cc/ak/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/ak/feed.xml" type="application/atom+xml" rel="alternate" title="Memory Leaks Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ak/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<link rel="icon" type="image/x-icon" href="/ak/assets/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/ak/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/ak/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/ak/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/ak/assets/site.webmanifest">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ak/">
+          Memory Leaks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ak/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/en/">&#127468;&#127463;</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/ru/">&#127479;&#127482;</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/ak/assets/images/2022/sunrise.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          ПЛИС: закат или заря новой эры?
+
+        
+      </h1>
+      
+        <p class="page__lead">Какое будущее ждёт FPGA и Verilog/VHDL
+</p>
+      
+      
+
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ПЛИС: закат или заря новой эры?">
+    <meta itemprop="description" content="В частной переписке был поднят вопрос, не умирают ли постепенно дваосновных языка разработки для Программируемых Логических ИнтегральныхСхем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL,и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызванпровокационным утверждением, что лидирующие позиции в разработке ПЛИСсейчас занимает Scala, а второй — одобрением второй крупной сделки вотрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет послепокупки Altera/Intel.">
+    <meta itemprop="datePublished" content="2022-03-26T00:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>В частной переписке был поднят вопрос, не умирают ли постепенно два
+основных языка разработки для Программируемых Логических Интегральных
+Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL,
+и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызван
+провокационным утверждением, что лидирующие позиции в разработке ПЛИС
+сейчас занимает <code class="language-plaintext highlighter-rouge">Scala</code>, а второй — одобрением второй крупной сделки в
+отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после
+покупки Altera/Intel.</p>
+
+<p>Этот текст представляет собой отредактированную версию моего
+восприятия текущего положения дел в отрасли и сопутствующие
+наблюдения. Надо отметить, что эта оценка формировалась несколько
+последних лет и не учитывает влияние текущего глобального дефицита
+полупроводников. Этот кризис, хотя и затронул все сегменты,
+продолжается уже больше года и может потребовать ещё два-три года для
+восстановления отрасли, на мой взгляд, не является следствием
+каких-либо фундаментальных причин. Поэтому он не изменит направление
+долгосрочных технологических изменений, может быть, только скорость их
+наступления и конкретные локальные проявления.</p>
+
+<h2 id="закат-verilog-hdl-и-vhdl">Закат Verilog HDL и VHDL</h2>
+
+<blockquote>
+  <p>VHDL/Verilog - это вчерашний день, ассемблер в области разработки
+HW, сейчас “рулит” в этой области Scala.</p>
+</blockquote>
+
+<p>Классические языки описания аппаратуры (Hardware Description
+Languages, HDL): <code class="language-plaintext highlighter-rouge">Verilog HDL</code> и <code class="language-plaintext highlighter-rouge">VHDL</code> — жуткие динозавры, но
+подозреваю, что они никогда не вымрут.  Как минимум, без Verilog’а нет
+ASIC’ов (Application Specific Integrated Circuit, Интегральная Схема
+Специального Назначения, как соответствующая статья названа в
+Википедии). Для ПЛИС всё немного разнообразнее и веселее, хотя и
+сейчас есть вполне вменяемые проекты на <code class="language-plaintext highlighter-rouge">VHDL</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Scala</code>, конечно, это очень “круто”, но это далеко не единственный
+вариант. Очень широко и в разработке ПЛИС, и в моделировании и
+верификации ASIC используется <code class="language-plaintext highlighter-rouge">Python</code>. Специфические вещи отлично
+разрабатываются в Matlab – в основном Цифровая Обработка Сигналов
+(ЦОС, DSP) и контур управления. Достаточно широко используются <code class="language-plaintext highlighter-rouge">C/C++</code>
+в сочетании с высокоуровневым синтезом (High Level Synthesis, HLS) и
+<code class="language-plaintext highlighter-rouge">OpenCL</code>. Если рассматривать не только промышленные применения, но и
+исследовательские проекты, то там разнообразие ещё больше, даже <code class="language-plaintext highlighter-rouge">LISP</code>
+встречается.</p>
+
+<p>Так что “классические” языки описания аппаратуры действительно
+уступают свою роль основных средств разработки для ПЛИС, но при этом
+остаются в технологической цепочке, примерно так же, как остался
+ассемблер: между компилятором языка высокого уровня и генерацией
+машинного кода. А на смену им приходит намного больше языков, чем одна
+только <code class="language-plaintext highlighter-rouge">Scala</code>.</p>
+
+<h2 id="скорое-исчезновение-плис">Скорое исчезновение ПЛИС</h2>
+
+<blockquote>
+  <p>ПЛИС приходит конец, Intel убил Altera, AMD скоро убьет Xilinx. В
+открытом доступе останутся только китайцы.</p>
+</blockquote>
+
+<p>Слухи о смерти ПЛИС сильно преувеличены. На мой взгляд, ситуация прямо
+противоположная: лет пятнадцать копились потребности в переменах и
+технические предпосылки для них, а сейчас начинаются лавинообразные
+изменения.</p>
+
+<p>И Intel, и AMD в первую очередь заинтересованы в верхнем сегменте
+ПЛИС, самых больших, сложных и дорогих микросхемах.  Их они и будут
+развивать. Конечно, Intel, по своей давней традиции, может что-нибудь
+и угробить по пути, но не всё направление.</p>
+
+<p>Сильный провал наблюдается в среднем и нижнем сегментах — эти
+сегменты, кажется, менее интересны и Altera/Intel, и Xilinx/AMD, но
+как раз здесь легче появиться и развиваться конкурентам.</p>
+
+<p>Из “старичков” — Lattice очень хорошо себя чувствует и
+перетаскивает много уже работающих устройств с Xilinx’а.
+Конечно, этот процесс сильно подстегнули проблемы с доступностью
+компонентов, и многие устройства прямо сейчас переделываются
+со Spartan-6 на Lattice.</p>
+
+<p>Actel/Microsemi/Microchip наконец-то отказались от ориентации
+преимущественно на авионику и космос, и выпустили решение для среднего
+сегмента и промышленных применений (PolarFire), сохранив при этом свои
+традиционные преимущества. И, что ещё удивительнее, сделав ставку на
+новую, открытую и свободную архитектуру системы команд (Instruction
+Set Architecture) <code class="language-plaintext highlighter-rouge">RISC-V</code>. Предыдущее поколение (SmartFusion2/IGLOO2)
+продолжает выпускаться и тоже получило свою долю клиентов, уходящих от
+Altera (Cyclone IV/V) и Xilinx (Spartan-6).</p>
+
+<h2 id="заря-новой-эры">Заря новой эры</h2>
+
+<p>За последние лет пять явно обозначились ещё две интересные и, на мой
+взгляд, положительные тенденции: стали появляться открытые и свободные
+программные пакеты для разработки для ПЛИС, в которые уже вкладываются
+большие компании. В то же время появилось с десяток новых компаний,
+разрабатывающих свои ПЛИС, чего не было видно лет двадцать и что
+казалось совершенно невозможным при доминировании Xilinx и Altera.
+Среди новых компаний, конечно, есть несколько из Китая, но
+представлены и Тайвань, и Штаты, и Германия.</p>
+
+<p>ПЛИС за всё время своего существования принципиально не могли получить
+большую долю хоть какого-нибудь рынка.  Проблема в том, что как только
+приложение становится достаточно устоявшимся и массовым, для него
+автоматически становится экономически оправдано производство ASIC’а.
+Так что доминирование ПЛИС в какой-либо нише было ограничено временем
+до появления ASIC, и чем больше ниша, тем короче было это время.</p>
+
+<p>Сейчас ситуация кардинально изменилась: во-первых, приложения сильно
+диверсифицировались и очень быстро меняются, что делает разработку
+ASIC нецелесообразной. Во-вторых, процессоры общего назначения за
+двадцать лет экспоненциального экстенсивного развития подошли к
+технологическим пределам роста производительности, в-третьих,
+стоимость и время разработки ASIC на передовых технологических
+процессах выросли в десятки раз.  Так что теперь стало выгоднее
+сделать одну ПЛИС по передовому процессу и использовать её в десяти
+разных приложениях.</p>
+
+<p>К сожалению, здесь всё (в очередной раз) натолкнулось на проблемы со
+средствами разработки: писать современные приложения на ассемблере или
+<code class="language-plaintext highlighter-rouge">Fortran</code> уже невозможно, а <code class="language-plaintext highlighter-rouge">Verilog</code> и <code class="language-plaintext highlighter-rouge">VHDL</code> не развивались десятилетиями,
+так что вполне соответствуют ассемблеру и <code class="language-plaintext highlighter-rouge">Fortran</code>. Точнее, развитие
+было и продолжается, но оно не идёт ни в какое сравнение с прогрессом
+в технологиях, средствах и методиках разработки программного
+обеспечения, достигнутым за это же время. Во многом этот прогресс
+произошёл и определяется ростом экосистемы открытого и свободного
+программного обеспечения. Поэтому я считаю, что поворот к открытым и
+свободным средствам разработки для ПЛИС — это как раз тот ключ,
+который откроет путь лавинообразному росту их применений во многих
+областях за пределами ниш, освоенных до сегодняшнего дня.</p>
+
+<h2 id="ссылки-и-дополнительные-материалы">Ссылки и дополнительные материалы</h2>
+
+<p>Обзор истории и этапов развития ПЛИС с 1984 до 2014 года:</p>
+
+<ul>
+  <li>Three Ages of FPGAs: A Retrospective on the First Thirty Years of
+FPGA Technology, Stephen M. (Steve) Trimberger, Fellow IEEE,
+Proceedings of the IEEE, Vol. 103, No. 3, March 2015,
+DOI:10.1109/JPROC.2015.2392104, <a href="https://ieeexplore.ieee.org/document/7086413" target="_blank">https://ieeexplore.ieee.org/document/7086413</a></li>
+</ul>
+
+<p>Крупнейшие компании-разработчики ПЛИС:</p>
+
+<ul>
+  <li>Altera (<a href="https://www.altera.com/" target="_blank">https://www.altera.com/</a>)
+с 2015 года Intel Programmable Solutions Group</li>
+  <li>Xilinx (<a href="https://www.xilinx.com/" target="_blank">https://www.xilinx.com/</a>)
+в феврале 2022 была закрыта сделка по
+поглощению компанией AMD, объявленная в октябре 2020</li>
+  <li>Lattice Semiconductor (<a href="https://www.latticesemi.com/" target="_blank">https://www.latticesemi.com/</a>)</li>
+  <li>Actel, поглощёна Microsemi, поглощёна Microchip (<a href="https://www.microchip.com" target="_blank">https://www.microchip.com</a>)</li>
+</ul>
+
+<p>Открытое и свободное программное обеспечение для разработки
+под ПЛИС:</p>
+
+<ul>
+  <li>Yosys, nextpnr, project IceStorm, etc. (<a href="https://yosyshq.net/" target="_blank">https://yosyshq.net/</a>)</li>
+  <li>openFPGALoader (<a href="https://github.com/trabucayre/openFPGALoader" target="_blank">https://github.com/trabucayre/openFPGALoader</a>)</li>
+  <li>MyHDL (<a href="https://www.myhdl.org/" target="_blank">https://www.myhdl.org/</a>)</li>
+  <li>Chisel (<a href="https://www.chisel-lang.org/" target="_blank">https://www.chisel-lang.org/</a>)</li>
+  <li>CLaSH (<a href="https://clash-lang.org/" target="_blank">https://clash-lang.org/</a>)</li>
+  <li>FuseSoC (<a href="https://github.com/olofk/fusesoc" target="_blank">https://github.com/olofk/fusesoc</a>)</li>
+  <li>Migen (<a href="https://m-labs.hk/gateware/migen/" target="_blank">https://m-labs.hk/gateware/migen/</a>)</li>
+</ul>
+
+<p>Новые игроки на рынке микросхем программируемой логики:</p>
+
+<ul>
+  <li>Achronix (<a href="https://www.achronix.com/" target="_blank">https://www.achronix.com/</a>)</li>
+  <li>eFinix (<a href="https://www.efinixinc.com/" target="_blank">https://www.efinixinc.com/</a>)</li>
+  <li>Gowin Semiconductor (<a href="https://gowinsemi.com/en/" target="_blank">https://gowinsemi.com/en/</a>)</li>
+  <li>Cologne Chip (<a href="https://colognechip.com/" target="_blank">https://colognechip.com/</a>)</li>
+  <li>Flex Logix Technologies (<a href="https://flex-logix.com/" target="_blank">https://flex-logix.com/</a>)</li>
+</ul>
+
+<p><em>Эти списки ни в коей мере не претендуют на полноту, скорее это
+просто иллюстрация, что такие программные средства и компании есть, и
+их становится больше.</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/ak/tags/#fpga" class="page__taxonomy-item" rel="tag">fpga</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Создано:</strong> <time datetime="2022-03-26T00:00:00+01:00">
+
+
+
+    26
+    марта
+    2022 г.
+
+</time></p>
+
+
+
+        
+    
+
+    
+
+    
+
+
+      </footer>
+
+      
+
+      
+
+
+
+
+
+
+  <nav class="pagination">
+    
+      <a href="/ak/ru/mi-v-announcement/" class="pagination--pager" title="Онлайн конференция и выставка Mi-V Summit 2021
+">Назад</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Вперёд</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/ak/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> RSS feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">Copyright &copy; 2021-2022 Anton Kuzmin<br/>
+<img alt="Creative Commons Icon" src="/ak/assets/images/cc.png" /> <img alt="Attribution Icon" src="/ak/assets/images/by.png" /> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>
+</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ak/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-02-06T21:55:11+01:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA</title><link href="https://blog.no-problem.cc/ak/en/atg-webinar/" rel="alternate" type="text/html" title="Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA" /><published>2021-10-06T00:00:00+02:00</published><updated>2021-10-07T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/atg-webinar</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/atg-webinar/">&lt;p&gt;&lt;img src=&quot;/ak/assets/images/2021/atg-webinar.png&quot; alt=&quot;Arrow-To-Go Webinar banner&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-03-26T18:03:24+01:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="ru"><title type="html">ПЛИС: закат или заря новой эры?</title><link href="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/" rel="alternate" type="text/html" title="ПЛИС: закат или заря новой эры?" /><published>2022-03-26T00:00:00+01:00</published><updated>2022-03-26T00:00:00+01:00</updated><id>https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/">&lt;p&gt;В частной переписке был поднят вопрос, не умирают ли постепенно два
+основных языка разработки для Программируемых Логических Интегральных
+Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL,
+и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызван
+провокационным утверждением, что лидирующие позиции в разработке ПЛИС
+сейчас занимает &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;, а второй — одобрением второй крупной сделки в
+отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после
+покупки Altera/Intel.&lt;/p&gt;
+
+&lt;p&gt;Этот текст представляет собой отредактированную версию моего
+восприятия текущего положения дел в отрасли и сопутствующие
+наблюдения. Надо отметить, что эта оценка формировалась несколько
+последних лет и не учитывает влияние текущего глобального дефицита
+полупроводников. Этот кризис, хотя и затронул все сегменты,
+продолжается уже больше года и может потребовать ещё два-три года для
+восстановления отрасли, на мой взгляд, не является следствием
+каких-либо фундаментальных причин. Поэтому он не изменит направление
+долгосрочных технологических изменений, может быть, только скорость их
+наступления и конкретные локальные проявления.&lt;/p&gt;
+
+&lt;h2 id=&quot;закат-verilog-hdl-и-vhdl&quot;&gt;Закат Verilog HDL и VHDL&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VHDL/Verilog - это вчерашний день, ассемблер в области разработки
+HW, сейчас “рулит” в этой области Scala.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Классические языки описания аппаратуры (Hardware Description
+Languages, HDL): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog HDL&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt; — жуткие динозавры, но
+подозреваю, что они никогда не вымрут.  Как минимум, без Verilog’а нет
+ASIC’ов (Application Specific Integrated Circuit, Интегральная Схема
+Специального Назначения, как соответствующая статья названа в
+Википедии). Для ПЛИС всё немного разнообразнее и веселее, хотя и
+сейчас есть вполне вменяемые проекты на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;, конечно, это очень “круто”, но это далеко не единственный
+вариант. Очень широко и в разработке ПЛИС, и в моделировании и
+верификации ASIC используется &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt;. Специфические вещи отлично
+разрабатываются в Matlab – в основном Цифровая Обработка Сигналов
+(ЦОС, DSP) и контур управления. Достаточно широко используются &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C/C++&lt;/code&gt;
+в сочетании с высокоуровневым синтезом (High Level Synthesis, HLS) и
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;. Если рассматривать не только промышленные применения, но и
+исследовательские проекты, то там разнообразие ещё больше, даже &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LISP&lt;/code&gt;
+встречается.&lt;/p&gt;
+
+&lt;p&gt;Так что “классические” языки описания аппаратуры действительно
+уступают свою роль основных средств разработки для ПЛИС, но при этом
+остаются в технологической цепочке, примерно так же, как остался
+ассемблер: между компилятором языка высокого уровня и генерацией
+машинного кода. А на смену им приходит намного больше языков, чем одна
+только &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;скорое-исчезновение-плис&quot;&gt;Скорое исчезновение ПЛИС&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ПЛИС приходит конец, Intel убил Altera, AMD скоро убьет Xilinx. В
+открытом доступе останутся только китайцы.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Слухи о смерти ПЛИС сильно преувеличены. На мой взгляд, ситуация прямо
+противоположная: лет пятнадцать копились потребности в переменах и
+технические предпосылки для них, а сейчас начинаются лавинообразные
+изменения.&lt;/p&gt;
+
+&lt;p&gt;И Intel, и AMD в первую очередь заинтересованы в верхнем сегменте
+ПЛИС, самых больших, сложных и дорогих микросхемах.  Их они и будут
+развивать. Конечно, Intel, по своей давней традиции, может что-нибудь
+и угробить по пути, но не всё направление.&lt;/p&gt;
+
+&lt;p&gt;Сильный провал наблюдается в среднем и нижнем сегментах — эти
+сегменты, кажется, менее интересны и Altera/Intel, и Xilinx/AMD, но
+как раз здесь легче появиться и развиваться конкурентам.&lt;/p&gt;
+
+&lt;p&gt;Из “старичков” — Lattice очень хорошо себя чувствует и
+перетаскивает много уже работающих устройств с Xilinx’а.
+Конечно, этот процесс сильно подстегнули проблемы с доступностью
+компонентов, и многие устройства прямо сейчас переделываются
+со Spartan-6 на Lattice.&lt;/p&gt;
+
+&lt;p&gt;Actel/Microsemi/Microchip наконец-то отказались от ориентации
+преимущественно на авионику и космос, и выпустили решение для среднего
+сегмента и промышленных применений (PolarFire), сохранив при этом свои
+традиционные преимущества. И, что ещё удивительнее, сделав ставку на
+новую, открытую и свободную архитектуру системы команд (Instruction
+Set Architecture) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RISC-V&lt;/code&gt;. Предыдущее поколение (SmartFusion2/IGLOO2)
+продолжает выпускаться и тоже получило свою долю клиентов, уходящих от
+Altera (Cyclone IV/V) и Xilinx (Spartan-6).&lt;/p&gt;
+
+&lt;h2 id=&quot;заря-новой-эры&quot;&gt;Заря новой эры&lt;/h2&gt;
+
+&lt;p&gt;За последние лет пять явно обозначились ещё две интересные и, на мой
+взгляд, положительные тенденции: стали появляться открытые и свободные
+программные пакеты для разработки для ПЛИС, в которые уже вкладываются
+большие компании. В то же время появилось с десяток новых компаний,
+разрабатывающих свои ПЛИС, чего не было видно лет двадцать и что
+казалось совершенно невозможным при доминировании Xilinx и Altera.
+Среди новых компаний, конечно, есть несколько из Китая, но
+представлены и Тайвань, и Штаты, и Германия.&lt;/p&gt;
+
+&lt;p&gt;ПЛИС за всё время своего существования принципиально не могли получить
+большую долю хоть какого-нибудь рынка.  Проблема в том, что как только
+приложение становится достаточно устоявшимся и массовым, для него
+автоматически становится экономически оправдано производство ASIC’а.
+Так что доминирование ПЛИС в какой-либо нише было ограничено временем
+до появления ASIC, и чем больше ниша, тем короче было это время.&lt;/p&gt;
+
+&lt;p&gt;Сейчас ситуация кардинально изменилась: во-первых, приложения сильно
+диверсифицировались и очень быстро меняются, что делает разработку
+ASIC нецелесообразной. Во-вторых, процессоры общего назначения за
+двадцать лет экспоненциального экстенсивного развития подошли к
+технологическим пределам роста производительности, в-третьих,
+стоимость и время разработки ASIC на передовых технологических
+процессах выросли в десятки раз.  Так что теперь стало выгоднее
+сделать одну ПЛИС по передовому процессу и использовать её в десяти
+разных приложениях.&lt;/p&gt;
+
+&lt;p&gt;К сожалению, здесь всё (в очередной раз) натолкнулось на проблемы со
+средствами разработки: писать современные приложения на ассемблере или
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt; уже невозможно, а &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt; не развивались десятилетиями,
+так что вполне соответствуют ассемблеру и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt;. Точнее, развитие
+было и продолжается, но оно не идёт ни в какое сравнение с прогрессом
+в технологиях, средствах и методиках разработки программного
+обеспечения, достигнутым за это же время. Во многом этот прогресс
+произошёл и определяется ростом экосистемы открытого и свободного
+программного обеспечения. Поэтому я считаю, что поворот к открытым и
+свободным средствам разработки для ПЛИС — это как раз тот ключ,
+который откроет путь лавинообразному росту их применений во многих
+областях за пределами ниш, освоенных до сегодняшнего дня.&lt;/p&gt;
+
+&lt;h2 id=&quot;ссылки-и-дополнительные-материалы&quot;&gt;Ссылки и дополнительные материалы&lt;/h2&gt;
+
+&lt;p&gt;Обзор истории и этапов развития ПЛИС с 1984 до 2014 года:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Three Ages of FPGAs: A Retrospective on the First Thirty Years of
+FPGA Technology, Stephen M. (Steve) Trimberger, Fellow IEEE,
+Proceedings of the IEEE, Vol. 103, No. 3, March 2015,
+DOI:10.1109/JPROC.2015.2392104, &lt;a href=&quot;https://ieeexplore.ieee.org/document/7086413&quot; target=&quot;_blank&quot;&gt;https://ieeexplore.ieee.org/document/7086413&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Крупнейшие компании-разработчики ПЛИС:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Altera (&lt;a href=&quot;https://www.altera.com/&quot; target=&quot;_blank&quot;&gt;https://www.altera.com/&lt;/a&gt;)
+с 2015 года Intel Programmable Solutions Group&lt;/li&gt;
+  &lt;li&gt;Xilinx (&lt;a href=&quot;https://www.xilinx.com/&quot; target=&quot;_blank&quot;&gt;https://www.xilinx.com/&lt;/a&gt;)
+в феврале 2022 была закрыта сделка по
+поглощению компанией AMD, объявленная в октябре 2020&lt;/li&gt;
+  &lt;li&gt;Lattice Semiconductor (&lt;a href=&quot;https://www.latticesemi.com/&quot; target=&quot;_blank&quot;&gt;https://www.latticesemi.com/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Actel, поглощёна Microsemi, поглощёна Microchip (&lt;a href=&quot;https://www.microchip.com&quot; target=&quot;_blank&quot;&gt;https://www.microchip.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Открытое и свободное программное обеспечение для разработки
+под ПЛИС:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yosys, nextpnr, project IceStorm, etc. (&lt;a href=&quot;https://yosyshq.net/&quot; target=&quot;_blank&quot;&gt;https://yosyshq.net/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;openFPGALoader (&lt;a href=&quot;https://github.com/trabucayre/openFPGALoader&quot; target=&quot;_blank&quot;&gt;https://github.com/trabucayre/openFPGALoader&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;MyHDL (&lt;a href=&quot;https://www.myhdl.org/&quot; target=&quot;_blank&quot;&gt;https://www.myhdl.org/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Chisel (&lt;a href=&quot;https://www.chisel-lang.org/&quot; target=&quot;_blank&quot;&gt;https://www.chisel-lang.org/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;CLaSH (&lt;a href=&quot;https://clash-lang.org/&quot; target=&quot;_blank&quot;&gt;https://clash-lang.org/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;FuseSoC (&lt;a href=&quot;https://github.com/olofk/fusesoc&quot; target=&quot;_blank&quot;&gt;https://github.com/olofk/fusesoc&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Migen (&lt;a href=&quot;https://m-labs.hk/gateware/migen/&quot; target=&quot;_blank&quot;&gt;https://m-labs.hk/gateware/migen/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Новые игроки на рынке микросхем программируемой логики:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Achronix (&lt;a href=&quot;https://www.achronix.com/&quot; target=&quot;_blank&quot;&gt;https://www.achronix.com/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;eFinix (&lt;a href=&quot;https://www.efinixinc.com/&quot; target=&quot;_blank&quot;&gt;https://www.efinixinc.com/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Gowin Semiconductor (&lt;a href=&quot;https://gowinsemi.com/en/&quot; target=&quot;_blank&quot;&gt;https://gowinsemi.com/en/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Cologne Chip (&lt;a href=&quot;https://colognechip.com/&quot; target=&quot;_blank&quot;&gt;https://colognechip.com/&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Flex Logix Technologies (&lt;a href=&quot;https://flex-logix.com/&quot; target=&quot;_blank&quot;&gt;https://flex-logix.com/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Эти списки ни в коей мере не претендуют на полноту, скорее это
+просто иллюстрация, что такие программные средства и компании есть, и
+их становится больше.&lt;/em&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="fpga" /><summary type="html">В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними. Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас занимает Scala, а второй — одобрением второй крупной сделки в отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после покупки Altera/Intel.</summary></entry><entry xml:lang="en"><title type="html">Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA</title><link href="https://blog.no-problem.cc/ak/en/atg-webinar/" rel="alternate" type="text/html" title="Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA" /><published>2021-10-06T00:00:00+02:00</published><updated>2021-10-07T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/atg-webinar</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/atg-webinar/">&lt;p&gt;&lt;img src=&quot;/ak/assets/images/2021/atg-webinar.png&quot; alt=&quot;Arrow-To-Go Webinar banner&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Preparations are on the way to co-present on the first live-session of
 the two-webinar series: “Building Applications on multi-core RISC-V
