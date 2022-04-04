@@ -40,4 +40,10 @@ var store = [{
         "tags": ["stakeholder","hr-project","risk","success-factor","communication","commitment","analysis"],
         "url": "https://blog.no-problem.cc/si/en/Stakeholders/",
         "teaser": null
+      },{
+        "title": "Project complexity or how to compare apples and oranges",
+        "excerpt":"Nowadays the word ‘project’ is one the most popular and trendy terms. There is a tendency to project everything: from a minor life phase to conquering galaxies. I’m not going to dig into details of misusing the term ‘project’ and ‘project management’ activities associated with it. I would rather stick...","categories": ["en"],
+        "tags": ["analysis","case-study"],
+        "url": "https://blog.no-problem.cc/si/en/project-complexity/",
+        "teaser": null
       }]
