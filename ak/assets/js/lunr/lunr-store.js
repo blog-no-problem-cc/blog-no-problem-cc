@@ -34,4 +34,10 @@ var store = [{
         "tags": ["fpga"],
         "url": "https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/",
         "teaser": null
+      },{
+        "title": "FPGA dusk or dawn of a new era?",
+        "excerpt":"In an email conversation earlier this year I’ve been asked for my opinion whether two major languages for FPGA development (Verilog HDL and VHDL) were going to die soon and if FPGAs would die along with them. The first question has been triggered by a provoking statement that the current...","categories": ["en"],
+        "tags": ["fpga"],
+        "url": "https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/",
+        "teaser": null
       }]
