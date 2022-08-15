@@ -46,4 +46,10 @@ var store = [{
         "tags": ["analysis","case-study"],
         "url": "https://blog.no-problem.cc/si/en/project-complexity/",
         "teaser": null
+      },{
+        "title": "Motivation Pulse-Check: a fancy instrument or a call for action tool",
+        "excerpt":"Within the last decade, employee engagement and motivation have an undeniable impact on any human-related activities within an organization. It hastens the growth of a new market niche and an appearance of new players besides big reputed analytical and consulting companies. The pandemic challenged the tiptoeing around employee engagement and...","categories": ["en"],
+        "tags": ["analysis","case-study","motivation","tool"],
+        "url": "https://blog.no-problem.cc/si/en/pulse-check/",
+        "teaser": null
       }]
