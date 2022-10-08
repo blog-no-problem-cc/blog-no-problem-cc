@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-06-17T22:24:48+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">FPGA dusk or dawn of a new era?</title><link href="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/" rel="alternate" type="text/html" title="FPGA dusk or dawn of a new era?" /><published>2022-06-17T00:00:00+02:00</published><updated>2022-06-17T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/">&lt;p&gt;In an email conversation earlier this year I’ve been asked for my
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-10-09T01:10:46+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2022-10-09T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
+architectures too often. An appearance of a new vendor with a new
+architecture is an even more uncommon occasion, and therefore a more
+interesting one. A few years ago Cologne Chip AG debuted on
+the FPGA market with the GateMate family. Its rather unusual features
+include self-reconfiguration, unconventional structure of logic
+elements, and strong commitment towards free and open-source
+development tools.&lt;/p&gt;
+
+&lt;p&gt;An evaluation kit for the GateMate FPGA is available from Cologne
+Chip, however, designing own hardware is in my eyes a much more
+efficient way to become familiar with a new architecture. That’s why I
+went ahead with design of a small module based on this chip. A
+modular approach also makes it easier to experiment with multi-chip
+systems and build products around it.&lt;/p&gt;
+
+&lt;p&gt;To align with the Cologne Chip commitment to the free and open source
+software the design is released as Open Hardware and available under
+&lt;a href=&quot;https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2&quot; target=&quot;_blank&quot;&gt;CERN-OHL-P v2&lt;/a&gt;
+(permissive) license.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/ak/assets/images/2022/gmm7550-lr.jpg&quot;&gt;&lt;img src=&quot;/ak/assets/images/2022/gmm7550-web.jpg&quot; alt=&quot;GMM-7550 Module&quot; class=&quot;align-right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The GMM-7550 module is a small module providing a convenient way to
+evaluate &lt;a href=&quot;https://colognechip.com/programmable-logic/gatemate/&quot; target=&quot;_blank&quot;&gt;GateMate
+FPGA&lt;/a&gt;
+from Cologne Chip AG.  This post summarizes essential features of the
+GMM-7550 module and HAT adapter board.&lt;/p&gt;
+
+&lt;p&gt;The module consists of the FPGA (CCGM1A1) in
+BGA324 15x15 mm package, power converters, reset, clocking and
+configuration circuitries.&lt;/p&gt;
+
+&lt;h2 id=&quot;input-power-and-converters&quot;&gt;Input Power and Converters&lt;/h2&gt;
+
+&lt;p&gt;The module is powered from a single power supply in 2.9 to 6.5 V
+range, so it may be powered directly from a commodity 3.3 or
+5 V power supply or a single Li-Pol cell.&lt;/p&gt;
+
+&lt;p&gt;On the module high-efficiency DC-DC converters generate the FPGA core
+supply voltage (hardware configurable to 0.9, 1.0, or 1.1 V), I/O
+voltage for the configuration interface, SPI-NOR FLASH, clock
+generator, and I/O banks (fixed at 2.5 V). The 2.5 V are
+provided on the module connectors to power a base board components.&lt;/p&gt;
+
+&lt;p&gt;Additional low-noise LDO regulator is provided for the FPGA high-speed
+serial transceiver and PLLs (hardware configurable 1.0 or 1.1 V).&lt;/p&gt;
+
+&lt;p&gt;The DC-DC convertes on the module are synchronized with the main
+module clock to reduce power supplies noise level. The converters
+operate at 1.25 MHz with a 180 degree phase shift to reduce
+inducted ripple on the input power feed.&lt;/p&gt;
+
+&lt;h2 id=&quot;clock-generator&quot;&gt;Clock Generator&lt;/h2&gt;
+
+&lt;p&gt;The GMM-7550 module includes Texas Instruments CDCE6214 clock
+generator with one PLL. A clock reference is provided by a 25 MHz
+crystal on the module. If a higher precision, stability, or a
+synchronization to an external reference is required, an LVDS clock
+input may be used as a primary reference for the PLL.&lt;/p&gt;
+
+&lt;p&gt;The generator provides 100 MHz reference clock to the FPGA SerDes
+PLL, reference 25 MHz (CMOS) and two programmale (LVDS) outputs
+on the module connector and a clock signal for DC-DC synchronization.&lt;/p&gt;
+
+&lt;p&gt;The generator has internal configuration EEPROM and is programmable
+via I2C interface.&lt;/p&gt;
+
+&lt;p&gt;The FPGA input clock signals CLK0..3 are available on the general
+purpose input-output bank SB (South B) signals on the module
+connector. Additionally, SPI and JTAG clock signals may be used for
+user’s logic synchronization inside the FPGA.&lt;/p&gt;
+
+&lt;h2 id=&quot;fpga-configuration&quot;&gt;FPGA Configuration&lt;/h2&gt;
+
+&lt;p&gt;The module supports all the GateMate FPGA configuration modes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SPI Active Mode from the on-module SPI-NOR FLASH (default)&lt;/li&gt;
+  &lt;li&gt;SPI Active Mode from an SPI-NOR on a base board&lt;/li&gt;
+  &lt;li&gt;SPI Passive Mode with an external SPI master&lt;/li&gt;
+  &lt;li&gt;JTAG Mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The configuration mode and SPI multiplexing are controlled via 16-bin
+I2C-bus I/O port on the module.&lt;/p&gt;
+
+&lt;p&gt;The on-module SPI-NOR FLASH may be accessed and programmed via SPI
+interface from a base board or via the FPGA JTAG interface.&lt;/p&gt;
+
+&lt;p&gt;An I/O voltage for the module control (I2C) and configuration
+interfaces (JTAG and SPI) is fixed at 2.5 V.&lt;/p&gt;
+
+&lt;h2 id=&quot;fpga-general-purpose-input-output-signals&quot;&gt;FPGA General Purpose Input-Output Signals&lt;/h2&gt;
+
+&lt;p&gt;The CCGM1A1 FPGA provides up to 162 general purpose input/output
+signals split into 9 banks (with 18 single-ended signals or 9 LVDS
+pairs each) with independent power supplies. 144 FPGA’s general
+purpose input-output signals (8 banks) are available on 4 module
+connectors. Input-output voltage from 1.2 to 2.5 V for each of
+the 8 I/O banks may be independetnly supplied from a base board or from
+a power converter on the module (fixed at 2.5 V, default hardware
+option).&lt;/p&gt;
+
+&lt;p&gt;An input/output bank WA (West A) signals are used on the module for
+configuration mode selection, SPI and JTAG interfaces, control and
+status signals and are not available for general use. The I/O voltage
+of the WA bank is fixed on the module at 2.5 V.&lt;/p&gt;
+
+&lt;h2 id=&quot;hat-adapter-board&quot;&gt;HAT Adapter Board&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;attaches to a Raspberry-Pi compatible 40-pin I/O header&lt;/li&gt;
+  &lt;li&gt;makes use of GPIOs, 2x I2C-bus, and SPI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/ak/assets/images/2022/hat-gmm7550-lr.jpg&quot;&gt;&lt;img src=&quot;/ak/assets/images/2022/hat-gmm7550-web.jpg&quot; alt=&quot;GMM-7550 Module&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GMM-7550 module may be powered either with 5 V from the 40-pin
+header or from a dedicated power connector&lt;/li&gt;
+  &lt;li&gt;power control and current consumption monitoring of the GMM-7550
+module with Analog Devices ADM1177&lt;/li&gt;
+  &lt;li&gt;reset signal control to the module&lt;/li&gt;
+  &lt;li&gt;LEDs indicating the module power, reset and configuration status&lt;/li&gt;
+  &lt;li&gt;voltage level translators for I2C-bus, SPI, and GPIOs&lt;/li&gt;
+  &lt;li&gt;CAT24C32 HAT ID EEPROM with write protection&lt;/li&gt;
+  &lt;li&gt;10-pin JTAG programming connector&lt;/li&gt;
+  &lt;li&gt;two 12-pin Pmod connectors with 3.3 V I/O signals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;control-software&quot;&gt;Control Software&lt;/h2&gt;
+
+&lt;p&gt;A control software for the module is written on Python and consists of
+a library providing access to all the functions of the HAT adapter
+board, programming of the HAT ID EEPROM, control of the I2C-bus I/O
+port on the module, and allowing programming of the clock
+generator and SPI-NOR FLASH on the module.&lt;/p&gt;
+
+&lt;p&gt;Two frontend applications make use of the library: the first one
+provides simple CLI and the second one is based on the Python
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panel&lt;/code&gt; framework and provides a web-based interface to operate the
+module.&lt;/p&gt;
+
+&lt;p&gt;The software is running on the StarFive VisionFive SBC with a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildroot&lt;/code&gt; Linux installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The software is work in progress, the library interface is
+  not stable.  Incompatible changes and bugs are to be expected.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-repositories&quot;&gt;Project Repositories&lt;/h2&gt;
+
+&lt;p&gt;KiCad projects of the GMM-7550 module and the HAT adapter board are
+available on GitHub along with the control software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KiCad projects &lt;a href=&quot;https://github.com/ak-fau/gmm7550/&quot; target=&quot;_blank&quot;&gt;https://github.com/ak-fau/gmm7550/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;control software (coming soon)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- &lt;https://github.com/ak-fau/gmm7550-control/&gt;{:target=&quot;_blank&quot;} --&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><category term="gmm7550" /><summary type="html">An FPGA segment of a semiconductor market does not witness new architectures too often. An appearance of a new vendor with a new architecture is an even more uncommon occasion, and therefore a more interesting one. A few years ago Cologne Chip AG debuted on the FPGA market with the GateMate family. Its rather unusual features include self-reconfiguration, unconventional structure of logic elements, and strong commitment towards free and open-source development tools.</summary></entry><entry xml:lang="en"><title type="html">FPGA dusk or dawn of a new era?</title><link href="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/" rel="alternate" type="text/html" title="FPGA dusk or dawn of a new era?" /><published>2022-06-17T00:00:00+02:00</published><updated>2022-06-17T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/">&lt;p&gt;In an email conversation earlier this year I’ve been asked for my
 opinion whether two major languages for FPGA development (Verilog HDL and
 VHDL) were going to die soon and if FPGAs would die along with
 them. The first question has been triggered by a provoking statement

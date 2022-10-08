@@ -40,4 +40,10 @@ var store = [{
         "tags": ["fpga"],
         "url": "https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/",
         "teaser": null
+      },{
+        "title": "CologneChip GateMate FPGA",
+        "excerpt":"An FPGA segment of a semiconductor market does not witness new architectures too often. An appearance of a new vendor with a new architecture is an even more uncommon occasion, and therefore a more interesting one. A few years ago Cologne Chip AG debuted on the FPGA market with the GateMate family....","categories": ["en"],
+        "tags": ["fpga","gmm7550"],
+        "url": "https://blog.no-problem.cc/ak/en/gmm7550-is-here/",
+        "teaser": null
       }]
