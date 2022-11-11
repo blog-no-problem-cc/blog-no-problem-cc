@@ -52,4 +52,10 @@ var store = [{
         "tags": ["analysis","case-study","motivation","tool"],
         "url": "https://blog.no-problem.cc/si/en/pulse-check/",
         "teaser": null
+      },{
+        "title": "How to cultivate a \"difficult\" client",
+        "excerpt":"In any work environment, the customer is one of the key factors to set a pivotal way of business development. Sales theory has a long history of tiptoeing around customer needs, customer satisfaction, building trustful relationships, winning customer favor, and resolving problems to ensure an amazing customer experience. In the...","categories": ["en"],
+        "tags": ["stakeholder","case-study","customer","risk"],
+        "url": "https://blog.no-problem.cc/si/en/difficult-client/",
+        "teaser": null
       }]
