@@ -58,4 +58,10 @@ var store = [{
         "tags": ["stakeholder","case-study","customer","risk"],
         "url": "https://blog.no-problem.cc/si/en/difficult-client/",
         "teaser": null
+      },{
+        "title": "5 Steps to Make a Successful Project",
+        "excerpt":"Professional project handling is a vital success factor for companies. In a time of economic instability, demographic challenges, potent climate change and green agenda, enterprises face the need for internal transformations, exploring new ways of working, and offering novel products and services for their clients. To hit these targets, companies,...","categories": ["en"],
+        "tags": ["success-factor","processes"],
+        "url": "https://blog.no-problem.cc/si/en/Five-steps/",
+        "teaser": null
       }]
