@@ -64,4 +64,10 @@ var store = [{
         "tags": ["success-factor","processes"],
         "url": "https://blog.no-problem.cc/si/en/Five-steps/",
         "teaser": null
+      },{
+        "title": "The \"onion syndrome\" in projects: 7&nbsp;practical tips to nip it in the bud",
+        "excerpt":"“The art of life is a constant readjustment to our surroundings.” Okakura Kakuzo Imagine or recall a case when an additional project pops up in your work. A brief screening shows that probably it won’t be too complicated despite a lot of minor differences from what you have done before....","categories": ["en"],
+        "tags": ["stakeholder","processes","project-management","execution","onion-syndrome","vision","constraints","motivation","skills"],
+        "url": "https://blog.no-problem.cc/si/en/Onion-syndrome/",
+        "teaser": null
       }]
