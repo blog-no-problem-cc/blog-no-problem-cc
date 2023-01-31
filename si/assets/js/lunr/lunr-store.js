@@ -7,7 +7,7 @@ var store = [{
       },{
         "title": "Project Management: Is it a proliferation of buzz words or a vital necessity?",
         "excerpt":"Within the last decades, the importance of project management has been skyrocketing, or at least such an impression can be built. Combinations of words ‘an innovative project’, ‘a strategic project’, ‘a special project’, and countless many “projects” alike, can be met everywhere: on a website of any company, in promotional...","categories": ["en"],
-        "tags": ["upskilling"],
+        "tags": ["upskilling","project-management"],
         "url": "https://blog.no-problem.cc/si/en/PMandTasks/",
         "teaser": null
       },{
@@ -19,13 +19,13 @@ var store = [{
       },{
         "title": "Hindrances in HR projects",
         "excerpt":"Usually, an HR project is started as a response to changes in business strategy, as a value-add HR initiative, digitalization of processes, or any combination of these. HR projects are diverse by purpose, nature, duration, available resources, and budget, however, some common critical issues and roadblocks can be present in...","categories": ["en"],
-        "tags": ["stakeholder","hr-project","processes","capabilities","culture","competency","communication","risk","success-factor"],
+        "tags": ["stakeholder","hr-project","processes","capabilities","culture","competency","communication","risk","success-factor","constraints"],
         "url": "https://blog.no-problem.cc/si/en/Hindrances-in-HRprojects/",
         "teaser": null
       },{
         "title": "Project management is HR Transformation’s best friend: a true story of one project",
         "excerpt":"Digitalization and agility are now ways of life and speed up business transformation, which drastically affects people and their work. HR takes a leading role in workplace transformation and lends a supporting hand to business in the upskilling of companies’ workforce with the primary focus on strategic capabilities and competencies....","categories": ["en"],
-        "tags": ["hr-project","hr-transformation","digitalisation","case-study"],
+        "tags": ["hr-project","hr-transformation","digitalisation","case-study","project-management","execution"],
         "url": "https://blog.no-problem.cc/si/en/PM-and-HRtransformation/",
         "teaser": null
       },{
@@ -37,13 +37,13 @@ var store = [{
       },{
         "title": "Critical Issues and Success Factors in HR projects: Stakeholders",
         "excerpt":"“No matter what you stand for, no matter what your ultimate purpose may be, you must take into account the effects of your actions on others, as well as their potential effects on you.” R. Edward Freeman You have received a new challenging task — to lead one of the...","categories": ["en"],
-        "tags": ["stakeholder","hr-project","risk","success-factor","communication","commitment","analysis"],
+        "tags": ["stakeholder","hr-project","risk","success-factor","communication","commitment","analysis","project-management"],
         "url": "https://blog.no-problem.cc/si/en/Stakeholders/",
         "teaser": null
       },{
         "title": "Project complexity or how to compare apples and oranges",
         "excerpt":"Nowadays the word ‘project’ is one the most popular and trendy terms. There is a tendency to project everything: from a minor life phase to conquering galaxies. I’m not going to dig into details of misusing the term ‘project’ and ‘project management’ activities associated with it. I would rather stick...","categories": ["en"],
-        "tags": ["analysis","case-study"],
+        "tags": ["analysis","case-study","project-management"],
         "url": "https://blog.no-problem.cc/si/en/project-complexity/",
         "teaser": null
       },{
@@ -55,19 +55,19 @@ var store = [{
       },{
         "title": "How to cultivate a \"difficult\" client",
         "excerpt":"In any work environment, the customer is one of the key factors to set a pivotal way of business development. Sales theory has a long history of tiptoeing around customer needs, customer satisfaction, building trustful relationships, winning customer favor, and resolving problems to ensure an amazing customer experience. In the...","categories": ["en"],
-        "tags": ["stakeholder","case-study","customer","risk"],
+        "tags": ["stakeholder","case-study","customer","risk","project-management","execution"],
         "url": "https://blog.no-problem.cc/si/en/difficult-client/",
         "teaser": null
       },{
         "title": "5 Steps to Make a Successful Project",
         "excerpt":"Professional project handling is a vital success factor for companies. In a time of economic instability, demographic challenges, potent climate change and green agenda, enterprises face the need for internal transformations, exploring new ways of working, and offering novel products and services for their clients. To hit these targets, companies,...","categories": ["en"],
-        "tags": ["success-factor","processes"],
+        "tags": ["success-factor","processes","project-management","planning","execution","onion-syndrome","close-out"],
         "url": "https://blog.no-problem.cc/si/en/Five-steps/",
         "teaser": null
       },{
         "title": "The \"onion syndrome\" in projects: 7&nbsp;practical tips to nip it in the bud",
         "excerpt":"“The art of life is a constant readjustment to our surroundings.” Okakura Kakuzo Imagine or recall a case when an additional project pops up in your work. A brief screening shows that probably it won’t be too complicated despite a lot of minor differences from what you have done before....","categories": ["en"],
-        "tags": ["stakeholder","processes","project-management","execution","onion-syndrome","vision","constraints","motivation","skills"],
+        "tags": ["stakeholder","processes","project-management","execution","onion-syndrome","vision","constraints","motivation","competency","commitment","team"],
         "url": "https://blog.no-problem.cc/si/en/Onion-syndrome/",
         "teaser": null
       }]
