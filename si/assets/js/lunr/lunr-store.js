@@ -70,4 +70,10 @@ var store = [{
         "tags": ["stakeholder","processes","project-management","execution","onion-syndrome","vision","constraints","motivation","competency","commitment","team"],
         "url": "https://blog.no-problem.cc/si/en/Onion-syndrome/",
         "teaser": null
+      },{
+        "title": "Transformation of HR Processes: from&nbsp;chaos to ecosystem",
+        "excerpt":"According to Wikipedia, a process “is a series or set of activities that interact to produce a result; it may occur once-only or be recurrent or periodic“. These activities are to be decomposed into some number of steps, sequenced in a specific order, and performed for a purpose. In a...","categories": ["en"],
+        "tags": ["digitalisation","hr-transformation","processes"],
+        "url": "https://blog.no-problem.cc/si/en/Maturity-of-processes/",
+        "teaser": null
       }]
