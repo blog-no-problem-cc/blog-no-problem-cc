@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-11T11:11:02+01:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2023-01-11T00:00:00+01:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-22T22:36:16+01:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2023-03-22T00:00:00+01:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
 architectures too often. An appearance of a new vendor with a new
 architecture is an even more uncommon occasion, and therefore a more
 interesting one. A few years ago Cologne Chip AG debuted on
@@ -137,13 +137,16 @@ board, programming of the HAT ID EEPROM, control of the I2C-bus I/O
 port on the module, and allowing programming of the clock
 generator and SPI-NOR FLASH on the module.&lt;/p&gt;
 
-&lt;p&gt;Two frontend applications make use of the library: the first one
-provides simple CLI and the second one is based on the Python
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panel&lt;/code&gt; framework and provides a web-based interface to operate the
-module.&lt;/p&gt;
+&lt;p&gt;An applications makes use of the library and provides two interfaces:
+the first one is a simple CLI and the second one is based on the
+Python &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panel&lt;/code&gt; framework and provides a web-based interface to
+operate the module.&lt;/p&gt;
 
-&lt;p&gt;The software is running on the StarFive VisionFive SBC with a
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildroot&lt;/code&gt; Linux installed.&lt;/p&gt;
+&lt;p&gt;The software is running on a Raspberry Pi SBC with ArchLinux ARM installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Port of the control software to StarFive VisionFive SBC with a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildroot&lt;/code&gt; Linux and ArchLinux RISC-V is work in progress and is
+not fully functional yet.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The software is work in progress, the library interface is
   not stable.  Incompatible changes and bugs are to be expected.&lt;/p&gt;
@@ -156,6 +159,7 @@ available on GitHub along with the control software:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;KiCad projects &lt;a href=&quot;https://github.com/ak-fau/gmm7550/&quot; target=&quot;_blank&quot;&gt;https://github.com/ak-fau/gmm7550/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;control software &lt;a href=&quot;https://github.com/ak-fau/gmm7550-control/&quot; target=&quot;_blank&quot;&gt;https://github.com/ak-fau/gmm7550-control/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;VHDL examples &lt;a href=&quot;https://github.com/ak-fau/gmm7550-examples/&quot; target=&quot;_blank&quot;&gt;https://github.com/ak-fau/gmm7550-examples/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><category term="gmm7550" /><summary type="html">An FPGA segment of a semiconductor market does not witness new architectures too often. An appearance of a new vendor with a new architecture is an even more uncommon occasion, and therefore a more interesting one. A few years ago Cologne Chip AG debuted on the FPGA market with the GateMate family. Its rather unusual features include self-reconfiguration, unconventional structure of logic elements, and strong commitment towards free and open-source development tools.</summary></entry><entry xml:lang="en"><title type="html">FPGA dusk or dawn of a new era?</title><link href="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/" rel="alternate" type="text/html" title="FPGA dusk or dawn of a new era?" /><published>2022-06-17T00:00:00+02:00</published><updated>2022-06-17T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/">&lt;p&gt;In an email conversation earlier this year I’ve been asked for my
 opinion whether two major languages for FPGA development (Verilog HDL and
 VHDL) were going to die soon and if FPGAs would die along with
