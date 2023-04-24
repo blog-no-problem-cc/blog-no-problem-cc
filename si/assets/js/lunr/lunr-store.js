@@ -79,7 +79,7 @@ var store = [{
       },{
         "title": "Critical Issues and Success Factors in HR projects: Processes",
         "excerpt":"“If you can’t fly, then run. If you can’t run, then walk. If you can’t walk, then crawl. But whatever you do, you have to keep moving forward.” Dr. Martin Luther King Jr. Within recent decades business environment has been described as volatile, uncertain, complex, and ambiguous (VUCA), and companies...","categories": ["en"],
-        "tags": ["BANI","VUCA","hr-project","processes","risk","success-factor","project-management","pitfall"],
+        "tags": ["BANI","VUCA","hr-project","processes","risk","success-factor","project-management","pitfall","initiation","execution"],
         "url": "https://blog.no-problem.cc/si/en/Processes/",
         "teaser": null
       }]
