@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/si/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-24T12:44:04+02:00</updated><id>https://blog.no-problem.cc/si/feed.xml</id><title type="html">agile people management</title><subtitle>A miscellany of real stories, ideas and thoughts about people management, project management and their interconnection in the fields of corporate human resources, digitalization, organizational and change management</subtitle><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><entry xml:lang="en"><title type="html">Critical Issues and Success Factors in HR projects: Processes</title><link href="https://blog.no-problem.cc/si/en/Processes/" rel="alternate" type="text/html" title="Critical Issues and Success Factors in HR projects: Processes" /><published>2023-04-21T00:00:00+02:00</published><updated>2023-04-21T00:00:00+02:00</updated><id>https://blog.no-problem.cc/si/en/Processes</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/Processes/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/si/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-12T21:22:09+02:00</updated><id>https://blog.no-problem.cc/si/feed.xml</id><title type="html">agile people management</title><subtitle>A miscellany of real stories, ideas and thoughts about people management, project management and their interconnection in the fields of corporate human resources, digitalization, organizational and change management</subtitle><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><entry xml:lang="en"><title type="html">22 Common Errors in Reasoning</title><link href="https://blog.no-problem.cc/si/en/logical-fallacies/" rel="alternate" type="text/html" title="22 Common Errors in Reasoning" /><published>2023-06-12T00:00:00+02:00</published><updated>2023-06-12T00:00:00+02:00</updated><id>https://blog.no-problem.cc/si/en/logical-fallacies</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/logical-fallacies/">&lt;p&gt;Efficient communication is a cornerstone of any successful project, and arguments and debates are an important part of it. Each good communication should have a call to action. In order to achieve it, the affected groups of people must experience all the stages of the commitment curve: preparation (contact, awareness), acceptance (understanding, positive perception), and commitment.&lt;br /&gt;
+&lt;img src=&quot;/si/assets/images/models/Conner-commitment-curve.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;
+Logic is a powerful tool for persuading an audience by providing valid argumentation and reasonable statements in the course of the communication process. However, not every argument or statement is solid. Some might have errors in reasoning and rhetoric and lead to incorrect conclusions. These are so-called “logical fallacies”. They indicate either illegitimate arguments or irrelevant points, and often can be identified because they lack evidence that supports their statement. They can be used intentionally to manipulate or trick an audience or can be made unwittingly by mistake. Fallacies have a lot of variations and may be present in all forms of human communication. Often they are classified by errors in the structure (a formal fallacy), and errors in the form, content, or context of the argument (an informal fallacy).&lt;/p&gt;
+
+&lt;h5 id=&quot;does-not-follow-non-sequitur&quot;&gt;“Does not follow” &lt;em&gt;(non sequitur)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;All &lt;strong&gt;formal fallacies&lt;/strong&gt; are associated with &lt;em&gt;non sequitur&lt;/em&gt; error types where reasoning goes wrong, i.e. a presented conclusion is not necessarily a logical result of the given facts. Reaching logical conclusions depends on the proper analysis of statements taken to be true and used as a basis for reasoning, so-called premises. In order to work, logic requires decisive statements based on reliable and complete facts accepted by the audience. It also leans on which factors are recognized and ignored by the premises. Therefore, premises that are correct but ignore other essential information might drive misleading conclusions.
+Some examples of formal fallacies are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;In 2020 the average market salary of IT specialists has noticeably increased, therefore the qualification of IT staff hired in that year must be very high.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Developers wear comfortable hoodies and jeans. Peter comes to the first interview in a business suit, therefore he is not a developer.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Some high performers have the potential for further development and belong to a company’s top talent group. After a performance review, Marie was evaluated as a high performer, therefore, she is a top talent.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The landscape of &lt;strong&gt;informal fallacies&lt;/strong&gt; has a vast variety and can be categorized in different ways. Among others, it might be a lack of relevance, present improper presumptions, faulty generalizations, and errors in assigning causation. Some of these fallacies are known since the first public speeches in Ancient times, others have appeared and bloomed together with the development of advertising, marketing, political technologies, social media, and the business environment. Sitting in a business meeting, surfing the Internet, or going to a shopping mall, we can observe plenty of logically unsound premises and based on them false conclusions, like:&lt;/p&gt;
+&lt;h5 id=&quot;appeal-to-authority-argumentum-ad-auctoritate&quot;&gt;Appeal to authority &lt;em&gt;(argumentum ad auctoritate)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It is a misusage of an authority’s opinion. A statement made by an authority on some topic is used as evidence to support one’s argument disregarding circumstances such as the reliability and relevance of the information to the issue, the existence of a widespread agreement among authorities, or alternative opinions on the topic.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;To be competitive, our company has to speed up the implementation of modern technologies and agile approaches. Jeff Sutherland states that the SCRUM framework can be used in any business, therefore we must apply this method to all our construction projects.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;appeal-to-emotions&quot;&gt;Appeal to emotions&lt;/h5&gt;
+&lt;p&gt;It is a set of fallacies provoking emotions (fear, flattery, pity, ridicule, etc.) to win a statement or a debate. These fallacies attempt to pull on an audience’s emotions, manipulate, and distract listeners instead of using valid reasoning to obtain an agreement. For instance, the &lt;strong&gt;appeal to pity&lt;/strong&gt; &lt;em&gt;(argumentum ad misericordiam)&lt;/em&gt; aims to generate feelings of sympathy or mercy, or the &lt;strong&gt;appeal to ridicule&lt;/strong&gt; &lt;em&gt;(reductio ad ridiculum, ad absurdum)&lt;/em&gt; is a diversion from the merits of the opponent’s arguments by mocking or stating that an opponent’s position is laughable or absurd.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;During annual performance reviews, such a speech of a line manager excusing the underperformance of an employee is not a rare case: “Lora is a nice young lady. This year was very difficult for her: she lost her grandmother and has permanent problems with her boyfriend. That is why she is sometimes rude to clients, quarrels with colleagues, and has missed several important deadlines. If we assign her to the ‘need improvements’ category, it will be an additional stress for her.”&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;appeal-to-hypocrisy-you-too-tu-quoque&quot;&gt;Appeal to hypocrisy/ “you too” &lt;em&gt;(tu quoque)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;This fallacy deflects criticism away from oneself by accusing the other person of the same problem or something comparable.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;You are not in a position to criticize the retention methods of my department while the fluctuation rate of your department is also higher than the targeted one.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;appeal-to-ignorance-argumentum-ad-ignorantiam&quot;&gt;Appeal to ignorance &lt;em&gt;(argumentum ad ignorantiam)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It is based on the speculation that a proposition must be true because it has not been proven false or vice versa. The fallacy allows shifting the need for proof of a statement away from the person making a statement.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;We have no evidence that this risk has ever been realized in our projects, so it has to be excluded from risk analysis.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;bandwagon-appeal-argument-to-people-argumentum-ad-populum&quot;&gt;Bandwagon appeal/ Argument to people &lt;em&gt;(argumentum ad populum)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It assumes that something is true or right because others think it is so. The fallacy is an attempt to influence one to think the same way as the multitude (most people or a group of people) does. It appeals to emotions and the feeling of togetherness rather than facts and evidence.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;A genuine patriot of our company always goes the extra mile and never complains about overtime.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;begging-the-question-petitio-principii&quot;&gt;Begging the Question &lt;em&gt;(petitio principii)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;A statement that should be validated is presented as truth and misled to assume something has been proved.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Overwhelmed and ineffective modernization should be stopped.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;circular-reasoning-circulus-in-probando&quot;&gt;Circular reasoning &lt;em&gt;(circulus in probando)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It is a restatement of the same argument rather than actually proving it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Our manager is an excellent communicator because he speaks effectively.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;changing-the-subject-red-herring&quot;&gt;Changing the subject/ Red herring&lt;/h5&gt;
+&lt;p&gt;This is one of the common tactics that diverts attention from the main issue by introducing irrelevant points intended to replace the lack of real arguments or to replace implicitly the subject of the discussion.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Our team lead wants to talk about my morning lateness, so I asked her what she is going to do with delays in customers’ payments.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cherry-picking-card-stacking-fallacy-of-incomplete-evidence&quot;&gt;Cherry-picking/ Card-stacking/ Fallacy of incomplete evidence&lt;/h5&gt;
+&lt;p&gt;It happens by carefully selecting facts and evidences to confirm a particular position and skipping or ignoring data that may contradict this position.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Presentation of achievements:&lt;/em&gt;
+&lt;img src=&quot;/si/assets/images/2023/2023-06-12-card-stacking.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;genetic-fallacy-fallacy-of-origins-fallacy-of-virtue&quot;&gt;Genetic fallacy/ Fallacy of origins/ Fallacy of virtue&lt;/h5&gt;
+&lt;p&gt;This fallacy assumes that information or arguments are validated based on their source of origin (a person, group, organizational unit, or institute) rather than their content. The focus shifts from ‘what’ and ‘why’ have been said to ‘who’ said it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;The objections to the new target-setting process come only from the R&amp;amp;D department and can be ignored.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;false-cause-post-hoc-ergo-propter-hoc&quot;&gt;False cause &lt;em&gt;(post hoc ergo propter hoc)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It happens when a conclusion is solely based on the order of events and other factors potentially responsible for the outcome are not considered. In other words, a temporal sequence implies causation: if ‘A’ occurred after ‘B’, then ‘B’ must have caused ‘A.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;We should not arrange an open-air company party because every time we do, heavy rain comes.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;false-comparison-faulty-analogy-comparing-apples-and-oranges&quot;&gt;False comparison/ Faulty analogy/ &lt;a href=&quot;/si/en/project-complexity/&quot; target=&quot;_blank&quot;&gt;Comparing apples and oranges&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;It assumes that if two things are similar in one or several aspects, they are necessarily identical in some others or all the rest facets. Often, a similarity might be based on ignorance of additional factors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;This product development project has the same estimated duration as one of our infrastructure projects, therefore it requires a similar budget.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;false-compromise-argument-to-moderation-middle-ground-fallacy-of-the-golden-mean-argumentum-ad-temperantiam&quot;&gt;False compromise/ Argument to moderation/ Middle ground/ Fallacy of the golden mean &lt;em&gt;(argumentum ad temperantiam)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It assumes that a compromise between two opposite positions is always correct.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Subject matter experts estimate a project duration of one year, but the customer wants its completion in 4 months, therefore a sales manager has prepared a contract with an 8-month project duration without corrections in the project scope, output, and budget.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;false-dilemma-false-dichotomy-either--or-black-or-white&quot;&gt;False dilemma/ False dichotomy/ Either – or/ Black or white&lt;/h5&gt;
+&lt;p&gt;This fallacy reduces the options of a complex issue to two extremes: often one right, one wrong. This is a manipulative tool aimed to promote one side and exaggerate the negative effects of another.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Internship students come to a company to work hard or to loaf.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;A company has either to invest in A, B, and C technologies to become the market leader or sell its business.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;hasty-generalization-fallacy-of-insufficient-sample&quot;&gt;Hasty generalization/ Fallacy of insufficient sample&lt;/h5&gt;
+&lt;p&gt;It happens when reasoning is based on insufficient or biased evidence. Often, this fallacy can be met in presentations of survey results when conclusions are derived from a small sample group that does not sufficiently represent an entire population.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Despite good grades during his study, the intern does a lot of mistakes in working tasks. Therefore, our department won’t accept interns who graduated from this university anymore.&lt;/em&gt;
+&lt;img src=&quot;/si/assets/images/2022/2022-08-12-pulse-response-rate.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;The results of &lt;a href=&quot;/si/en/pulse-check/&quot; target=&quot;_blank&quot;&gt;the pulse-check 202X&lt;/a&gt; show that in our company employees are very satisfied with their line managers. The average satisfaction value is 76,75.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;irrelevant-conclusion-missing-the-point-ignoratio-elenchi&quot;&gt;Irrelevant conclusion/ Missing the point &lt;em&gt;(ignoratio elenchi)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;It happens when provided arguments may be valid, but do not address or relate to the issue in the discussed question.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;John is clearly an experienced manager. He has a warm family life and regularly takes part in volunteer projects.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;personal-attack-ad-hominem&quot;&gt;Personal attack &lt;em&gt;(ad hominem)&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;This is an attack on the character of a person rather than a debate about her opinions or arguments.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;It is a waste of time to discuss the claims of the procurement department about the project organization because they are all foolish quibblers.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;slippery-slope&quot;&gt;Slippery slope&lt;/h5&gt;
+&lt;p&gt;It supposes that if a certain event occurs, it will necessarily lead to a chain of small steps or future events ending in a predefined result. The starting point is equated to the outcome. In other words, if we do not want this result to occur, the initial event must be prevented.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;If psychometrics is not used in an assessment center (AC), AC results will not be valid.&lt;/em&gt; 
+(Psychometrics is reliable and suitable for some situations instrument. However, the design of an assessment center is a complex task with multiple facets that affected its validity.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;straw-man&quot;&gt;Straw Man&lt;/h5&gt;
+&lt;p&gt;This is an oversimplification of an opponent’s viewpoint and then attacks a different subject rather than the topic being discussed. The purpose of this misdirection is to make one’s position look stronger than it actually is.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Division leads who don’t support a continuous increase of the company’s well-being budget hate our employees.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;sunk-cost&quot;&gt;Sunk cost&lt;/h5&gt;
+&lt;p&gt;This fallacy describes the tendency to follow through on an endeavor if time, effort, or money have been already invested into it, regardless of whether the additional costs outweigh the potential benefits.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;We have invested $ xxx into a HRM system, but it does not fit our internal processes and the results of its implementation are far away from the planned ones. The system provider offers customization, it will cost in the range of the initial investment or slightly more. Considering already spent money, time, and effort, it makes sense to customize the system.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;testimonial-anecdotal-evidence&quot;&gt;Testimonial/ Anecdotal evidence&lt;/h5&gt;
+&lt;p&gt;It happens when a statement is made only based on personal observation, collected in a casual manner. Intentionally this fallacy is used in advertising when a respected or well-known person promotes something in an area where they lack expert knowledge.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;A famous artist recommends a bank.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;The chief accountant recommends to the chief engineer how to set up a production line.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Spotting weak points in arguments is a gained habit. It can and should be trained to be applied in communication activities. It is helpful to notice mistakes in reasoning being in a receiver position to separate the grain from the chaff. And it is even more important to check your own messages on fallacies to avoid transmitting misleading information. Logical reasoning is one of the most powerful convincing methods, however, to strengthen communication efficiency it is worth addressing the values and emotions of people besides arguments. Therefore, experienced influencers are using a diverse spectrum of instruments and methods to work with and persuade their audience.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/22-common-errors-reasoning-svetlana-ilina/?trackingId=oYspSlnyTtydt6C1YM1oDw%3D%3D&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="communication" /><category term="analysis" /><category term="logic" /><category term="fallacy" /><category term="pitfall" /><summary type="html">Efficient communication is a cornerstone of any successful project, and arguments and debates are an important part of it. Each good communication should have a call to action. In order to achieve it, the affected groups of people must experience all the stages of the commitment curve: preparation (contact, awareness), acceptance (understanding, positive perception), and commitment. Logic is a powerful tool for persuading an audience by providing valid argumentation and reasonable statements in the course of the communication process. However, not every argument or statement is solid. Some might have errors in reasoning and rhetoric and lead to incorrect conclusions. These are so-called “logical fallacies”. They indicate either illegitimate arguments or irrelevant points, and often can be identified because they lack evidence that supports their statement. They can be used intentionally to manipulate or trick an audience or can be made unwittingly by mistake. Fallacies have a lot of variations and may be present in all forms of human communication. Often they are classified by errors in the structure (a formal fallacy), and errors in the form, content, or context of the argument (an informal fallacy).</summary></entry><entry xml:lang="en"><title type="html">Critical Issues and Success Factors in HR projects: Processes</title><link href="https://blog.no-problem.cc/si/en/Processes/" rel="alternate" type="text/html" title="Critical Issues and Success Factors in HR projects: Processes" /><published>2023-04-21T00:00:00+02:00</published><updated>2023-04-21T00:00:00+02:00</updated><id>https://blog.no-problem.cc/si/en/Processes</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/Processes/">&lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;“If you can’t fly, then run. If you can’t run, then walk. If you can’t walk, then crawl. But whatever you do, you have to keep moving forward.”&lt;/em&gt;  Dr. Martin Luther King Jr.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -467,66 +619,4 @@ For example, if you need to reduce time in acquiring new knowledge and skills, t
 
 &lt;hr /&gt;
 
-&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/chart-your-development-trail-svetlana-ilina&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="learning" /><category term="development" /><category term="upskilling" /><category term="training" /><category term="certification" /><summary type="html">Today’s speed of changes and a life-tempo open for many people new development horizons. At the same time, it requires continuous learning and upskilling. If a decade ago an employee with a learning aptitude could fully rely on an employee development strategy of his/her company to keep an appropriate level of competencies and to be fit for a job, in a modern world this strategy is outdated and no longer yields outstanding results. It is time to take a leading role for personal development into your own hands. Sounds great and promising, but the necessity of making choices in a vast variety of learning and development options might hack to death this idea even for a highly motivated person.</summary></entry><entry xml:lang="en"><title type="html">Project management is HR Transformation’s best friend: a true story of one project</title><link href="https://blog.no-problem.cc/si/en/PM-and-HRtransformation/" rel="alternate" type="text/html" title="Project management is HR Transformation’s best friend: a true story of one project" /><published>2021-06-23T00:00:00+02:00</published><updated>2021-06-23T00:00:00+02:00</updated><id>https://blog.no-problem.cc/si/en/PM-and-HRtransformation</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/PM-and-HRtransformation/">&lt;p&gt;Digitalization and agility are now ways of life and speed up business transformation, which drastically affects people and their work. HR takes a leading role in workplace transformation and lends a supporting hand to business in the upskilling of companies’ workforce with the primary focus on strategic capabilities and competencies. It also hastens ongoing HR transformation processes and sharps attention on becoming more analytical, more agile, more digital, and more competent in handling challenges. At the same time, these trends nourish another global tendency — the skyrocketing importance of project management.&lt;/p&gt;
-
-&lt;p&gt;Starting from some level of tasks, project management is equally applied to traditional project-oriented fields as well as to various other functional areas. 
-&lt;img src=&quot;/si/assets/images/2021/2021-02-16.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;
-The whole bench of tasks within any functional area can be split into four major categories:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;administrative,&lt;/li&gt;
-  &lt;li&gt;operational,&lt;/li&gt;
-  &lt;li&gt;tactical,&lt;/li&gt;
-  &lt;li&gt;strategic.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As a general rule, each job consists of a combination of different tasks related to one or several levels. For successful fulfilment of administrative and operational tasks, an incumbent apparently does not need project management lore, while tasks on the remaining two levels call for at least some understanding of the project management principles and their practical usage. I would like to illustrate this statement for one of the non-project-oriented functional areas — human resources.&lt;/p&gt;
-
-&lt;p&gt;Often HR is perceived as a process-oriented, conservative, and purely supportive or administrative function within a company, which is far away from agility and project management. It might be true for some small and mid-size businesses, where strategic and partially tactical tasks related to different functional areas are concentrated in the hands of company owners, that the primary focus of their HR function is to be operational and administrative tasks like filing documents, capturing data in HRMS, preparing contracts, benefits administration (administrative); payroll, recruiting, bonus calculation, organization, and delivery of trainings (operational). However, for companies with a standing focus on diverse modern concepts and models aimed to transform the HR function and shift it to an advanced level, a set of tactical and strategic tasks increasingly occupies a significant share of an HR work-routine and project management becomes in demand. Examples of tasks in these categories can be: (re)design and implementation of HR processes, learning curriculum design, target setting (tactical); conceptualize and design of people strategy, talent management strategy, learning strategy, total reward policy (strategic).&lt;/p&gt;
-
-&lt;p&gt;In other words, HR incorporates plenty of areas where a rational application of project management principles and methods can speedup, systematize, organize, simplify a realization of HR programs and initiatives, reduce the perception-bias of the HR function as an exclusively administrative one, and provide a sustainable ground for a successful HR transformation. 
-&lt;img src=&quot;/si/assets/images/2021/2021-06-23-1.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;
-I would classify typical HR-activities where employment of project management yields tangible benefits as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;responsive projects;&lt;/li&gt;
-  &lt;li&gt;value-add projects;&lt;/li&gt;
-  &lt;li&gt;digitalization;&lt;/li&gt;
-  &lt;li&gt;any combination of these categories.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Responsive projects&lt;/strong&gt; are reactions of the HR function to a business strategy of a company, aimed to support achievements of concrete business targets. For example, if a company’s strategic business goal is an expansion to new market segments, a reflection of it on the HR side most probably will be programs and projects in the following areas:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;competency management (assessment of competencies within a company, defining gaps between available and future required knowledge/ skills/ competencies, defining development and recruitment strategies to close these gaps, etc.),&lt;/li&gt;
-  &lt;li&gt;learning and development (whom and how to develop and upskill),&lt;/li&gt;
-  &lt;li&gt;recruiting (whom and how to attract, select and integrate),&lt;/li&gt;
-  &lt;li&gt;audit of internal processes and infrastructure to define and estimate needs to scale/ optimize/ rebuild/ automate existing HR processes and set up new ones, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Value-add projects&lt;/strong&gt; are proactive mind-changing initiatives suggested and driven by HR, which are derived from and tightly linked to the vision of a company and aimed to create an internal working environment and a corporate culture in the ‘things to grow’-mode. Often this category of projects lays in the areas of employee experience, agile learning organization, leadership development, employee engagement, change management, and others. These projects require mid- and long-term focus and commitment of a company’s top management, significant investments, and a standing revision of HR processes. Sometimes it is difficult to justify the return-on-investment (ROI) for these projects, and their share in a company project portfolio is always a topic for discussion. Significant internal and/or external changes of business environments regularly make a stress-test for businesses. However, a company, that pays enough attention to value-added HR projects, has higher chances to surmount obstacles and to catch opportunities. The current worldwide stress-test called COVID-19 clearly demonstrates that companies started to pay attention to and invest in value-add HR projects before this pandemic, dispose now of better-prepared HR processes, employees, managers, and corporate culture to face and overcome the challenges.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Digitalization&lt;/strong&gt; is another category mostly dealing with the automation of HR processes. These projects are often derived from responsive and value-add ones. For the technical part of them, the HR function is to act as a project owner to ensure a proper bridge between the HR and IT sides. Digitalization always embodies some changes, and as a consequence, some resistance is likely to pop up. Therefore, the importance of a non-technical side of a project should not be underestimated. HR has a driver’s seat for it and usually extends this role to all digitalization projects in a company.&lt;/p&gt;
-
-&lt;p&gt;Because of the interconnectivity of all people-related topics within an organization, usually it is difficult to separate these categories one from another. In practice, a strategic impetus from the top expands to a variety of sub-projects and mind-changing initiatives covering all types of HR projects. To illustrate this, I would like to share a true story of how one responsive project had opened the doors to multiple value-add and digitalization HR projects and laid the first bricks into a successful HR transformation in a company.&lt;/p&gt;
-
-&lt;p&gt;Once upon a time, I joined a country-based HR department of a huge international corporation. From year to year, the business volume of our country had steady minor growth, but it was not enough to overcome the internal label of a “small country” on the global business landscape of the corporation. From a headcount perspective, the situation was similar: our 600 employees were just a drop in the corporate ocean. Our HR department was mainly concentrated on operational and administrative tasks to support immediate business needs. At the same time, we were included in the global HR communication streams, had good connections with colleagues in other countries, and were aware of new trends and methods recommended by HQ HR to be applied in regional companies. Our attempts to discuss and agree upon required changes in working methods with the country management usually faced a polite ignorance and HR business partnering has been standing shelved for better times.&lt;/p&gt;
-
-&lt;p&gt;The situation has changed overnight: during regular monitoring of market tendencies and potentials in countries HQ has concluded that our region had a potential for booming growths in different industrial segments. As a result, our business has been challenged to triple its volume in two years, which would allow our regional company to enter a higher corporation-league. One of the required actions to ensure successful achievement of this target was a task to HR: “double a company staff in two years”. This was a typical example of a responsive HR project: time-boxed activities to create a unique result as a response to a business initiative. To meet objectives, it was required to set up a lot of new processes, implement supportive tools, arrange proper in-time communication, and coordinate interconnected activities with other areas.&lt;/p&gt;
-
-&lt;p&gt;My opening task as a project manager was a thoroughly planned and organized kick-off to agree with stakeholders on the “rules of the game”: goals, scope, deliverables, phases, milestones, quality control measures, resources, budget, communication, and procedures, i.e. escalation, change requests, etc. Starting from the announcement of this project HR was in a “catching up mode” and my project team ran behind the train of business transformation, trying to catch on to the last carriage. At the beginning of the project, time was one of the most critical resources with a zero reserve. Initially, I planned to keep the corporate standards for industrial projects and to follow the waterfall approach. However, the first precise planning session and an attempt to elaborate a workable decomposition of tasks and a project schedule revealed a lot of uncertainty and volatility in some critical project phases. It was dangerous conditions for a project that completely followed the predictive approach and with an ultimate shortage of time. After presenting a risk analysis to the project sponsor and key stakeholders, my change request was approved, and I could change the standard approach to a hybrid one. I’ve reorganized the project into a main operational recruiting stream and sub-projects: for some of them the waterfall approach was reasonably applied, for the rest adaptive approaches were deployed.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/si/assets/images/2021/2021-06-23-2.png&quot; alt=&quot;&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the most essential sub-projects was an implementation of an E-recruiting system. Its successful in-time completion allowed the project team to catch the train and to start moving between carriages of the business transformation. Five years later, lessons learned from this digitalization helped us tremendously during the launch of SuccessFactors. Another sub-project was tightly linked to the “Attract”-phase of the recruiting process. Employer branding activities, university liaison, and a referral program were parts of this sub-project, and they were pilots for setting up channels for regular HR communication to employees and candidates.&lt;/p&gt;
-
-&lt;p&gt;A sub-project related to the “Select”-phase of the recruiting process besides some initially planned activities, like to train interview skills of HR and hiring managers, has been extended to different candidates’ assessment tools. This extension later served as a basis for an HR value-add project devoted to the validation of talents.&lt;/p&gt;
-
-&lt;p&gt;It is worth mentioning another sub-project: strategic workforce planning. It was not initially included in the project scope, however, in the second year of the project realization, it turned crystal clear, that without accurate strategic workforce planning and its bridge to budget planning on the level of business units, the quality targets of new hires could not be hit. The moment, when a business has followed this HR initiative, was a signal that our HR was not far away from the locomotive and sometimes could proactively influence business. Besides the planning and budgeting processes on the business side, strategic workforce planning has deep connectivity to HR areas: competency management, talent management, and succession planning. Some years later, several value-add projects derived from the competency management area employed these results and brought the personnel planning process in the company to the next level.&lt;/p&gt;
-
-&lt;p&gt;And last, but not least, was a sub-project related to the “Integrate”-phase of the recruiting process. It was the only one, which initial scope has not been significantly changed during the project realization. Nevertheless, some outcomes of this sub-project served as an impetus for other value-add HR projects like an employee engagement survey.&lt;/p&gt;
-
-&lt;p&gt;Due to employed from the project management methodology proper monitoring, a consequential realization of phases and sub-projects with a standing focus on a “big picture”, lessons learned, risk analysis and quality control, as well as the immediate implementation of corrective actions, allowed my team to hit in-time operational recruiting targets and to complete the project with well-turned, easily manageable and scalable recruiting processes, an effectively tailored E-recruiting system, and a recognition as a partner from hiring managers. Additionally, the successful project realization had plenty of positive side-effects for our local HR organization. It turned out that involved hiring managers were a critical mass of middle and line managers, who started to spread their partner attitude to other HR areas. Before it was one of the missing elements for the HR function to be recognized as a trusted business partner. This noticeable change of attitude encourages our HR department to foster activities on the internal brand of HR, change of the company’s culture, deeper collaboration with business by offering various value-add HR projects and delivering results, and step by step moving in the directions of the strategic HR business partnering and HR transformation.&lt;/p&gt;
-
-&lt;p&gt;Looking back and analyzing factors that supported successful realizations of this and further HR projects in our regional company, the key role should be attributed to project management. Within a well-established corporate project management culture on the business side, its adoption and utilization on the HR side showed up as a “magic pill” or the shortest way to find a common language and speedup the trustful partnership with business at all organizational levels, and to ensure a noticeable move into the desired transformation of the HR function.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Read this article on &lt;a href=&quot;https://medium.com/@ilina.svetlana.j/project-management-is-hr-transformations-best-friend-a-true-story-of-one-project-8b6ee584fb51&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="hr-project" /><category term="hr-transformation" /><category term="digitalisation" /><category term="case-study" /><category term="project-management" /><category term="execution" /><summary type="html">Digitalization and agility are now ways of life and speed up business transformation, which drastically affects people and their work. HR takes a leading role in workplace transformation and lends a supporting hand to business in the upskilling of companies’ workforce with the primary focus on strategic capabilities and competencies. It also hastens ongoing HR transformation processes and sharps attention on becoming more analytical, more agile, more digital, and more competent in handling challenges. At the same time, these trends nourish another global tendency — the skyrocketing importance of project management.</summary></entry></feed>
+&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/chart-your-development-trail-svetlana-ilina&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="learning" /><category term="development" /><category term="upskilling" /><category term="training" /><category term="certification" /><summary type="html">Today’s speed of changes and a life-tempo open for many people new development horizons. At the same time, it requires continuous learning and upskilling. If a decade ago an employee with a learning aptitude could fully rely on an employee development strategy of his/her company to keep an appropriate level of competencies and to be fit for a job, in a modern world this strategy is outdated and no longer yields outstanding results. It is time to take a leading role for personal development into your own hands. Sounds great and promising, but the necessity of making choices in a vast variety of learning and development options might hack to death this idea even for a highly motivated person.</summary></entry></feed>

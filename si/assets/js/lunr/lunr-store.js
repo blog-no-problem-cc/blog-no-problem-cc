@@ -82,4 +82,10 @@ var store = [{
         "tags": ["BANI","VUCA","hr-project","processes","risk","success-factor","project-management","pitfall","initiation","execution"],
         "url": "https://blog.no-problem.cc/si/en/Processes/",
         "teaser": null
+      },{
+        "title": "22 Common Errors in Reasoning",
+        "excerpt":"Efficient communication is a cornerstone of any successful project, and arguments and debates are an important part of it. Each good communication should have a call to action. In order to achieve it, the affected groups of people must experience all the stages of the commitment curve: preparation (contact, awareness),...","categories": ["en"],
+        "tags": ["communication","analysis","logic","fallacy","pitfall"],
+        "url": "https://blog.no-problem.cc/si/en/logical-fallacies/",
+        "teaser": null
       }]
