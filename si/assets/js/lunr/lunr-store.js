@@ -47,7 +47,7 @@ var store = [{
         "url": "https://blog.no-problem.cc/si/en/project-complexity/",
         "teaser": null
       },{
-        "title": "Motivation Pulse-Check: a fancy instrument or a call for action tool",
+        "title": "Motivation Pulse-Check:<br>a fancy instrument or a call for action tool",
         "excerpt":"Within the last decade, employee engagement and motivation have an undeniable impact on any human-related activities within an organization. It hastens the growth of a new market niche and an appearance of new players besides big reputed analytical and consulting companies. The pandemic challenged the tiptoeing around employee engagement and...","categories": ["en"],
         "tags": ["analysis","case-study","motivation","tool"],
         "url": "https://blog.no-problem.cc/si/en/pulse-check/",
@@ -65,13 +65,13 @@ var store = [{
         "url": "https://blog.no-problem.cc/si/en/Five-steps/",
         "teaser": null
       },{
-        "title": "The \"onion syndrome\" in projects: 7&nbsp;practical tips to nip it in the bud",
+        "title": "The \"onion syndrome\" in projects:<br>7&nbsp;practical tips to nip it in the bud",
         "excerpt":"“The art of life is a constant readjustment to our surroundings.” Okakura Kakuzo Imagine or recall a case when an additional project pops up in your work. A brief screening shows that probably it won’t be too complicated despite a lot of minor differences from what you have done before....","categories": ["en"],
         "tags": ["stakeholder","processes","project-management","execution","onion-syndrome","vision","constraints","motivation","competency","commitment","team"],
         "url": "https://blog.no-problem.cc/si/en/Onion-syndrome/",
         "teaser": null
       },{
-        "title": "Transformation of HR Processes: from&nbsp;chaos to ecosystem",
+        "title": "Transformation of HR Processes:<br>from&nbsp;chaos to ecosystem",
         "excerpt":"According to Wikipedia, a process “is a series or set of activities that interact to produce a result; it may occur once-only or be recurrent or periodic“. These activities are to be decomposed into some number of steps, sequenced in a specific order, and performed for a purpose. In a...","categories": ["en"],
         "tags": ["digitalisation","hr-transformation","processes"],
         "url": "https://blog.no-problem.cc/si/en/Maturity-of-processes/",
@@ -87,5 +87,11 @@ var store = [{
         "excerpt":"Efficient communication is a cornerstone of any successful project, and arguments and debates are an important part of it. Each good communication should have a call to action. In order to achieve it, the affected groups of people must experience all the stages of the commitment curve: preparation (contact, awareness),...","categories": ["en"],
         "tags": ["communication","analysis","logic","fallacy","pitfall"],
         "url": "https://blog.no-problem.cc/si/en/logical-fallacies/",
+        "teaser": null
+      },{
+        "title": "An inability to reach an agreement:<br> is it always a conflict?",
+        "excerpt":"Conflicts are part of any organization. Some of them have a destructive nature that ruins a productive working climate. Others are essential elements to synchronize different points of view during problem-solving that drive a team towards common targets. Usually several parties are involved in a conflict and it has a...","categories": ["en"],
+        "tags": ["case-study","communication","conflict","culture","fallacy","paradox","team"],
+        "url": "https://blog.no-problem.cc/si/en/Abilene-paradox/",
         "teaser": null
       }]
