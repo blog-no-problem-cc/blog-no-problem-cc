@@ -94,4 +94,10 @@ var store = [{
         "tags": ["case-study","communication","conflict","culture","fallacy","paradox","team"],
         "url": "https://blog.no-problem.cc/si/en/Abilene-paradox/",
         "teaser": null
+      },{
+        "title": "Effective problem solving",
+        "excerpt":"“One should never impose one’s views on a problem; one should rather study it, and in time a solution will reveal itself.” Albert Einstein Every day there are plenty of situations in which we confront problems, challenges, and routine choices when we want something and do not know immediately what...","categories": ["en"],
+        "tags": ["analysis","problem-solving","solution","problem","logic","PDCA","FMEA","DMAIC","DMADV","4Cs"],
+        "url": "https://blog.no-problem.cc/si/en/Effective-problem-solving/",
+        "teaser": null
       }]
