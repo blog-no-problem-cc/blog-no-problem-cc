@@ -100,4 +100,10 @@ var store = [{
         "tags": ["analysis","problem-solving","solution","problem","logic","thinking","root-cause","method"],
         "url": "https://blog.no-problem.cc/si/en/Effective-problem-solving/",
         "teaser": null
+      },{
+        "title": "In pursuit of the root cause",
+        "excerpt":"Your organization has lost a tender again. A chief engineer left a company on short notice. A number of defective products exceeded the day limit. Projects perennially fail to meet planned time and budget targets. You’ve received a reclamation from one of your customers… Sounds familiar? The list of situations...","categories": ["en"],
+        "tags": ["analysis","problem","problem-solving","root-cause","method","tool"],
+        "url": "https://blog.no-problem.cc/si/en/RCA-qualitative-methods/",
+        "teaser": null
       }]

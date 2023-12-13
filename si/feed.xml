@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/si/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-01T14:49:08+01:00</updated><id>https://blog.no-problem.cc/si/feed.xml</id><title type="html">agile people management</title><subtitle>A miscellany of real stories, ideas and thoughts about people management, project management and their interconnection in the fields of corporate human resources, digitalization, organizational and change management</subtitle><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><entry xml:lang="en"><title type="html">Effective problem solving</title><link href="https://blog.no-problem.cc/si/en/Effective-problem-solving/" rel="alternate" type="text/html" title="Effective problem solving" /><published>2023-11-17T00:00:00+01:00</published><updated>2023-11-17T00:00:00+01:00</updated><id>https://blog.no-problem.cc/si/en/Effective-problem-solving</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/Effective-problem-solving/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/si/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-13T15:13:15+01:00</updated><id>https://blog.no-problem.cc/si/feed.xml</id><title type="html">agile people management</title><subtitle>A miscellany of real stories, ideas and thoughts about people management, project management and their interconnection in the fields of corporate human resources, digitalization, organizational and change management</subtitle><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><entry xml:lang="en"><title type="html">In pursuit of the root cause</title><link href="https://blog.no-problem.cc/si/en/RCA-qualitative-methods/" rel="alternate" type="text/html" title="In pursuit of the root cause" /><published>2023-12-12T00:00:00+01:00</published><updated>2023-12-12T00:00:00+01:00</updated><id>https://blog.no-problem.cc/si/en/RCA-qualitative-methods</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/RCA-qualitative-methods/">&lt;p&gt;Your organization has lost a tender again. A chief engineer left a company on short notice. A number of defective products exceeded the day limit. Projects perennially fail to meet planned time and budget targets. You’ve received a reclamation from one of your customers… Sounds familiar?&lt;/p&gt;
+
+&lt;p&gt;The list of situations when the result differs from the desired performance can be easily extended. Some of these issues require known actions to level out immediate negative effects on business, others should be carefully investigated and analyzed to come up with a suitable solution. At the same time, there is an important similarity in such problems — all of them usually have a cause or a set of causes that procure a deviation of an outcome from the wanted one.&lt;/p&gt;
+
+&lt;p&gt;Finding the causes of the issue is a challenging task. However, its successful accomplishment makes it easier to identify solutions during the &lt;a href=&quot;/si/en/Effective-problem-solving/&quot; target=&quot;_blank&quot;&gt;problem-solving&lt;/a&gt; process. There is a vast array of methods, tools, and techniques that aim to uncover the causes of problems. They are combined under the common term “&lt;strong&gt;root cause analysis&lt;/strong&gt;” (RCA). Some of them are more general, others are dedicated to specific situations and require a deep understanding of a method and its application area from a problem-solver. Besides the identification of possible causes, RCA tools allow the definition of actions to fix the issue or to prevent it from occurring.&lt;/p&gt;
+
+&lt;p&gt;The big domain of qualitative methods can be used as starters during brainstorming sessions and aid in pinpointing issues and formulating the principal problem. Four of them are described below.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-5-whys&quot;&gt;The 5 Whys&lt;/h3&gt;
+
+&lt;p&gt;This is a rapid and simple technique to identify causes through the exploration of direct cause-and-effect relationships. It was originally developed and applied by the Toyota Motor Corporation. Today, it is a part of standard problem-solving techniques used by Kaizen, Lean, and Six Sigma professionals. The primary goal of this method is to determine the root cause of a problem by five times repeating the increasingly granular “Why?”-question about a problem or process. In most cases, the answer to the fifth “Why?” is the root cause. Sometimes the questioning requires the next Why-iterations to get to the root cause. To perform this analysis, it is necessary to see a problem, obtain the facts, and grasp the situation’s details. A hypothetical application scenario can be the following:
+&lt;img src=&quot;/si/assets/images/models/RCA-5whys.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Problem: &lt;strong&gt;Reclamations from customers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Q1: Why do customers write reclamations?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Because customers are not satisfied with services. Other options: quality of products, project delays, or another fact mentioned in reclamations.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Q2: Why are customers unhappy with our service?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Because customers have to repeat their issue from the very beginning after each call handover from one operator to another. Other options: long waiting time on the line, unclear instructions from an operator of a call center, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Q3: Why do operators not capture inquiry details?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Because it is written in their instructions that only the inquiry topic must be specified in the tracking system. Other options: inquiry details is not a mandatory field to capture, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Q4: Why is it not mentioned in the instructions that inquiry details have to be captured in the system as well?&lt;/em&gt;
+A: Because there is no dedicated field for it in the system. Other options: to capture details will increase the average time per call, operators are not incentivized by quality of calls, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Q5: Why is the tracking system designed this way?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A: (this answer is to be the root cause of the problem)&lt;/p&gt;
+
+&lt;p&gt;It can be clearly seen that the result of this analysis highly depends on the knowledge base of a problem-solver, his ability to avoid &lt;a href=&quot;/si/en/logical-fallacies/&quot; target=&quot;_blank&quot;&gt;reasoning fallacies&lt;/a&gt;  and dig to the root cause, rather than symptoms. Obviously, different people using it may come up with different causes for the same issue. Therefore, the outcome should be validated. Nevertheless, the 5 Whys is a great brainstorming instrument to seek causes and can be effectively combined with other RCA tools.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-fishbone-diagram&quot;&gt;The fishbone diagram&lt;/h3&gt;
+
+&lt;p&gt;The cause-effect diagram, the fishbone diagram, and the Ishikawa diagram are the titles of the same tool. It is based on the principle of simple causality and aims to identify possible causes of an issue. Using this method during brainstorming sessions encourages team members to generate ideas about likely problem causes and organize them in a systematic manner. To give an impetus to analysis and make collaboration more productive, information is usually grouped into the following categories:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;People&lt;/strong&gt;/ Manpower — causes induced by anyone who carries out or interacts with different aspects of an issue.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Methods&lt;/strong&gt;/ Procedures — the way things are done, whether by written documents or unwritten rules.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Machines&lt;/strong&gt;/ Technology — causes summoned by equipment and specifics of applied technologies.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Measurement&lt;/strong&gt;/ Medium — matters caused by improper or poorly chosen measurement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Materials&lt;/strong&gt;/ Information — causes that appeared because of defects in raw materials or wrong inputs into processes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Environment&lt;/strong&gt; is the immediate area surrounding the problem, like humidity, temperature, and other essential physical factors or culture, working climate, and so on.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Management&lt;/strong&gt; — causes produced by poor leadership and management mistakes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maintenance&lt;/strong&gt; — issues caused by inappropriate maintenance.
+&lt;img src=&quot;/si/assets/images/models/RCA-Ishikawa.png&quot; alt=&quot;&quot; width=&quot;160%&quot; style=&quot;float:center&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The fishbone diagram originates from the quality domain in a manufacturing environment. In lean production, the &lt;strong&gt;5Ms&lt;/strong&gt; (Manpower, Machines, Methods, Materials, Measurement) is one of the most utilized frameworks for root-cause analysis. The great adaptivity of this method allows a problem-solver to use it in other organizational areas by expanding or shrinking the number of categories and tuning their meanings to fit the specifics of a business field. The process of creating the diagram includes the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;On a whiteboard (physical or one in a collaboration tool) sketch a basic fishbone shape and write a summarized version of the defined problem where the fish’s head should be.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define major categories and their headings. Try to reduce overlap between categories. Draw a fish spine and connectors. Label each connector.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Explain categories to the team, brainstorm suggestions, and distribute them into the categories. Suggestions that fit to more than one category are to be duplicated and placed on the respective branches. It is helpful to write ideas on sticky notes (physical or virtual ones) to be flexible in rearranging them across the fish skeleton.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To ensure the detailed examination of the problem, use &lt;strong&gt;the 5 Whys&lt;/strong&gt; technique for each category of the diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Review the outcome, discuss ideas: placement on the branches, priority, and the probability of being a cause, and make required corrections in the diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Assess the branches that have the biggest impact and circle options that are likely to be root causes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Plan further investigations of the marked causes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This method is commonly applied in a reactive modus to trace the root cause(s) of the existing problem. It can be also used as a valuable add-on for product design to analyze trends and prevent potential pitfalls.&lt;/p&gt;
+
+&lt;h3 id=&quot;barrier-analysis&quot;&gt;Barrier analysis&lt;/h3&gt;
+
+&lt;p&gt;This method has a dual purpose: to understand why a problem happened and how to prevent it. Barrier analysis is derived from and commonly applied in health and safety management to reduce workplace injuries. It may also be used for other areas where risk analysis and prevention play an essential role. This is a relatively simple technique that does not require a lot of resources for successful completion. If a problem-solver has a deep understanding of an issue and its environment, the analysis can be performed solo, otherwise, team brainstorming is a better option.&lt;/p&gt;
+
+&lt;p&gt;The three key elements of barrier analysis are the target, the hazard, and the barrier. Therefore, this method is also known as Target-Hazard-Barrier analysis.
+&lt;img src=&quot;/si/assets/images/models/RCA-barrier-analysis.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The target&lt;/strong&gt; is something that is being selected to be fulfilled or protected (a person performing a job, quality of a product, outcome of a project, etc.). It needs to be maintained under a set of specific requirements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A hazard&lt;/strong&gt; is a way to harm the target or a cause that hurts it. Hazards are derived from various categories associated with the workplace (safety, physical, ergonomic, psychological, etc.), business risks (strategic, regulatory, financial, operational, reputational, etc.), or other threats concerning the target.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A barrier&lt;/strong&gt; prevents a negative effect from occurring and provides control over the hazard. Effectiveness of protection has a lot of variations and depends on types, design, and amount of barriers, the chosen solutions to prevent the problem, defined standards and industry best practices, lessons learned from previous incidents, and so on. A single barrier provides one layer of protection for the target, which is taken as a physical, procedural, or individual action. Sometimes, there is a need for multiple layers to defend against failure.&lt;/p&gt;
+
+&lt;p&gt;The reliability of this method can be significantly increased by combining it with other RCA techniques.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-questioning-method-5w2h&quot;&gt;The questioning method (5W2H)&lt;/h3&gt;
+
+&lt;p&gt;It is another efficient brainstorming technique to start problem diagnostics and draft directions for further analyses. The questioning method comprises the three main stages:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Description of the initial issue.&lt;/li&gt;
+  &lt;li&gt;Separation of the principal problem from the secondary ones.&lt;/li&gt;
+  &lt;li&gt;Suggestions on countermeasures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The iteratively applied tool allows decomposition of an issue and collects precise problems’ descriptions. Systematic questioning addresses a challenge from different angles, intending to reveal the causes. To use this method, the following questions should be answered:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;What&lt;/em&gt; (problem description)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Who&lt;/em&gt; (involved stakeholders)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Where&lt;/em&gt; (the place/ process)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;When&lt;/em&gt; (the moment, the duration, and the frequency)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;How&lt;/em&gt; (the methods and the manners)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;How many&lt;/em&gt; (the means, the equipment, and the material)?&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Why&lt;/em&gt; (the reasons, the causes, and the objectives)?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is no strict order to answer the questions. If a team cannot provide a specific response for one inquiry, it can be skipped and the next question should be addressed. As the principal problem and its environment become clearer, visibility of other answers grows. To spot details on a granular level, some questions should be repeated in incremental series with a focus on possible solutions.&lt;/p&gt;
+
+&lt;p&gt;The simplicity of this method ensures that a facilitator can use general problem-solving skills to guide a brainstorming. Besides defining, analyzing, and mapping a problem the 5W2H is widely used for conflict resolutions, during project planning sessions, and different types of prospecting.&lt;/p&gt;
+
+&lt;p&gt;The landscape of qualitative methods is not bounded by the techniques described above. It is continuously developed and enriched by novel approaches and complementary tools. To properly assess and validate findings and strengthen the results of root cause analysis, different techniques should be combined and supplemented by quantitative methods.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Read this article on &lt;a href=&quot;https://svetlana-ilina.medium.com&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="analysis" /><category term="problem" /><category term="problem-solving" /><category term="root-cause" /><category term="method" /><category term="tool" /><summary type="html">Your organization has lost a tender again. A chief engineer left a company on short notice. A number of defective products exceeded the day limit. Projects perennially fail to meet planned time and budget targets. You’ve received a reclamation from one of your customers… Sounds familiar?</summary></entry><entry xml:lang="en"><title type="html">Effective problem solving</title><link href="https://blog.no-problem.cc/si/en/Effective-problem-solving/" rel="alternate" type="text/html" title="Effective problem solving" /><published>2023-11-17T00:00:00+01:00</published><updated>2023-11-17T00:00:00+01:00</updated><id>https://blog.no-problem.cc/si/en/Effective-problem-solving</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/Effective-problem-solving/">&lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;“One should never impose one’s views on a problem; one should rather study it, and in time a solution will reveal itself.”&lt;/em&gt;  Albert Einstein&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -539,35 +661,4 @@ In most cases, the provider operates in or close to the “ideal” quadrant of 
 
 &lt;hr /&gt;
 
-&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/motivation-pulse-check-fancy-instrument-call-action-tool-ilina&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="analysis" /><category term="case-study" /><category term="motivation" /><category term="tool" /><summary type="html">Within the last decade, employee engagement and motivation have an undeniable impact on any human-related activities within an organization. It hastens the growth of a new market niche and an appearance of new players besides big reputed analytical and consulting companies. The pandemic challenged the tiptoeing around employee engagement and set an ardent trend of a permanent motivation pulse-check. The boom of pulse-checks offered by a variety of providers or designed internally entails that a lot of companies entwine this instrument with their regular HR-toolbox.</summary></entry><entry xml:lang="en"><title type="html">Project complexity or how to compare apples and oranges</title><link href="https://blog.no-problem.cc/si/en/project-complexity/" rel="alternate" type="text/html" title="Project complexity or how to compare apples and oranges" /><published>2022-04-04T00:00:00+02:00</published><updated>2022-04-04T00:00:00+02:00</updated><id>https://blog.no-problem.cc/si/en/project-complexity</id><content type="html" xml:base="https://blog.no-problem.cc/si/en/project-complexity/">&lt;p&gt;Nowadays the word ‘project’ is one the most popular and trendy terms. There is a tendency to project everything: from a minor life phase to conquering galaxies. I’m not going to dig into details of misusing the term ‘project’ and ‘project management’ activities associated with it. I would rather stick to the classical project definition and make an attempt to find a way of comparing projects belonging to diverse application areas.&lt;/p&gt;
-
-&lt;p&gt;The skyrocketing development of technologies boosts new business segments and secures the importance of project management for a dozen years ahead. A project is a temporary entity aimed to deliver a product, a service, or a result according to a specific business case. It is not an operational activity and has inherent characteristics, which distinguish it from day-to-day business. Each project is unique, lies at the intersection of the three interdependent targets: time, budget, and result(s), and always possesses a risk of not achieving some or all of these targets. It requires a special team or even a project organization to ensure proper management and the desired outcome. And last, but not least: a project has complexity.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-actually-project-complexity&quot;&gt;What is actually project complexity?&lt;/h3&gt;
-
-&lt;p&gt;There are different dimensions affecting the complexity of a project. For example, budget, duration, the intricacy of applied technologies, controllability of key stakeholders, difficulty in handling involved groups with specific clout (contractors, authorities, etc.), the existence of high political risks, and many others, which can be derived from the PESTLE or other comparable analysis techniques.&lt;/p&gt;
-
-&lt;p&gt;There are no unambiguous dimensions for complexity, which are valid for all projects. In practice, each company selects appropriate dimensions and sets its own parameters to complexity to differentiate its projects. Project budget is the most commonly used characteristic of project complexity. For a homogeneous project portfolio, this one-dimension differentiator totally makes sense and works perfectly. However, for a portfolio, which embraces diverse projects from a variety of industries, adhesion to one dimension of complexity will likely lead to a comparison of apples and oranges. It is not an easy task to define complexity by setting practical parameters of comparison for a diversified group of projects. Obviously, several dimensions should be used to emphasize core differences, risks, or critical factors for these projects. Depending on a company’s internal standards a presentation of complexity for heterogeneous projects can be visualized by charts and diagrams, categorized by weighted characteristics, or other approaches might be used to support an illustration of the selected data sets.&lt;/p&gt;
-
-&lt;h3 id=&quot;comparison-of-diverse-projects&quot;&gt;Comparison of diverse projects&lt;/h3&gt;
-
-&lt;p&gt;The nature of any project is its uniqueness. For R&amp;amp;D projects this statement has apparent validity, in other fields project originality assumes a unique combination of phases and features suitable for the specific case. To provide one of the possible ways of comparing totally different projects, I’d like to demonstrate some real-world projects as an example.&lt;/p&gt;
-
-&lt;p&gt;A small company with top technical expertise in some niche areas, that designs its own high-tech products and develops exclusive solutions for customers’ projects, has taken a development project for a very specific business case. The project is to be based on one of the emerging technologies. There is no evidence or reference suggesting that the selected technology has ever been applied to similar tasks. However, some key stakeholders on the customer side are excited about this project because its successful results integrated into their own products might give their company a drastic competitive advantage. The estimated project duration is 12-18 months, the planned budget is 0,5 million Euro.&lt;/p&gt;
-
-&lt;p&gt;A huge international company with branches in more than 20 countries decides to implement a modern cloud-based recruiting system. This new corporate solution has to replace all local recruiting systems, must be integrated with other HR tools, and is to fully comply with corporate IT policies. Its implementation most probably entails significant changes in corporate and local HR processes. At the same time, a unified solution is to yield a significant cost-saving effect in the future. The project has received support from the company’s top management. The planned project duration is about one year, the estimated budget is around one million Euro.&lt;/p&gt;
-
-&lt;p&gt;A medium-sized company, that actively cooperates with a lot of contractors good at specific parts of construction work, manages a project to build a small tunnel in a mountain. The tunnel will help to reduce transit traffic intensity in the nearest city. At the same time, this mountain area is inhabited by species whose wellbeing during the construction phase might raise concerns among local environmentalists. The estimated project budget is more than ten million Euro, the estimated duration is 18 months.&lt;/p&gt;
-
-&lt;p&gt;To visualize a possible comparison of the above-mentioned projects I decided to use a well-known bubble chart, which is a common illustrative tool for a data set with two to four dimensions. The first two dimensions are presented as coordinates, the third as bubble-size, and the fourth as color. The beauty of this chart is that depending on your need and available data it is possible to use a two-dimensional picture or extends it to a three- or even four-dimensional presentation of data without sacrificing readability.
-&lt;img src=&quot;/si/assets/images/2022/2022-04-04-bubble-chart.png&quot; alt=&quot;&quot; width=&quot;60%&quot; style=&quot;float:right; padding:16px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve selected the following dimensions: budget, technology, and stakeholder. From my point of view, these parameters have eye-catching differences for these projects and can be placed as coordinates and bubble-size to visualize the distinctions. Owing to the availability of quantitative data about the budgets, it is possible to use a discrete numerical scale for this dimension, while some ordinal scales should be applied to the rest. For the fourth dimension I’ve used an estimated probability of the risk, that the project outcome won’t reach one or more targets (results, budget, time), and the simple ordinal scale (low-medium-high) for color-coding.&lt;/p&gt;
-
-&lt;p&gt;These differentiators were chosen based on available project pitches and for illustrative purposes only. The more project details are available, the richer the field of possible dimensions, parameters, scales, and comparison methods becomes. However, before starting a selection of suitable characteristics you should have a clear vision of what you would like to get as a result keeping the intended application in mind. It will help a lot to reduce overdoing and waste of effort during this exciting exercise.&lt;/p&gt;
-
-&lt;p&gt;In dealing with diverse projects the reasonable usage of multi-dimensional criteria to highlight project complexity serves as a helpful instrument to get a targeted snapshot of projects’ overview, to monitor and keep a project portfolio balance, and can support in ‘go/ no go’ decision making about new projects.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/project-complexity-how-compare-apples-oranges-svetlana-ilina&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="analysis" /><category term="case-study" /><category term="project-management" /><summary type="html">Nowadays the word ‘project’ is one the most popular and trendy terms. There is a tendency to project everything: from a minor life phase to conquering galaxies. I’m not going to dig into details of misusing the term ‘project’ and ‘project management’ activities associated with it. I would rather stick to the classical project definition and make an attempt to find a way of comparing projects belonging to diverse application areas.</summary></entry></feed>
+&lt;p&gt;Read this article on &lt;a href=&quot;https://www.linkedin.com/pulse/motivation-pulse-check-fancy-instrument-call-action-tool-ilina&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Svetlana ILINA</name><email>blog+si@no-problem.cc</email></author><category term="en" /><category term="analysis" /><category term="case-study" /><category term="motivation" /><category term="tool" /><summary type="html">Within the last decade, employee engagement and motivation have an undeniable impact on any human-related activities within an organization. It hastens the growth of a new market niche and an appearance of new players besides big reputed analytical and consulting companies. The pandemic challenged the tiptoeing around employee engagement and set an ardent trend of a permanent motivation pulse-check. The boom of pulse-checks offered by a variety of providers or designed internally entails that a lot of companies entwine this instrument with their regular HR-toolbox.</summary></entry></feed>
