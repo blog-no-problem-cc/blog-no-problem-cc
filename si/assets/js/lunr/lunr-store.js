@@ -106,4 +106,10 @@ var store = [{
         "tags": ["analysis","problem","problem-solving","root-cause","method","tool"],
         "url": "https://blog.no-problem.cc/si/en/RCA-qualitative-methods/",
         "teaser": null
+      },{
+        "title": "Continue the hunt for the root cause",
+        "excerpt":"Finding the root cause is not a trivial task. Often, seemingly obvious causes of a problem lay far away from the most essential one. The plentiful cluster of qualitative methods for root cause analysis can help a problem-solver identify possible reasons why a poser might happen. Another powerful cluster of...","categories": ["en"],
+        "tags": ["analysis","problem","problem-solving","root-cause","method","tool","statistics","Pareto"],
+        "url": "https://blog.no-problem.cc/si/en/RCA-quantitative-methods/",
+        "teaser": null
       }]
