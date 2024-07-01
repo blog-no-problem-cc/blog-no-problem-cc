@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-06-30T02:13:53+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-01T22:01:41+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">A Lesson I’m starting to appreciate three decades later</title><link href="https://blog.no-problem.cc/ak/en/thank-you-bob/" rel="alternate" type="text/html" title="A Lesson I’m starting to appreciate three decades later" /><published>2024-06-29T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/thank-you-bob</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/thank-you-bob/">&lt;p&gt;A meaningful career in engineering disciplines demands an eternal
+learning and the most important lessons are taught not by teachers and
+professors in classrooms and universities, but by people we meet.  And
+rather often, we do not immediately realize what the lesson is or how
+important it could be.&lt;/p&gt;
+
+&lt;p&gt;A long time ago in a company far, far away (almost 30 years,
+Albuquerque, NM, to be precise) I started my career as a hardware
+design engineer graduated a mere year or two prior.
+Τύχη (Tyche), who has shown me her
+kindness many times since then, started early — the company’s senior
+hardware design engineer was a legend and an enigmatic figure.
+Robert (Bob) R. was a chain-smoker with a heavy southern accent, so I could
+barely understand half of his sparse phrases on a good day. He never
+rephrased, just waited for his comment or question (was it a question?
+gosh… I hadn’t recognized) to be answered. If that had not been
+enough to terrify me, company gossip mentioned his contribution to
+measurement equipment for nuke tests in the era of real mid-air blasts
+and even more exotic designs. I still have no reason to doubt that.&lt;/p&gt;
+
+&lt;p&gt;At that time he was hunting for a nasty randomly appearing bug in the
+company’s cash-cow product: industrial control system based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rtVAX
+300&lt;/code&gt;. I was playing in a sandbox with a toy: Digital Alpha
+multiprocessor system. It happened that both designs used then new
+programmable logic chips. One sunny morning Bob appeared at my office
+door and asked me to follow him to the lab. There he showed me a
+system with a fair amount of probes attached and some strange-looking
+traces on an oscilloscope, and asked for my opinion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/ak/assets/images/2024/isa300-altera.jpg&quot; alt=&quot;Altera CPLD chips&quot; class=&quot;align-center&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hardly surprising, no thoughts of mine seemed intelligent enough to be
+said out loud, and I’m still glad I admitted that.  So we just started
+to “play around” with the signals, triggers, loads, software,
+everything we could touch and twiddle — the usual things engineers do
+when they don’t know how to approach a problem. After some time, a
+suspicious-looking signal was spotted inside the system. With the
+programmable logic, it didn’t take long to change output buffer
+configuration and to confirm the guess.  The bug disappeared and hasn’t
+been seen again, while I realized Bob had not been familiar with
+the new chips and their tools and just learned it that day.&lt;/p&gt;
+
+&lt;p&gt;As time passes by, more and more often I talk to engineers much
+younger than myself, and only this made me recognize what a wonderful
+and valuable lesson I’ve been taught many years ago. Now I can really
+comprehend and appreciate the level of professionalism,
+self-confidence, and courage the senior colleague exemplified by
+merely asking me to come down to the lab. Regardless of knowledge,
+experience, status, and ego, there are always times to recognize you
+might need help, or just another person around, and ask for it.  While
+it is natural to learn from senior colleagues, there is always a chance
+to learn something from a rooky too.&lt;/p&gt;
+
+&lt;p&gt;Admittedly, too late and it is unlikely you may read it,
+but still: &lt;strong&gt;Thank you, Bob.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Published on
+&lt;a href=&quot;https://www.linkedin.com/pulse/lesson-im-starting-appreciate-three-decades-later-anton-kuzmin-zxknf&quot;&gt;LinkedIn&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Images of the ISA300 board are courtesy of Holm Tiffe, released
+under Creative Common CC0.&lt;/sub&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="memoirs" /><summary type="html">A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet. And rather often, we do not immediately realize what the lesson is or how important it could be.</summary></entry><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
 architectures too often. An appearance of a new vendor with a new
 architecture is an even more uncommon occasion, and therefore a more
 interesting one. A few years ago Cologne Chip AG debuted on

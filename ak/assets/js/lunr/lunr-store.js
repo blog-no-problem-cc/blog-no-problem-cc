@@ -46,4 +46,10 @@ var store = [{
         "tags": ["fpga","gmm7550"],
         "url": "https://blog.no-problem.cc/ak/en/gmm7550-is-here/",
         "teaser": null
+      },{
+        "title": "A Lesson I'm starting to appreciate three decades later",
+        "excerpt":"A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet. And rather often, we do not immediately realize what the lesson is or how important it could be. A...","categories": ["en"],
+        "tags": ["memoirs"],
+        "url": "https://blog.no-problem.cc/ak/en/thank-you-bob/",
+        "teaser": null
       }]

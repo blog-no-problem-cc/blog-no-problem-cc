@@ -1,0 +1,393 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>A Lesson I’m starting to appreciate three decades later - Memory Leaks</title>
+<meta name="description" content="A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet.  And rather often, we do not immediately realize what the lesson is or how important it could be.">
+
+
+  <meta name="author" content="Anton Kuzmin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Memory Leaks">
+<meta property="og:title" content="A Lesson I’m starting to appreciate three decades later">
+<meta property="og:url" content="https://blog.no-problem.cc/ak/en/thank-you-bob/">
+
+
+  <meta property="og:description" content="A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet.  And rather often, we do not immediately realize what the lesson is or how important it could be.">
+
+
+
+  <meta property="og:image" content="https://blog.no-problem.cc/ak/assets/images/2024/isa300-top.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-06-29T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://blog.no-problem.cc/ak/en/thank-you-bob/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Anton Kuzmin",
+      "url": "https://blog.no-problem.cc/ak/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/ak/feed.xml" type="application/atom+xml" rel="alternate" title="Memory Leaks Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ak/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<link rel="icon" type="image/x-icon" href="/ak/assets/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/ak/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/ak/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/ak/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/ak/assets/site.webmanifest">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ak/">
+          Memory Leaks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ak/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/en/">&#127468;&#127463;</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ak/ru/">&#127479;&#127482;</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/ak/assets/images/2024/isa300-top.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          A Lesson I’m starting to appreciate three decades later
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="A Lesson I’m starting to appreciate three decades later">
+    <meta itemprop="description" content="A meaningful career in engineering disciplines demands an eternallearning and the most important lessons are taught not by teachers andprofessors in classrooms and universities, but by people we meet.  Andrather often, we do not immediately realize what the lesson is or howimportant it could be.">
+    <meta itemprop="datePublished" content="2024-06-29T00:00:00+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>A meaningful career in engineering disciplines demands an eternal
+learning and the most important lessons are taught not by teachers and
+professors in classrooms and universities, but by people we meet.  And
+rather often, we do not immediately realize what the lesson is or how
+important it could be.</p>
+
+<p>A long time ago in a company far, far away (almost 30 years,
+Albuquerque, NM, to be precise) I started my career as a hardware
+design engineer graduated a mere year or two prior.
+Τύχη (Tyche), who has shown me her
+kindness many times since then, started early — the company’s senior
+hardware design engineer was a legend and an enigmatic figure.
+Robert (Bob) R. was a chain-smoker with a heavy southern accent, so I could
+barely understand half of his sparse phrases on a good day. He never
+rephrased, just waited for his comment or question (was it a question?
+gosh… I hadn’t recognized) to be answered. If that had not been
+enough to terrify me, company gossip mentioned his contribution to
+measurement equipment for nuke tests in the era of real mid-air blasts
+and even more exotic designs. I still have no reason to doubt that.</p>
+
+<p>At that time he was hunting for a nasty randomly appearing bug in the
+company’s cash-cow product: industrial control system based on <code class="language-plaintext highlighter-rouge">rtVAX
+300</code>. I was playing in a sandbox with a toy: Digital Alpha
+multiprocessor system. It happened that both designs used then new
+programmable logic chips. One sunny morning Bob appeared at my office
+door and asked me to follow him to the lab. There he showed me a
+system with a fair amount of probes attached and some strange-looking
+traces on an oscilloscope, and asked for my opinion.</p>
+
+<p><img src="/ak/assets/images/2024/isa300-altera.jpg" alt="Altera CPLD chips" class="align-center" width="300px" /></p>
+
+<p>Hardly surprising, no thoughts of mine seemed intelligent enough to be
+said out loud, and I’m still glad I admitted that.  So we just started
+to “play around” with the signals, triggers, loads, software,
+everything we could touch and twiddle — the usual things engineers do
+when they don’t know how to approach a problem. After some time, a
+suspicious-looking signal was spotted inside the system. With the
+programmable logic, it didn’t take long to change output buffer
+configuration and to confirm the guess.  The bug disappeared and hasn’t
+been seen again, while I realized Bob had not been familiar with
+the new chips and their tools and just learned it that day.</p>
+
+<p>As time passes by, more and more often I talk to engineers much
+younger than myself, and only this made me recognize what a wonderful
+and valuable lesson I’ve been taught many years ago. Now I can really
+comprehend and appreciate the level of professionalism,
+self-confidence, and courage the senior colleague exemplified by
+merely asking me to come down to the lab. Regardless of knowledge,
+experience, status, and ego, there are always times to recognize you
+might need help, or just another person around, and ask for it.  While
+it is natural to learn from senior colleagues, there is always a chance
+to learn something from a rooky too.</p>
+
+<p>Admittedly, too late and it is unlikely you may read it,
+but still: <strong>Thank you, Bob.</strong></p>
+
+<p><sub>Published on
+<a href="https://www.linkedin.com/pulse/lesson-im-starting-appreciate-three-decades-later-anton-kuzmin-zxknf">LinkedIn</a></sub></p>
+
+<p><sub>Images of the ISA300 board are courtesy of Holm Tiffe, released
+under Creative Common CC0.</sub></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/ak/tags/#memoirs" class="page__taxonomy-item" rel="tag">memoirs</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Created:</strong> <time datetime="2024-06-29T00:00:00+02:00">
+
+
+
+    June
+     29<sup>th</sup>,
+    
+    2024
+
+</time></p>
+
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+
+
+
+
+
+  <nav class="pagination">
+    
+      <a href="/ak/en/gmm7550-is-here/" class="pagination--pager" title="CologneChip GateMate FPGA
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/ak/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> RSS feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">Copyright &copy; 2021-2024 Anton Kuzmin<br/>
+<img alt="Creative Commons Icon" src="/ak/assets/images/cc.png" /> <img alt="Attribution Icon" src="/ak/assets/images/by.png" /> Except where otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>
+</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ak/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
