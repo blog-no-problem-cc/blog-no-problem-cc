@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-01T22:01:41+02:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">A Lesson I’m starting to appreciate three decades later</title><link href="https://blog.no-problem.cc/ak/en/thank-you-bob/" rel="alternate" type="text/html" title="A Lesson I’m starting to appreciate three decades later" /><published>2024-06-29T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/thank-you-bob</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/thank-you-bob/">&lt;p&gt;A meaningful career in engineering disciplines demands an eternal
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://blog.no-problem.cc/ak/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.no-problem.cc/ak/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-01-04T01:43:12+01:00</updated><id>https://blog.no-problem.cc/ak/feed.xml</id><title type="html">Memory Leaks</title><subtitle>A mostly unordered collection of notes on electronics, embedded software, programmable logic, and everything else.</subtitle><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><entry xml:lang="en"><title type="html">A Lesson I’m starting to appreciate three decades later</title><link href="https://blog.no-problem.cc/ak/en/thank-you-bob/" rel="alternate" type="text/html" title="A Lesson I’m starting to appreciate three decades later" /><published>2024-06-29T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/thank-you-bob</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/thank-you-bob/"><![CDATA[<p>A meaningful career in engineering disciplines demands an eternal
 learning and the most important lessons are taught not by teachers and
 professors in classrooms and universities, but by people we meet.  And
 rather often, we do not immediately realize what the lesson is or how
-important it could be.&lt;/p&gt;
+important it could be.</p>
 
-&lt;p&gt;A long time ago in a company far, far away (almost 30 years,
+<p>A long time ago in a company far, far away (almost 30 years,
 Albuquerque, NM, to be precise) I started my career as a hardware
 design engineer graduated a mere year or two prior.
 Τύχη (Tyche), who has shown me her
@@ -16,20 +16,20 @@ rephrased, just waited for his comment or question (was it a question?
 gosh… I hadn’t recognized) to be answered. If that had not been
 enough to terrify me, company gossip mentioned his contribution to
 measurement equipment for nuke tests in the era of real mid-air blasts
-and even more exotic designs. I still have no reason to doubt that.&lt;/p&gt;
+and even more exotic designs. I still have no reason to doubt that.</p>
 
-&lt;p&gt;At that time he was hunting for a nasty randomly appearing bug in the
-company’s cash-cow product: industrial control system based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rtVAX
-300&lt;/code&gt;. I was playing in a sandbox with a toy: Digital Alpha
+<p>At that time he was hunting for a nasty randomly appearing bug in the
+company’s cash-cow product: industrial control system based on <code class="language-plaintext highlighter-rouge">rtVAX
+300</code>. I was playing in a sandbox with a toy: Digital Alpha
 multiprocessor system. It happened that both designs used then new
 programmable logic chips. One sunny morning Bob appeared at my office
 door and asked me to follow him to the lab. There he showed me a
 system with a fair amount of probes attached and some strange-looking
-traces on an oscilloscope, and asked for my opinion.&lt;/p&gt;
+traces on an oscilloscope, and asked for my opinion.</p>
 
-&lt;p&gt;&lt;img src=&quot;/ak/assets/images/2024/isa300-altera.jpg&quot; alt=&quot;Altera CPLD chips&quot; class=&quot;align-center&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+<p><img src="/ak/assets/images/2024/isa300-altera.jpg" alt="Altera CPLD chips" class="align-center" width="300px" /></p>
 
-&lt;p&gt;Hardly surprising, no thoughts of mine seemed intelligent enough to be
+<p>Hardly surprising, no thoughts of mine seemed intelligent enough to be
 said out loud, and I’m still glad I admitted that.  So we just started
 to “play around” with the signals, triggers, loads, software,
 everything we could touch and twiddle — the usual things engineers do
@@ -38,9 +38,9 @@ suspicious-looking signal was spotted inside the system. With the
 programmable logic, it didn’t take long to change output buffer
 configuration and to confirm the guess.  The bug disappeared and hasn’t
 been seen again, while I realized Bob had not been familiar with
-the new chips and their tools and just learned it that day.&lt;/p&gt;
+the new chips and their tools and just learned it that day.</p>
 
-&lt;p&gt;As time passes by, more and more often I talk to engineers much
+<p>As time passes by, more and more often I talk to engineers much
 younger than myself, and only this made me recognize what a wonderful
 and valuable lesson I’ve been taught many years ago. Now I can really
 comprehend and appreciate the level of professionalism,
@@ -49,187 +49,187 @@ merely asking me to come down to the lab. Regardless of knowledge,
 experience, status, and ego, there are always times to recognize you
 might need help, or just another person around, and ask for it.  While
 it is natural to learn from senior colleagues, there is always a chance
-to learn something from a rooky too.&lt;/p&gt;
+to learn something from a rooky too.</p>
 
-&lt;p&gt;Admittedly, too late and it is unlikely you may read it,
-but still: &lt;strong&gt;Thank you, Bob.&lt;/strong&gt;&lt;/p&gt;
+<p>Admittedly, too late and it is unlikely you may read it,
+but still: <strong>Thank you, Bob.</strong></p>
 
-&lt;p&gt;&lt;sub&gt;Published on
-&lt;a href=&quot;https://www.linkedin.com/pulse/lesson-im-starting-appreciate-three-decades-later-anton-kuzmin-zxknf&quot;&gt;LinkedIn&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+<p><sub>Published on
+<a href="https://www.linkedin.com/pulse/lesson-im-starting-appreciate-three-decades-later-anton-kuzmin-zxknf">LinkedIn</a></sub></p>
 
-&lt;p&gt;&lt;sub&gt;Images of the ISA300 board are courtesy of Holm Tiffe, released
-under Creative Common CC0.&lt;/sub&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="memoirs" /><summary type="html">A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet. And rather often, we do not immediately realize what the lesson is or how important it could be.</summary></entry><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/">&lt;p&gt;An FPGA segment of a semiconductor market does not witness new
+<p><sub>Images of the ISA300 board are courtesy of Holm Tiffe, released
+under Creative Common CC0.</sub></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="memoirs" /><summary type="html"><![CDATA[A meaningful career in engineering disciplines demands an eternal learning and the most important lessons are taught not by teachers and professors in classrooms and universities, but by people we meet. And rather often, we do not immediately realize what the lesson is or how important it could be.]]></summary></entry><entry xml:lang="en"><title type="html">CologneChip GateMate FPGA</title><link href="https://blog.no-problem.cc/ak/en/gmm7550-is-here/" rel="alternate" type="text/html" title="CologneChip GateMate FPGA" /><published>2022-10-09T00:00:00+02:00</published><updated>2024-06-29T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/gmm7550-is-here</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/gmm7550-is-here/"><![CDATA[<p>An FPGA segment of a semiconductor market does not witness new
 architectures too often. An appearance of a new vendor with a new
 architecture is an even more uncommon occasion, and therefore a more
 interesting one. A few years ago Cologne Chip AG debuted on
 the FPGA market with the GateMate family. Its rather unusual features
 include self-reconfiguration, unconventional structure of logic
 elements, and strong commitment towards free and open-source
-development tools.&lt;/p&gt;
+development tools.</p>
 
-&lt;p&gt;An evaluation kit for the GateMate FPGA is available from Cologne
+<p>An evaluation kit for the GateMate FPGA is available from Cologne
 Chip, however, designing own hardware is in my eyes a much more
 efficient way to become familiar with a new architecture. That’s why I
 went ahead with design of a small module based on this chip. A
 modular approach also makes it easier to experiment with multi-chip
-systems and build products around it.&lt;/p&gt;
+systems and build products around it.</p>
 
-&lt;p&gt;To align with the Cologne Chip commitment to the free and open source
+<p>To align with the Cologne Chip commitment to the free and open source
 software the design is released as Open Hardware and available under
-&lt;a href=&quot;https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2&quot; target=&quot;_blank&quot;&gt;CERN-OHL-P v2&lt;/a&gt;
-(permissive) license.&lt;/p&gt;
+<a href="https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2" target="_blank">CERN-OHL-P v2</a>
+(permissive) license.</p>
 
-&lt;p&gt;&lt;a href=&quot;/ak/assets/images/2022/gmm7550-lr.jpg&quot;&gt;&lt;img src=&quot;/ak/assets/images/2022/gmm7550-web.jpg&quot; alt=&quot;GMM-7550 Module&quot; class=&quot;align-right&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p><a href="/ak/assets/images/2022/gmm7550-lr.jpg"><img src="/ak/assets/images/2022/gmm7550-web.jpg" alt="GMM-7550 Module" class="align-right" /></a></p>
 
-&lt;p&gt;The GMM-7550 module is a small module providing a convenient way to
-evaluate &lt;a href=&quot;https://colognechip.com/programmable-logic/gatemate/&quot; target=&quot;_blank&quot;&gt;GateMate
-FPGA&lt;/a&gt;
+<p>The GMM-7550 module is a small module providing a convenient way to
+evaluate <a href="https://colognechip.com/programmable-logic/gatemate/" target="_blank">GateMate
+FPGA</a>
 from Cologne Chip AG.  This post summarizes essential features of the
-GMM-7550 module and HAT adapter board.&lt;/p&gt;
+GMM-7550 module and HAT adapter board.</p>
 
-&lt;p&gt;The module consists of the FPGA (CCGM1A1) in
+<p>The module consists of the FPGA (CCGM1A1) in
 BGA324 15x15 mm package, power converters, reset, clocking and
-configuration circuitries.&lt;/p&gt;
+configuration circuitries.</p>
 
-&lt;h2 id=&quot;input-power-and-converters&quot;&gt;Input Power and Converters&lt;/h2&gt;
+<h2 id="input-power-and-converters">Input Power and Converters</h2>
 
-&lt;p&gt;The module is powered from a single power supply in 2.9 to 6.5 V
+<p>The module is powered from a single power supply in 2.9 to 6.5 V
 range, so it may be powered directly from a commodity 3.3 or
-5 V power supply or a single Li-Pol cell.&lt;/p&gt;
+5 V power supply or a single Li-Pol cell.</p>
 
-&lt;p&gt;On the module high-efficiency DC-DC converters generate the FPGA core
+<p>On the module high-efficiency DC-DC converters generate the FPGA core
 supply voltage (hardware configurable to 0.9, 1.0, or 1.1 V), I/O
 voltage for the configuration interface, SPI-NOR FLASH, clock
 generator, and I/O banks (fixed at 2.5 V). The 2.5 V are
-provided on the module connectors to power a base board components.&lt;/p&gt;
+provided on the module connectors to power a base board components.</p>
 
-&lt;p&gt;Additional low-noise LDO regulator is provided for the FPGA high-speed
-serial transceiver and PLLs (hardware configurable 1.0 or 1.1 V).&lt;/p&gt;
+<p>Additional low-noise LDO regulator is provided for the FPGA high-speed
+serial transceiver and PLLs (hardware configurable 1.0 or 1.1 V).</p>
 
-&lt;p&gt;The DC-DC convertes on the module are synchronized with the main
+<p>The DC-DC convertes on the module are synchronized with the main
 module clock to reduce power supplies noise level. The converters
 operate at 1.25 MHz with a 180 degree phase shift to reduce
-inducted ripple on the input power feed.&lt;/p&gt;
+inducted ripple on the input power feed.</p>
 
-&lt;h2 id=&quot;clock-generator&quot;&gt;Clock Generator&lt;/h2&gt;
+<h2 id="clock-generator">Clock Generator</h2>
 
-&lt;p&gt;The GMM-7550 module includes Texas Instruments CDCE6214 clock
+<p>The GMM-7550 module includes Texas Instruments CDCE6214 clock
 generator with one PLL. A clock reference is provided by a 25 MHz
 crystal on the module. If a higher precision, stability, or a
 synchronization to an external reference is required, an LVDS clock
-input may be used as a primary reference for the PLL.&lt;/p&gt;
+input may be used as a primary reference for the PLL.</p>
 
-&lt;p&gt;The generator provides 100 MHz reference clock to the FPGA SerDes
+<p>The generator provides 100 MHz reference clock to the FPGA SerDes
 PLL, reference 25 MHz (CMOS) and two programmale (LVDS) outputs
-on the module connector and a clock signal for DC-DC synchronization.&lt;/p&gt;
+on the module connector and a clock signal for DC-DC synchronization.</p>
 
-&lt;p&gt;The generator has internal configuration EEPROM and is programmable
-via I2C interface.&lt;/p&gt;
+<p>The generator has internal configuration EEPROM and is programmable
+via I2C interface.</p>
 
-&lt;p&gt;The FPGA input clock signals CLK0..3 are available on the general
+<p>The FPGA input clock signals CLK0..3 are available on the general
 purpose input-output bank SB (South B) signals on the module
 connector. Additionally, SPI and JTAG clock signals may be used for
-user’s logic synchronization inside the FPGA.&lt;/p&gt;
+user’s logic synchronization inside the FPGA.</p>
 
-&lt;h2 id=&quot;fpga-configuration&quot;&gt;FPGA Configuration&lt;/h2&gt;
+<h2 id="fpga-configuration">FPGA Configuration</h2>
 
-&lt;p&gt;The module supports all the GateMate FPGA configuration modes:&lt;/p&gt;
+<p>The module supports all the GateMate FPGA configuration modes:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;SPI Active Mode from the on-module SPI-NOR FLASH (default)&lt;/li&gt;
-  &lt;li&gt;SPI Active Mode from an SPI-NOR on a base board&lt;/li&gt;
-  &lt;li&gt;SPI Passive Mode with an external SPI master&lt;/li&gt;
-  &lt;li&gt;JTAG Mode&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>SPI Active Mode from the on-module SPI-NOR FLASH (default)</li>
+  <li>SPI Active Mode from an SPI-NOR on a base board</li>
+  <li>SPI Passive Mode with an external SPI master</li>
+  <li>JTAG Mode</li>
+</ul>
 
-&lt;p&gt;The configuration mode and SPI multiplexing are controlled via 16-bin
-I2C-bus I/O port on the module.&lt;/p&gt;
+<p>The configuration mode and SPI multiplexing are controlled via 16-bin
+I2C-bus I/O port on the module.</p>
 
-&lt;p&gt;The on-module SPI-NOR FLASH may be accessed and programmed via SPI
-interface from a base board or via the FPGA JTAG interface.&lt;/p&gt;
+<p>The on-module SPI-NOR FLASH may be accessed and programmed via SPI
+interface from a base board or via the FPGA JTAG interface.</p>
 
-&lt;p&gt;An I/O voltage for the module control (I2C) and configuration
-interfaces (JTAG and SPI) is fixed at 2.5 V.&lt;/p&gt;
+<p>An I/O voltage for the module control (I2C) and configuration
+interfaces (JTAG and SPI) is fixed at 2.5 V.</p>
 
-&lt;h2 id=&quot;fpga-general-purpose-input-output-signals&quot;&gt;FPGA General Purpose Input-Output Signals&lt;/h2&gt;
+<h2 id="fpga-general-purpose-input-output-signals">FPGA General Purpose Input-Output Signals</h2>
 
-&lt;p&gt;The CCGM1A1 FPGA provides up to 162 general purpose input/output
+<p>The CCGM1A1 FPGA provides up to 162 general purpose input/output
 signals split into 9 banks (with 18 single-ended signals or 9 LVDS
 pairs each) with independent power supplies. 144 FPGA’s general
 purpose input-output signals (8 banks) are available on 4 module
 connectors. Input-output voltage from 1.2 to 2.5 V for each of
 the 8 I/O banks may be independetnly supplied from a base board or from
 a power converter on the module (fixed at 2.5 V, default hardware
-option).&lt;/p&gt;
+option).</p>
 
-&lt;p&gt;An input/output bank WA (West A) signals are used on the module for
+<p>An input/output bank WA (West A) signals are used on the module for
 configuration mode selection, SPI and JTAG interfaces, control and
 status signals and are not available for general use. The I/O voltage
-of the WA bank is fixed on the module at 2.5 V.&lt;/p&gt;
+of the WA bank is fixed on the module at 2.5 V.</p>
 
-&lt;h2 id=&quot;hat-adapter-board&quot;&gt;HAT Adapter Board&lt;/h2&gt;
+<h2 id="hat-adapter-board">HAT Adapter Board</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;attaches to a Raspberry-Pi compatible 40-pin I/O header&lt;/li&gt;
-  &lt;li&gt;makes use of GPIOs, 2x I2C-bus, and SPI&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>attaches to a Raspberry-Pi compatible 40-pin I/O header</li>
+  <li>makes use of GPIOs, 2x I2C-bus, and SPI</li>
+</ul>
 
-&lt;p&gt;&lt;a href=&quot;/ak/assets/images/2022/hat-gmm7550-lr.jpg&quot;&gt;&lt;img src=&quot;/ak/assets/images/2022/hat-gmm7550-web.jpg&quot; alt=&quot;GMM-7550 Module&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p><a href="/ak/assets/images/2022/hat-gmm7550-lr.jpg"><img src="/ak/assets/images/2022/hat-gmm7550-web.jpg" alt="GMM-7550 Module" class="align-center" /></a></p>
 
-&lt;ul&gt;
-  &lt;li&gt;GMM-7550 module may be powered either with 5 V from the 40-pin
-header or from a dedicated power connector&lt;/li&gt;
-  &lt;li&gt;power control and current consumption monitoring of the GMM-7550
-module with Analog Devices ADM1177&lt;/li&gt;
-  &lt;li&gt;reset signal control to the module&lt;/li&gt;
-  &lt;li&gt;LEDs indicating the module power, reset and configuration status&lt;/li&gt;
-  &lt;li&gt;voltage level translators for I2C-bus, SPI, and GPIOs&lt;/li&gt;
-  &lt;li&gt;CAT24C32 HAT ID EEPROM with write protection&lt;/li&gt;
-  &lt;li&gt;10-pin JTAG programming connector&lt;/li&gt;
-  &lt;li&gt;two 12-pin Pmod connectors with 3.3 V I/O signals&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>GMM-7550 module may be powered either with 5 V from the 40-pin
+header or from a dedicated power connector</li>
+  <li>power control and current consumption monitoring of the GMM-7550
+module with Analog Devices ADM1177</li>
+  <li>reset signal control to the module</li>
+  <li>LEDs indicating the module power, reset and configuration status</li>
+  <li>voltage level translators for I2C-bus, SPI, and GPIOs</li>
+  <li>CAT24C32 HAT ID EEPROM with write protection</li>
+  <li>10-pin JTAG programming connector</li>
+  <li>two 12-pin Pmod connectors with 3.3 V I/O signals</li>
+</ul>
 
-&lt;h2 id=&quot;control-software&quot;&gt;Control Software&lt;/h2&gt;
+<h2 id="control-software">Control Software</h2>
 
-&lt;p&gt;A control software for the module is written on Python and consists of
+<p>A control software for the module is written on Python and consists of
 a library providing access to all the functions of the HAT adapter
 board, programming of the HAT ID EEPROM, control of the I2C-bus I/O
 port on the module, and allowing programming of the clock
-generator and SPI-NOR FLASH on the module.&lt;/p&gt;
+generator and SPI-NOR FLASH on the module.</p>
 
-&lt;p&gt;An applications makes use of the library and provides two interfaces:
+<p>An applications makes use of the library and provides two interfaces:
 the first one is a simple CLI and the second one is based on the
-Python &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panel&lt;/code&gt; framework and provides a web-based interface to
-operate the module.&lt;/p&gt;
+Python <code class="language-plaintext highlighter-rouge">panel</code> framework and provides a web-based interface to
+operate the module.</p>
 
-&lt;p&gt;The software is running on a Raspberry Pi SBC with ArchLinux ARM installed.&lt;/p&gt;
+<p>The software is running on a Raspberry Pi SBC with ArchLinux ARM installed.</p>
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Port of the control software to StarFive VisionFive SBC with a
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildroot&lt;/code&gt; Linux and ArchLinux RISC-V is work in progress and is
-not fully functional yet.&lt;/p&gt;
+<p><strong>Note:</strong> Port of the control software to StarFive VisionFive SBC with a
+<code class="language-plaintext highlighter-rouge">buildroot</code> Linux and ArchLinux RISC-V is work in progress and is
+not fully functional yet.</p>
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The software is work in progress, the library interface is
-  not stable.  Incompatible changes and bugs are to be expected.&lt;/p&gt;
+<p><strong>Note:</strong> The software is work in progress, the library interface is
+  not stable.  Incompatible changes and bugs are to be expected.</p>
 
-&lt;h2 id=&quot;project-repositories&quot;&gt;Project Repositories&lt;/h2&gt;
+<h2 id="project-repositories">Project Repositories</h2>
 
-&lt;p&gt;KiCad projects of the GMM-7550 module and the HAT adapter board are
-available on GitHub along with the control software:&lt;/p&gt;
+<p>KiCad projects of the GMM-7550 module and the HAT adapter board are
+available on GitHub along with the control software:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;KiCad projects &lt;a href=&quot;https://github.com/GMM-7550/gmm7550-hardware&quot; target=&quot;_blank&quot;&gt;https://github.com/GMM-7550/gmm7550-hardware&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;control software &lt;a href=&quot;https://github.com/GMM-7550/gmm7550-control/&quot; target=&quot;_blank&quot;&gt;https://github.com/GMM-7550/gmm7550-control/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;VHDL examples &lt;a href=&quot;https://github.com/GMM-7550/gmm7550-examples/&quot; target=&quot;_blank&quot;&gt;https://github.com/GMM-7550/gmm7550-examples/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><category term="gmm7550" /><summary type="html">An FPGA segment of a semiconductor market does not witness new architectures too often. An appearance of a new vendor with a new architecture is an even more uncommon occasion, and therefore a more interesting one. A few years ago Cologne Chip AG debuted on the FPGA market with the GateMate family. Its rather unusual features include self-reconfiguration, unconventional structure of logic elements, and strong commitment towards free and open-source development tools.</summary></entry><entry xml:lang="en"><title type="html">FPGA dusk or dawn of a new era?</title><link href="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/" rel="alternate" type="text/html" title="FPGA dusk or dawn of a new era?" /><published>2022-06-17T00:00:00+02:00</published><updated>2022-06-17T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/">&lt;p&gt;In an email conversation earlier this year I’ve been asked for my
+<ul>
+  <li>KiCad projects <a href="https://github.com/GMM-7550/gmm7550-hardware" target="_blank">https://github.com/GMM-7550/gmm7550-hardware</a></li>
+  <li>control software <a href="https://github.com/GMM-7550/gmm7550-control/" target="_blank">https://github.com/GMM-7550/gmm7550-control/</a></li>
+  <li>VHDL examples <a href="https://github.com/GMM-7550/gmm7550-examples/" target="_blank">https://github.com/GMM-7550/gmm7550-examples/</a></li>
+</ul>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><category term="gmm7550" /><summary type="html"><![CDATA[An FPGA segment of a semiconductor market does not witness new architectures too often. An appearance of a new vendor with a new architecture is an even more uncommon occasion, and therefore a more interesting one. A few years ago Cologne Chip AG debuted on the FPGA market with the GateMate family. Its rather unusual features include self-reconfiguration, unconventional structure of logic elements, and strong commitment towards free and open-source development tools.]]></summary></entry><entry xml:lang="en"><title type="html">FPGA dusk or dawn of a new era?</title><link href="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/" rel="alternate" type="text/html" title="FPGA dusk or dawn of a new era?" /><published>2022-06-17T00:00:00+02:00</published><updated>2022-06-17T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fpga-dusk-or-dawn/"><![CDATA[<p>In an email conversation earlier this year I’ve been asked for my
 opinion whether two major languages for FPGA development (Verilog HDL and
 VHDL) were going to die soon and if FPGAs would die along with
 them. The first question has been triggered by a provoking statement
 that the current leading development language for programmable logic
-is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;. A base for the second question was an approval of a second
+is <code class="language-plaintext highlighter-rouge">Scala</code>. A base for the second question was an approval of a second
 major acquisition in the FPGA industry: Xilinx/AMD, which has followed
-an Altera acquisition by Intel 7 years earlier (2015).&lt;/p&gt;
+an Altera acquisition by Intel 7 years earlier (2015).</p>
 
-&lt;p&gt;This post is an edited and translated version of my view of the
+<p>This post is an edited and translated version of my view of the
 current state of the industry and some collateral observations. It has
 to be noted that these views have been forming through several years
 and do not include into a consideration a current global shortage of
@@ -238,70 +238,70 @@ lasted for more than a year, affected all segments of the market, and
 is likely to take another two or three years to recover from, in my
 eyes it does not represent a consequence of some fundamental
 causes. Therefore it will not change long term technological trends,
-perhaps only their pace and some local manifestations.&lt;/p&gt;
+perhaps only their pace and some local manifestations.</p>
 
-&lt;h2 id=&quot;a-dusk-for-verilog-hdl-and-vhdl&quot;&gt;A dusk for Verilog HDL and VHDL&lt;/h2&gt;
+<h2 id="a-dusk-for-verilog-hdl-and-vhdl">A dusk for Verilog HDL and VHDL</h2>
 
-&lt;blockquote&gt;
-  &lt;p&gt;VHDL/Verilog – that’s yesterday, assembler of hardware development,
-today’s governor of the field is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>VHDL/Verilog – that’s yesterday, assembler of hardware development,
+today’s governor of the field is <code class="language-plaintext highlighter-rouge">Scala</code></p>
+</blockquote>
 
-&lt;p&gt;Traditional hardware description languages: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog HDL&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt;
+<p>Traditional hardware description languages: <code class="language-plaintext highlighter-rouge">Verilog HDL</code> and <code class="language-plaintext highlighter-rouge">VHDL</code>
 are eerie dinosaurs of languages, but I suspect that unlike their
 biological brothers they are not going to die out. At least without
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog&lt;/code&gt; no ASIC is possible. For FPGAs everything is more diverse
-and amusing, but there are still quite sensible projects on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt;.&lt;/p&gt;
+<code class="language-plaintext highlighter-rouge">Verilog</code> no ASIC is possible. For FPGAs everything is more diverse
+and amusing, but there are still quite sensible projects on <code class="language-plaintext highlighter-rouge">VHDL</code>.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;, no doubt, is a cool and fashionable technology, but it is
-hardly the only choice available. In recent years &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt; has got a
+<p><code class="language-plaintext highlighter-rouge">Scala</code>, no doubt, is a cool and fashionable technology, but it is
+hardly the only choice available. In recent years <code class="language-plaintext highlighter-rouge">Python</code> has got a
 wide use not only in the development for FPGA but in ASIC simulation
 and verification as well. Niche applications are often developed
-within a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Matlab&lt;/code&gt; environment – mostly for digital signal processing
-and control loops. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C/C++&lt;/code&gt; are used extensively in combination
-with a high-level synthesis (HLS) or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;. If one should look
+within a <code class="language-plaintext highlighter-rouge">Matlab</code> environment – mostly for digital signal processing
+and control loops. <code class="language-plaintext highlighter-rouge">C/C++</code> are used extensively in combination
+with a high-level synthesis (HLS) or <code class="language-plaintext highlighter-rouge">OpenCL</code>. If one should look
 beyond commercial applications and consider research projects, the
-diversity is much greater and even &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LISP&lt;/code&gt; may still be spotted out.&lt;/p&gt;
+diversity is much greater and even <code class="language-plaintext highlighter-rouge">LISP</code> may still be spotted out.</p>
 
-&lt;p&gt;So it looks that traditional HDLs yield their role of prime tools for
+<p>So it looks that traditional HDLs yield their role of prime tools for
 FPGA development, however they still exist as an essential part of the
 technological chain, similar to the one played by assembler: a liaison
 between the high-level language compiler and machine code
-generator. And many more languages than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt; alone are coming to
-replace them.&lt;/p&gt;
+generator. And many more languages than <code class="language-plaintext highlighter-rouge">Scala</code> alone are coming to
+replace them.</p>
 
-&lt;h2 id=&quot;are-fpgas-fading-away-soon&quot;&gt;Are FPGAs fading away soon?&lt;/h2&gt;
+<h2 id="are-fpgas-fading-away-soon">Are FPGAs fading away soon?</h2>
 
-&lt;blockquote&gt;
-  &lt;p&gt;FPGAs are falling into decay. Intel has already assassinated Altera,
+<blockquote>
+  <p>FPGAs are falling into decay. Intel has already assassinated Altera,
 AMD is about to commit the same to Xilinx. Only China-based
-second tier vendors will stay around in the near future.&lt;/p&gt;
-&lt;/blockquote&gt;
+second tier vendors will stay around in the near future.</p>
+</blockquote>
 
-&lt;p&gt;Rumors regarding the impending doom of FPGAs are largely
+<p>Rumors regarding the impending doom of FPGAs are largely
 exaggerated. In my opinion the reality is directly the opposite:
 demands and technical prerequisites for alteration have been
 accumulating through the last fifteen years and we are now witnessing
-an avalanche of changes.&lt;/p&gt;
+an avalanche of changes.</p>
 
-&lt;p&gt;Both Intel and AMD are primarily interested in the top segment of the
+<p>Both Intel and AMD are primarily interested in the top segment of the
 FPGA market, most complex, high performance and expensive chips. And
 they will support an on-going development in this segment. Of course,
 Intel may coincidentally slay something along the way just out of
-habit, but in any case it will not be the entire FPGA industry.&lt;/p&gt;
+habit, but in any case it will not be the entire FPGA industry.</p>
 
-&lt;p&gt;A significant shortage of offerings may be seen in the middle and
+<p>A significant shortage of offerings may be seen in the middle and
 lower segments. Apparently they are not so interesting for
 Altera/Intel and Xilinx/AMD, but at the same time offer a notably
-easier opportunity for competitors to enter the market and grow.&lt;/p&gt;
+easier opportunity for competitors to enter the market and grow.</p>
 
-&lt;p&gt;From the long existing vendors – Lattice is doing pretty good and
+<p>From the long existing vendors – Lattice is doing pretty good and
 acquiring some of former Xilinx customers.  No doubt this process got
 a bust from the current problems with availability of components and
 right now several products based on Spartan-6 devices are re-designed
-with Lattice chips.&lt;/p&gt;
+with Lattice chips.</p>
 
-&lt;p&gt;Actel/Microsemi/Microchip finally gave up its heavy dedication to
+<p>Actel/Microsemi/Microchip finally gave up its heavy dedication to
 avionics and space-grade devices and released middle-range FPGA and
 SoC-FPGA families (PolarFire). These devices are well suited for
 industrial applications, retaining traditional Actel/Microsemi
@@ -309,11 +309,11 @@ strengths. It is rather surprising that for the SoC family a
 new and free Instruction Set Architecture (ISA, RISC-V) has been
 chosen. The previous generation devices (SmartFusion2/IGLOO2) are
 still in full production and also received a good share of designs
-migrating from Altera (Cyclone IV/V) and Xilinx (Spartan-6).&lt;/p&gt;
+migrating from Altera (Cyclone IV/V) and Xilinx (Spartan-6).</p>
 
-&lt;h2 id=&quot;dawn-of-a-new-era&quot;&gt;Dawn of a new era&lt;/h2&gt;
+<h2 id="dawn-of-a-new-era">Dawn of a new era</h2>
 
-&lt;p&gt;Two other tendencies have emerged through the last five years, and
+<p>Two other tendencies have emerged through the last five years, and
 both look positive to me: new free and open source software tools for
 FPGA development are getting momentum and major companies are starting
 to invest into them. At the same time a dozen new companies with FPGA
@@ -321,17 +321,17 @@ chips are entering the market – something we have not seen for the
 last twenty years. That looked absolutely impossible with
 Xilinx/Altera duumvirate dominating the industry. Of course among
 these new companies there are several originated from China, but
-Taiwan, USA, and Germany are also represented.&lt;/p&gt;
+Taiwan, USA, and Germany are also represented.</p>
 
-&lt;p&gt;For almost forty years of their history FPGAs were fundamentally not
+<p>For almost forty years of their history FPGAs were fundamentally not
 able to grasp a major share of any market segment. The root cause was
 that as soon as an application is stable and there is a mass market,
 it is automatically economically reasonable to develop an ASIC for
 it. So the FPGA dominance in some niche is limited by the time till
 ASIC is available to take it over, and the bigger the niche is, the
-shorter this time gap.&lt;/p&gt;
+shorter this time gap.</p>
 
-&lt;p&gt;Today the situation is drastically different: firstly, applications
+<p>Today the situation is drastically different: firstly, applications
 are very diverse and changing rapidly, so an ASIC development is
 largely unjustifiable. Secondly, general purpose CPUs have reached
 technological limits of performance increase through twenty plus years
@@ -339,13 +339,13 @@ of extensive exponential grow. Thirdly, costs and time to develop an
 ASIC for the most advanced technological processes increased dozens of
 times. Therefore it is more profitable to design a single FPGA on an
 advanced process and use it in ten applications, than to design ten
-ASICs.&lt;/p&gt;
+ASICs.</p>
 
-&lt;p&gt;Unfortunately, once again it turned out that the major obstacle is in
+<p>Unfortunately, once again it turned out that the major obstacle is in
 the development tools: it is virtually impossible to write modern
-software on assembler or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt;. However &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt; have
+software on assembler or <code class="language-plaintext highlighter-rouge">Fortran</code>. However <code class="language-plaintext highlighter-rouge">Verilog</code> and <code class="language-plaintext highlighter-rouge">VHDL</code> have
 not seen any progress for decades, so may be considered equivalent to
-assembler and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt;. More precisely (or less exaggerated) progress
+assembler and <code class="language-plaintext highlighter-rouge">Fortran</code>. More precisely (or less exaggerated) progress
 has been there and it continues, but it is in no comparison to the
 advances in technologies, tools, and methods of software development
 achieved in the same time period. To a great extent these advances are
@@ -353,65 +353,65 @@ originated from and have been defined by free and open source software
 ecosystem expansion. That is the reason I am convinced that a turn
 towards free and open source FPGA development tools is exactly the
 key, which will trigger an avalanche expansion of FPGA applications
-outside the niches established till today.&lt;/p&gt;
+outside the niches established till today.</p>
 
-&lt;h2 id=&quot;references-and-further-reading&quot;&gt;References and Further reading&lt;/h2&gt;
+<h2 id="references-and-further-reading">References and Further reading</h2>
 
-&lt;p&gt;Survey of programmable logic from 1984 through 2014:&lt;/p&gt;
+<p>Survey of programmable logic from 1984 through 2014:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Three Ages of FPGAs: A Retrospective on the First Thirty Years of
+<ul>
+  <li>Three Ages of FPGAs: A Retrospective on the First Thirty Years of
 FPGA Technology, Stephen M. (Steve) Trimberger, Fellow IEEE,
 Proceedings of the IEEE, Vol. 103, No. 3, March 2015,
-DOI:10.1109/JPROC.2015.2392104, &lt;a href=&quot;https://ieeexplore.ieee.org/document/7086413&quot; target=&quot;_blank&quot;&gt;https://ieeexplore.ieee.org/document/7086413&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+DOI:10.1109/JPROC.2015.2392104, <a href="https://ieeexplore.ieee.org/document/7086413" target="_blank">https://ieeexplore.ieee.org/document/7086413</a></li>
+</ul>
 
-&lt;p&gt;Major FPGA vendors:&lt;/p&gt;
+<p>Major FPGA vendors:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Altera (&lt;a href=&quot;https://www.altera.com/&quot; target=&quot;_blank&quot;&gt;https://www.altera.com/&lt;/a&gt;)
-since 2015 Intel Programmable Solutions Group&lt;/li&gt;
-  &lt;li&gt;Xilinx (&lt;a href=&quot;https://www.xilinx.com/&quot; target=&quot;_blank&quot;&gt;https://www.xilinx.com/&lt;/a&gt;)
+<ul>
+  <li>Altera (<a href="https://www.altera.com/" target="_blank">https://www.altera.com/</a>)
+since 2015 Intel Programmable Solutions Group</li>
+  <li>Xilinx (<a href="https://www.xilinx.com/" target="_blank">https://www.xilinx.com/</a>)
 an acquisition by AMD has been announced in October 2020
-and closed in February 2022&lt;/li&gt;
-  &lt;li&gt;Lattice Semiconductor (&lt;a href=&quot;https://www.latticesemi.com/&quot; target=&quot;_blank&quot;&gt;https://www.latticesemi.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Actel, acquired by Microsemi, acquired by Microchip (&lt;a href=&quot;https://www.microchip.com&quot; target=&quot;_blank&quot;&gt;https://www.microchip.com&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+and closed in February 2022</li>
+  <li>Lattice Semiconductor (<a href="https://www.latticesemi.com/" target="_blank">https://www.latticesemi.com/</a>)</li>
+  <li>Actel, acquired by Microsemi, acquired by Microchip (<a href="https://www.microchip.com" target="_blank">https://www.microchip.com</a>)</li>
+</ul>
 
-&lt;p&gt;Free and Open Source software for FPGA development:&lt;/p&gt;
+<p>Free and Open Source software for FPGA development:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Yosys, nextpnr, project IceStorm, etc. (&lt;a href=&quot;https://yosyshq.net/&quot; target=&quot;_blank&quot;&gt;https://yosyshq.net/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;openFPGALoader (&lt;a href=&quot;https://github.com/trabucayre/openFPGALoader&quot; target=&quot;_blank&quot;&gt;https://github.com/trabucayre/openFPGALoader&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;MyHDL (&lt;a href=&quot;https://www.myhdl.org/&quot; target=&quot;_blank&quot;&gt;https://www.myhdl.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Chisel (&lt;a href=&quot;https://www.chisel-lang.org/&quot; target=&quot;_blank&quot;&gt;https://www.chisel-lang.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;CLaSH (&lt;a href=&quot;https://clash-lang.org/&quot; target=&quot;_blank&quot;&gt;https://clash-lang.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;FuseSoC (&lt;a href=&quot;https://github.com/olofk/fusesoc&quot; target=&quot;_blank&quot;&gt;https://github.com/olofk/fusesoc&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Migen (&lt;a href=&quot;https://m-labs.hk/gateware/migen/&quot; target=&quot;_blank&quot;&gt;https://m-labs.hk/gateware/migen/&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Yosys, nextpnr, project IceStorm, etc. (<a href="https://yosyshq.net/" target="_blank">https://yosyshq.net/</a>)</li>
+  <li>openFPGALoader (<a href="https://github.com/trabucayre/openFPGALoader" target="_blank">https://github.com/trabucayre/openFPGALoader</a>)</li>
+  <li>MyHDL (<a href="https://www.myhdl.org/" target="_blank">https://www.myhdl.org/</a>)</li>
+  <li>Chisel (<a href="https://www.chisel-lang.org/" target="_blank">https://www.chisel-lang.org/</a>)</li>
+  <li>CLaSH (<a href="https://clash-lang.org/" target="_blank">https://clash-lang.org/</a>)</li>
+  <li>FuseSoC (<a href="https://github.com/olofk/fusesoc" target="_blank">https://github.com/olofk/fusesoc</a>)</li>
+  <li>Migen (<a href="https://m-labs.hk/gateware/migen/" target="_blank">https://m-labs.hk/gateware/migen/</a>)</li>
+</ul>
 
-&lt;p&gt;New players on the FPGA market:&lt;/p&gt;
+<p>New players on the FPGA market:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Achronix (&lt;a href=&quot;https://www.achronix.com/&quot; target=&quot;_blank&quot;&gt;https://www.achronix.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;eFinix (&lt;a href=&quot;https://www.efinixinc.com/&quot; target=&quot;_blank&quot;&gt;https://www.efinixinc.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Gowin Semiconductor (&lt;a href=&quot;https://gowinsemi.com/en/&quot; target=&quot;_blank&quot;&gt;https://gowinsemi.com/en/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Cologne Chip (&lt;a href=&quot;https://colognechip.com/&quot; target=&quot;_blank&quot;&gt;https://colognechip.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Flex Logix Technologies (&lt;a href=&quot;https://flex-logix.com/&quot; target=&quot;_blank&quot;&gt;https://flex-logix.com/&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Achronix (<a href="https://www.achronix.com/" target="_blank">https://www.achronix.com/</a>)</li>
+  <li>eFinix (<a href="https://www.efinixinc.com/" target="_blank">https://www.efinixinc.com/</a>)</li>
+  <li>Gowin Semiconductor (<a href="https://gowinsemi.com/en/" target="_blank">https://gowinsemi.com/en/</a>)</li>
+  <li>Cologne Chip (<a href="https://colognechip.com/" target="_blank">https://colognechip.com/</a>)</li>
+  <li>Flex Logix Technologies (<a href="https://flex-logix.com/" target="_blank">https://flex-logix.com/</a>)</li>
+</ul>
 
-&lt;p&gt;&lt;em&gt;These lists are in no way meant to be exhaustive, they are provided
+<p><em>These lists are in no way meant to be exhaustive, they are provided
 only to illustrate the fact that such software and companies actually
-exist and their number is growing.&lt;/em&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><summary type="html">In an email conversation earlier this year I’ve been asked for my opinion whether two major languages for FPGA development (Verilog HDL and VHDL) were going to die soon and if FPGAs would die along with them. The first question has been triggered by a provoking statement that the current leading development language for programmable logic is Scala. A base for the second question was an approval of a second major acquisition in the FPGA industry: Xilinx/AMD, which has followed an Altera acquisition by Intel 7 years earlier (2015).</summary></entry><entry xml:lang="ru"><title type="html">ПЛИС: закат или заря новой эры?</title><link href="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/" rel="alternate" type="text/html" title="ПЛИС: закат или заря новой эры?" /><published>2022-03-26T00:00:00+01:00</published><updated>2022-03-26T00:00:00+01:00</updated><id>https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/">&lt;p&gt;В частной переписке был поднят вопрос, не умирают ли постепенно два
+exist and their number is growing.</em></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="fpga" /><summary type="html"><![CDATA[In an email conversation earlier this year I’ve been asked for my opinion whether two major languages for FPGA development (Verilog HDL and VHDL) were going to die soon and if FPGAs would die along with them. The first question has been triggered by a provoking statement that the current leading development language for programmable logic is Scala. A base for the second question was an approval of a second major acquisition in the FPGA industry: Xilinx/AMD, which has followed an Altera acquisition by Intel 7 years earlier (2015).]]></summary></entry><entry xml:lang="ru"><title type="html">ПЛИС: закат или заря новой эры?</title><link href="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/" rel="alternate" type="text/html" title="ПЛИС: закат или заря новой эры?" /><published>2022-03-26T00:00:00+01:00</published><updated>2022-03-26T00:00:00+01:00</updated><id>https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fpga-decline-or-dawn/"><![CDATA[<p>В частной переписке был поднят вопрос, не умирают ли постепенно два
 основных языка разработки для Программируемых Логических Интегральных
 Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL,
 и не исчезнут ли сами ПЛИС вместе с ними.  Первый вопрос был вызван
 провокационным утверждением, что лидирующие позиции в разработке ПЛИС
-сейчас занимает &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;, а второй — одобрением второй крупной сделки в
+сейчас занимает <code class="language-plaintext highlighter-rouge">Scala</code>, а второй — одобрением второй крупной сделки в
 отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после
-покупки Altera/Intel.&lt;/p&gt;
+покупки Altera/Intel.</p>
 
-&lt;p&gt;Этот текст представляет собой отредактированную версию моего
+<p>Этот текст представляет собой отредактированную версию моего
 восприятия текущего положения дел в отрасли и сопутствующие
 наблюдения. Надо отметить, что эта оценка формировалась несколько
 последних лет и не учитывает влияние текущего глобального дефицита
@@ -420,95 +420,95 @@ exist and their number is growing.&lt;/em&gt;&lt;/p&gt;</content><author><name>A
 восстановления отрасли, на мой взгляд, не является следствием
 каких-либо фундаментальных причин. Поэтому он не изменит направление
 долгосрочных технологических изменений, может быть, только скорость их
-наступления и конкретные локальные проявления.&lt;/p&gt;
+наступления и конкретные локальные проявления.</p>
 
-&lt;h2 id=&quot;закат-verilog-hdl-и-vhdl&quot;&gt;Закат Verilog HDL и VHDL&lt;/h2&gt;
+<h2 id="закат-verilog-hdl-и-vhdl">Закат Verilog HDL и VHDL</h2>
 
-&lt;blockquote&gt;
-  &lt;p&gt;VHDL/Verilog - это вчерашний день, ассемблер в области разработки
-HW, сейчас “рулит” в этой области Scala.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>VHDL/Verilog - это вчерашний день, ассемблер в области разработки
+HW, сейчас “рулит” в этой области Scala.</p>
+</blockquote>
 
-&lt;p&gt;Классические языки описания аппаратуры (Hardware Description
-Languages, HDL): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog HDL&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt; — жуткие динозавры, но
+<p>Классические языки описания аппаратуры (Hardware Description
+Languages, HDL): <code class="language-plaintext highlighter-rouge">Verilog HDL</code> и <code class="language-plaintext highlighter-rouge">VHDL</code> — жуткие динозавры, но
 подозреваю, что они никогда не вымрут.  Как минимум, без Verilog’а нет
 ASIC’ов (Application Specific Integrated Circuit, Интегральная Схема
 Специального Назначения, как соответствующая статья названа в
 Википедии). Для ПЛИС всё немного разнообразнее и веселее, хотя и
-сейчас есть вполне вменяемые проекты на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt;.&lt;/p&gt;
+сейчас есть вполне вменяемые проекты на <code class="language-plaintext highlighter-rouge">VHDL</code>.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;, конечно, это очень “круто”, но это далеко не единственный
+<p><code class="language-plaintext highlighter-rouge">Scala</code>, конечно, это очень “круто”, но это далеко не единственный
 вариант. Очень широко и в разработке ПЛИС, и в моделировании и
-верификации ASIC используется &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt;. Специфические вещи отлично
+верификации ASIC используется <code class="language-plaintext highlighter-rouge">Python</code>. Специфические вещи отлично
 разрабатываются в Matlab – в основном Цифровая Обработка Сигналов
-(ЦОС, DSP) и контур управления. Достаточно широко используются &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C/C++&lt;/code&gt;
+(ЦОС, DSP) и контур управления. Достаточно широко используются <code class="language-plaintext highlighter-rouge">C/C++</code>
 в сочетании с высокоуровневым синтезом (High Level Synthesis, HLS) и
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;. Если рассматривать не только промышленные применения, но и
-исследовательские проекты, то там разнообразие ещё больше, даже &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LISP&lt;/code&gt;
-встречается.&lt;/p&gt;
+<code class="language-plaintext highlighter-rouge">OpenCL</code>. Если рассматривать не только промышленные применения, но и
+исследовательские проекты, то там разнообразие ещё больше, даже <code class="language-plaintext highlighter-rouge">LISP</code>
+встречается.</p>
 
-&lt;p&gt;Так что “классические” языки описания аппаратуры действительно
+<p>Так что “классические” языки описания аппаратуры действительно
 уступают свою роль основных средств разработки для ПЛИС, но при этом
 остаются в технологической цепочке, примерно так же, как остался
 ассемблер: между компилятором языка высокого уровня и генерацией
 машинного кода. А на смену им приходит намного больше языков, чем одна
-только &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Scala&lt;/code&gt;.&lt;/p&gt;
+только <code class="language-plaintext highlighter-rouge">Scala</code>.</p>
 
-&lt;h2 id=&quot;скорое-исчезновение-плис&quot;&gt;Скорое исчезновение ПЛИС&lt;/h2&gt;
+<h2 id="скорое-исчезновение-плис">Скорое исчезновение ПЛИС</h2>
 
-&lt;blockquote&gt;
-  &lt;p&gt;ПЛИС приходит конец, Intel убил Altera, AMD скоро убьет Xilinx. В
-открытом доступе останутся только китайцы.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>ПЛИС приходит конец, Intel убил Altera, AMD скоро убьет Xilinx. В
+открытом доступе останутся только китайцы.</p>
+</blockquote>
 
-&lt;p&gt;Слухи о смерти ПЛИС сильно преувеличены. На мой взгляд, ситуация прямо
+<p>Слухи о смерти ПЛИС сильно преувеличены. На мой взгляд, ситуация прямо
 противоположная: лет пятнадцать копились потребности в переменах и
 технические предпосылки для них, а сейчас начинаются лавинообразные
-изменения.&lt;/p&gt;
+изменения.</p>
 
-&lt;p&gt;И Intel, и AMD в первую очередь заинтересованы в верхнем сегменте
+<p>И Intel, и AMD в первую очередь заинтересованы в верхнем сегменте
 ПЛИС, самых больших, сложных и дорогих микросхемах.  Их они и будут
 развивать. Конечно, Intel, по своей давней традиции, может что-нибудь
-и угробить по пути, но не всё направление.&lt;/p&gt;
+и угробить по пути, но не всё направление.</p>
 
-&lt;p&gt;Сильный провал наблюдается в среднем и нижнем сегментах — эти
+<p>Сильный провал наблюдается в среднем и нижнем сегментах — эти
 сегменты, кажется, менее интересны и Altera/Intel, и Xilinx/AMD, но
-как раз здесь легче появиться и развиваться конкурентам.&lt;/p&gt;
+как раз здесь легче появиться и развиваться конкурентам.</p>
 
-&lt;p&gt;Из “старичков” — Lattice очень хорошо себя чувствует и
+<p>Из “старичков” — Lattice очень хорошо себя чувствует и
 перетаскивает много уже работающих устройств с Xilinx’а.
 Конечно, этот процесс сильно подстегнули проблемы с доступностью
 компонентов, и многие устройства прямо сейчас переделываются
-со Spartan-6 на Lattice.&lt;/p&gt;
+со Spartan-6 на Lattice.</p>
 
-&lt;p&gt;Actel/Microsemi/Microchip наконец-то отказались от ориентации
+<p>Actel/Microsemi/Microchip наконец-то отказались от ориентации
 преимущественно на авионику и космос, и выпустили решение для среднего
 сегмента и промышленных применений (PolarFire), сохранив при этом свои
 традиционные преимущества. И, что ещё удивительнее, сделав ставку на
 новую, открытую и свободную архитектуру системы команд (Instruction
-Set Architecture) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RISC-V&lt;/code&gt;. Предыдущее поколение (SmartFusion2/IGLOO2)
+Set Architecture) <code class="language-plaintext highlighter-rouge">RISC-V</code>. Предыдущее поколение (SmartFusion2/IGLOO2)
 продолжает выпускаться и тоже получило свою долю клиентов, уходящих от
-Altera (Cyclone IV/V) и Xilinx (Spartan-6).&lt;/p&gt;
+Altera (Cyclone IV/V) и Xilinx (Spartan-6).</p>
 
-&lt;h2 id=&quot;заря-новой-эры&quot;&gt;Заря новой эры&lt;/h2&gt;
+<h2 id="заря-новой-эры">Заря новой эры</h2>
 
-&lt;p&gt;За последние лет пять явно обозначились ещё две интересные и, на мой
+<p>За последние лет пять явно обозначились ещё две интересные и, на мой
 взгляд, положительные тенденции: стали появляться открытые и свободные
 программные пакеты для разработки для ПЛИС, в которые уже вкладываются
 большие компании. В то же время появилось с десяток новых компаний,
 разрабатывающих свои ПЛИС, чего не было видно лет двадцать и что
 казалось совершенно невозможным при доминировании Xilinx и Altera.
 Среди новых компаний, конечно, есть несколько из Китая, но
-представлены и Тайвань, и Штаты, и Германия.&lt;/p&gt;
+представлены и Тайвань, и Штаты, и Германия.</p>
 
-&lt;p&gt;ПЛИС за всё время своего существования принципиально не могли получить
+<p>ПЛИС за всё время своего существования принципиально не могли получить
 большую долю хоть какого-нибудь рынка.  Проблема в том, что как только
 приложение становится достаточно устоявшимся и массовым, для него
 автоматически становится экономически оправдано производство ASIC’а.
 Так что доминирование ПЛИС в какой-либо нише было ограничено временем
-до появления ASIC, и чем больше ниша, тем короче было это время.&lt;/p&gt;
+до появления ASIC, и чем больше ниша, тем короче было это время.</p>
 
-&lt;p&gt;Сейчас ситуация кардинально изменилась: во-первых, приложения сильно
+<p>Сейчас ситуация кардинально изменилась: во-первых, приложения сильно
 диверсифицировались и очень быстро меняются, что делает разработку
 ASIC нецелесообразной. Во-вторых, процессоры общего назначения за
 двадцать лет экспоненциального экстенсивного развития подошли к
@@ -516,12 +516,12 @@ ASIC нецелесообразной. Во-вторых, процессоры �
 стоимость и время разработки ASIC на передовых технологических
 процессах выросли в десятки раз.  Так что теперь стало выгоднее
 сделать одну ПЛИС по передовому процессу и использовать её в десяти
-разных приложениях.&lt;/p&gt;
+разных приложениях.</p>
 
-&lt;p&gt;К сожалению, здесь всё (в очередной раз) натолкнулось на проблемы со
+<p>К сожалению, здесь всё (в очередной раз) натолкнулось на проблемы со
 средствами разработки: писать современные приложения на ассемблере или
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt; уже невозможно, а &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Verilog&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VHDL&lt;/code&gt; не развивались десятилетиями,
-так что вполне соответствуют ассемблеру и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fortran&lt;/code&gt;. Точнее, развитие
+<code class="language-plaintext highlighter-rouge">Fortran</code> уже невозможно, а <code class="language-plaintext highlighter-rouge">Verilog</code> и <code class="language-plaintext highlighter-rouge">VHDL</code> не развивались десятилетиями,
+так что вполне соответствуют ассемблеру и <code class="language-plaintext highlighter-rouge">Fortran</code>. Точнее, развитие
 было и продолжается, но оно не идёт ни в какое сравнение с прогрессом
 в технологиях, средствах и методиках разработки программного
 обеспечения, достигнутым за это же время. Во многом этот прогресс
@@ -529,71 +529,71 @@ ASIC нецелесообразной. Во-вторых, процессоры �
 программного обеспечения. Поэтому я считаю, что поворот к открытым и
 свободным средствам разработки для ПЛИС — это как раз тот ключ,
 который откроет путь лавинообразному росту их применений во многих
-областях за пределами ниш, освоенных до сегодняшнего дня.&lt;/p&gt;
+областях за пределами ниш, освоенных до сегодняшнего дня.</p>
 
-&lt;h2 id=&quot;ссылки-и-дополнительные-материалы&quot;&gt;Ссылки и дополнительные материалы&lt;/h2&gt;
+<h2 id="ссылки-и-дополнительные-материалы">Ссылки и дополнительные материалы</h2>
 
-&lt;p&gt;Обзор истории и этапов развития ПЛИС с 1984 до 2014 года:&lt;/p&gt;
+<p>Обзор истории и этапов развития ПЛИС с 1984 до 2014 года:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Three Ages of FPGAs: A Retrospective on the First Thirty Years of
+<ul>
+  <li>Three Ages of FPGAs: A Retrospective on the First Thirty Years of
 FPGA Technology, Stephen M. (Steve) Trimberger, Fellow IEEE,
 Proceedings of the IEEE, Vol. 103, No. 3, March 2015,
-DOI:10.1109/JPROC.2015.2392104, &lt;a href=&quot;https://ieeexplore.ieee.org/document/7086413&quot; target=&quot;_blank&quot;&gt;https://ieeexplore.ieee.org/document/7086413&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+DOI:10.1109/JPROC.2015.2392104, <a href="https://ieeexplore.ieee.org/document/7086413" target="_blank">https://ieeexplore.ieee.org/document/7086413</a></li>
+</ul>
 
-&lt;p&gt;Крупнейшие компании-разработчики ПЛИС:&lt;/p&gt;
+<p>Крупнейшие компании-разработчики ПЛИС:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Altera (&lt;a href=&quot;https://www.altera.com/&quot; target=&quot;_blank&quot;&gt;https://www.altera.com/&lt;/a&gt;)
-с 2015 года Intel Programmable Solutions Group&lt;/li&gt;
-  &lt;li&gt;Xilinx (&lt;a href=&quot;https://www.xilinx.com/&quot; target=&quot;_blank&quot;&gt;https://www.xilinx.com/&lt;/a&gt;)
+<ul>
+  <li>Altera (<a href="https://www.altera.com/" target="_blank">https://www.altera.com/</a>)
+с 2015 года Intel Programmable Solutions Group</li>
+  <li>Xilinx (<a href="https://www.xilinx.com/" target="_blank">https://www.xilinx.com/</a>)
 в феврале 2022 была закрыта сделка по
-поглощению компанией AMD, объявленная в октябре 2020&lt;/li&gt;
-  &lt;li&gt;Lattice Semiconductor (&lt;a href=&quot;https://www.latticesemi.com/&quot; target=&quot;_blank&quot;&gt;https://www.latticesemi.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Actel, поглощёна Microsemi, поглощёна Microchip (&lt;a href=&quot;https://www.microchip.com&quot; target=&quot;_blank&quot;&gt;https://www.microchip.com&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+поглощению компанией AMD, объявленная в октябре 2020</li>
+  <li>Lattice Semiconductor (<a href="https://www.latticesemi.com/" target="_blank">https://www.latticesemi.com/</a>)</li>
+  <li>Actel, поглощёна Microsemi, поглощёна Microchip (<a href="https://www.microchip.com" target="_blank">https://www.microchip.com</a>)</li>
+</ul>
 
-&lt;p&gt;Открытое и свободное программное обеспечение для разработки
-под ПЛИС:&lt;/p&gt;
+<p>Открытое и свободное программное обеспечение для разработки
+под ПЛИС:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Yosys, nextpnr, project IceStorm, etc. (&lt;a href=&quot;https://yosyshq.net/&quot; target=&quot;_blank&quot;&gt;https://yosyshq.net/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;openFPGALoader (&lt;a href=&quot;https://github.com/trabucayre/openFPGALoader&quot; target=&quot;_blank&quot;&gt;https://github.com/trabucayre/openFPGALoader&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;MyHDL (&lt;a href=&quot;https://www.myhdl.org/&quot; target=&quot;_blank&quot;&gt;https://www.myhdl.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Chisel (&lt;a href=&quot;https://www.chisel-lang.org/&quot; target=&quot;_blank&quot;&gt;https://www.chisel-lang.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;CLaSH (&lt;a href=&quot;https://clash-lang.org/&quot; target=&quot;_blank&quot;&gt;https://clash-lang.org/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;FuseSoC (&lt;a href=&quot;https://github.com/olofk/fusesoc&quot; target=&quot;_blank&quot;&gt;https://github.com/olofk/fusesoc&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Migen (&lt;a href=&quot;https://m-labs.hk/gateware/migen/&quot; target=&quot;_blank&quot;&gt;https://m-labs.hk/gateware/migen/&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Yosys, nextpnr, project IceStorm, etc. (<a href="https://yosyshq.net/" target="_blank">https://yosyshq.net/</a>)</li>
+  <li>openFPGALoader (<a href="https://github.com/trabucayre/openFPGALoader" target="_blank">https://github.com/trabucayre/openFPGALoader</a>)</li>
+  <li>MyHDL (<a href="https://www.myhdl.org/" target="_blank">https://www.myhdl.org/</a>)</li>
+  <li>Chisel (<a href="https://www.chisel-lang.org/" target="_blank">https://www.chisel-lang.org/</a>)</li>
+  <li>CLaSH (<a href="https://clash-lang.org/" target="_blank">https://clash-lang.org/</a>)</li>
+  <li>FuseSoC (<a href="https://github.com/olofk/fusesoc" target="_blank">https://github.com/olofk/fusesoc</a>)</li>
+  <li>Migen (<a href="https://m-labs.hk/gateware/migen/" target="_blank">https://m-labs.hk/gateware/migen/</a>)</li>
+</ul>
 
-&lt;p&gt;Новые игроки на рынке микросхем программируемой логики:&lt;/p&gt;
+<p>Новые игроки на рынке микросхем программируемой логики:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Achronix (&lt;a href=&quot;https://www.achronix.com/&quot; target=&quot;_blank&quot;&gt;https://www.achronix.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;eFinix (&lt;a href=&quot;https://www.efinixinc.com/&quot; target=&quot;_blank&quot;&gt;https://www.efinixinc.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Gowin Semiconductor (&lt;a href=&quot;https://gowinsemi.com/en/&quot; target=&quot;_blank&quot;&gt;https://gowinsemi.com/en/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Cologne Chip (&lt;a href=&quot;https://colognechip.com/&quot; target=&quot;_blank&quot;&gt;https://colognechip.com/&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Flex Logix Technologies (&lt;a href=&quot;https://flex-logix.com/&quot; target=&quot;_blank&quot;&gt;https://flex-logix.com/&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Achronix (<a href="https://www.achronix.com/" target="_blank">https://www.achronix.com/</a>)</li>
+  <li>eFinix (<a href="https://www.efinixinc.com/" target="_blank">https://www.efinixinc.com/</a>)</li>
+  <li>Gowin Semiconductor (<a href="https://gowinsemi.com/en/" target="_blank">https://gowinsemi.com/en/</a>)</li>
+  <li>Cologne Chip (<a href="https://colognechip.com/" target="_blank">https://colognechip.com/</a>)</li>
+  <li>Flex Logix Technologies (<a href="https://flex-logix.com/" target="_blank">https://flex-logix.com/</a>)</li>
+</ul>
 
-&lt;p&gt;&lt;em&gt;Эти списки ни в коей мере не претендуют на полноту, скорее это
+<p><em>Эти списки ни в коей мере не претендуют на полноту, скорее это
 просто иллюстрация, что такие программные средства и компании есть, и
-их становится больше.&lt;/em&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="fpga" /><summary type="html">В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними. Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас занимает Scala, а второй — одобрением второй крупной сделки в отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после покупки Altera/Intel.</summary></entry><entry xml:lang="en"><title type="html">Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA</title><link href="https://blog.no-problem.cc/ak/en/atg-webinar/" rel="alternate" type="text/html" title="Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA" /><published>2021-10-06T00:00:00+02:00</published><updated>2021-10-07T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/atg-webinar</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/atg-webinar/">&lt;p&gt;&lt;img src=&quot;/ak/assets/images/2021/atg-webinar.png&quot; alt=&quot;Arrow-To-Go Webinar banner&quot; /&gt;&lt;/p&gt;
+их становится больше.</em></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="fpga" /><summary type="html"><![CDATA[В частной переписке был поднят вопрос, не умирают ли постепенно два основных языка разработки для Программируемых Логических Интегральных Схем (ПЛИС, Field-Programmable Gate Array, FPGA): Verilog HDL и VHDL, и не исчезнут ли сами ПЛИС вместе с ними. Первый вопрос был вызван провокационным утверждением, что лидирующие позиции в разработке ПЛИС сейчас занимает Scala, а второй — одобрением второй крупной сделки в отрасли: поглощения Xilinx/AMD, последовавшей через 7 (2015) лет после покупки Altera/Intel.]]></summary></entry><entry xml:lang="en"><title type="html">Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA</title><link href="https://blog.no-problem.cc/ak/en/atg-webinar/" rel="alternate" type="text/html" title="Arrow to Go Webinar: Building Applications on multi-core RISC-V based on Microchip PolarFire SoC FPGA" /><published>2021-10-06T00:00:00+02:00</published><updated>2021-10-07T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/atg-webinar</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/atg-webinar/"><![CDATA[<p><img src="/ak/assets/images/2021/atg-webinar.png" alt="Arrow-To-Go Webinar banner" /></p>
 
-&lt;p&gt;Preparations are on the way to co-present on the first live-session of
+<p>Preparations are on the way to co-present on the first live-session of
 the two-webinar series: “Building Applications on multi-core RISC-V
-based on Microchip Technology Inc. PolarFire SoC-FPGA”.&lt;/p&gt;
+based on Microchip Technology Inc. PolarFire SoC-FPGA”.</p>
 
-&lt;p&gt;The first session will take place on &lt;strong&gt;October, 13, from 9:00 to 10:30 CEST&lt;/strong&gt;.&lt;/p&gt;
+<p>The first session will take place on <strong>October, 13, from 9:00 to 10:30 CEST</strong>.</p>
 
-&lt;p&gt;The webinar focuses on hardware related aspects of the development
-process. &lt;a href=&quot;https://www.linkedin.com/in/martinkellermann/&quot; target=&quot;_blank&quot;&gt;Martin Kellermann&lt;/a&gt;
-from &lt;a href=&quot;https://www.microchip.com/&quot; target=&quot;_blank&quot;&gt;Microchip&lt;/a&gt; will talk about PolarFire
-FPGA and SoC-FPGA family architecture details.&lt;/p&gt;
+<p>The webinar focuses on hardware related aspects of the development
+process. <a href="https://www.linkedin.com/in/martinkellermann/" target="_blank">Martin Kellermann</a>
+from <a href="https://www.microchip.com/" target="_blank">Microchip</a> will talk about PolarFire
+FPGA and SoC-FPGA family architecture details.</p>
 
-&lt;p&gt;Then I will move forward with an overview of the
-&lt;a href=&quot;https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes&quot; target=&quot;_blank&quot;&gt;M100PFS&lt;/a&gt;
+<p>Then I will move forward with an overview of the
+<a href="https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes" target="_blank">M100PFS</a>
 module hardware architecture and interfaces available on an Evaluation
 Platform. Detailed walk-through of the MSS configuration and FPGA
 reference design will provide information necessary to adopt the
@@ -603,9 +603,9 @@ system. Hart Software Services (zero-stage bootloader) build and
 programming of the resulting image (FPGA bitstream and e.NVM with the
 bootloader) into the PolarFire-SoC FPGA device on the module will
 conclude the presentation. Functionality of the IP core is briefly
-exercised by accessing its registers from U-Boot command line.&lt;/p&gt;
+exercised by accessing its registers from U-Boot command line.</p>
 
-&lt;p&gt;The IP core used for the illustration is an APB slave device capable
+<p>The IP core used for the illustration is an APB slave device capable
 to generate interrupt request signal with a configurable frequency (or
 a delay after the previous interrupt is acknowledged) and several
 counters and latch registers. The core facilitates measurements of
@@ -613,117 +613,117 @@ various latencies in the interrupt handling process in an operating
 system, and is a simple and useful tool to compare different executive
 kernels and configurations on the real hardware with respect to their
 interrupt response times. RTL code of the IP Core is available from
-&lt;a href=&quot;https://github.com/ARIES-Embedded/interrupt_latency_timer.git&quot; target=&quot;_blank&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+<a href="https://github.com/ARIES-Embedded/interrupt_latency_timer.git" target="_blank">GitHub repository</a>.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;The second session is scheduled for &lt;strong&gt;November, 10th, 2021&lt;/strong&gt; and will
+<p>The second session is scheduled for <strong>November, 10th, 2021</strong> and will
 be presented by
-&lt;a href=&quot;https://www.linkedin.com/in/moritz-von-dawans-a285bb90/&quot; target=&quot;_blank&quot;&gt;Moritz von Dawans&lt;/a&gt;.
+<a href="https://www.linkedin.com/in/moritz-von-dawans-a285bb90/" target="_blank">Moritz von Dawans</a>.
 He will illustrate the details of the software boot process, device
-driver development and integration with a build system.&lt;/p&gt;
+driver development and integration with a build system.</p>
 
-&lt;p&gt;The webinar series is organized by
-&lt;a href=&quot;https://www.linkedin.com/in/andreas-schwarztrauber-45246612/&quot; target=&quot;_blank&quot;&gt;Andreas Schwarztrauber&lt;/a&gt;
-from &lt;a href=&quot;https://www.arrow.com/&quot; target=&quot;_blank&quot;&gt;Arrow Electronics&lt;/a&gt;.&lt;/p&gt;
+<p>The webinar series is organized by
+<a href="https://www.linkedin.com/in/andreas-schwarztrauber-45246612/" target="_blank">Andreas Schwarztrauber</a>
+from <a href="https://www.arrow.com/" target="_blank">Arrow Electronics</a>.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;For details and registration
-&lt;a href=&quot;https://register.gotowebinar.com/register/3461187153288908813&quot; target=&quot;_blank&quot;&gt;Go To Webinar&lt;/a&gt;&lt;/p&gt;
+<p>For details and registration
+<a href="https://register.gotowebinar.com/register/3461187153288908813" target="_blank">Go To Webinar</a></p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;This post is also available on
-&lt;a href=&quot;https://www.linkedin.com/pulse/arrow-go-webinar-building-applications-multi-core-risc-v-anton-kuzmin&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"></summary></entry><entry xml:lang="en"><title type="html">Mi-V Virtual Summit Conference 2021</title><link href="https://blog.no-problem.cc/ak/en/mi-v-announcement/" rel="alternate" type="text/html" title="Mi-V Virtual Summit Conference 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-08-09T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/mi-v-announcement/">&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/ak/assets/images/2021/miv-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p>This post is also available on
+<a href="https://www.linkedin.com/pulse/arrow-go-webinar-building-applications-multi-core-risc-v-anton-kuzmin" target="_blank">LinkedIn</a></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">Mi-V Virtual Summit Conference 2021</title><link href="https://blog.no-problem.cc/ak/en/mi-v-announcement/" rel="alternate" type="text/html" title="Mi-V Virtual Summit Conference 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-08-09T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/mi-v-announcement/"><![CDATA[<p><a href="https://microchip.com/mi-vsummit" target="_blank"><img src="/ak/assets/images/2021/miv-2021.png" alt="" /></a></p>
 
-&lt;p&gt;I am looking forward to make a presentation on behalf of ARIES
+<p>I am looking forward to make a presentation on behalf of ARIES
 Embedded at the first Mi-V Virtual Summit Conference.  The
-presentation will start at &lt;strong&gt;9:30 a.m. Pacific (18:30 CEST) on July, 21st,&lt;/strong&gt; and will be followed
-by a live Q&amp;amp;A session.&lt;/p&gt;
+presentation will start at <strong>9:30 a.m. Pacific (18:30 CEST) on July, 21st,</strong> and will be followed
+by a live Q&amp;A session.</p>
 
-&lt;p&gt;During the conference you will be able to learn about many companies
+<p>During the conference you will be able to learn about many companies
 participating in
-&lt;a href=&quot;https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem&quot;&gt;Mi-V partner ecosystem&lt;/a&gt;
+<a href="https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem">Mi-V partner ecosystem</a>
 and their products built around RISC-V Instruction Set Architecture
-and PolarFire FPGA and SoC-FPGA family.&lt;/p&gt;
+and PolarFire FPGA and SoC-FPGA family.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.aries-embedded.com/node/492&quot;&gt;ARIES Embdedded&lt;/a&gt;
+<p><a href="https://www.aries-embedded.com/node/492">ARIES Embdedded</a>
 will showcase
-&lt;a href=&quot;https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes&quot;&gt;M100PF&lt;/a&gt;
+<a href="https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes">M100PF</a>
 and
-&lt;a href=&quot;https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes&quot;&gt;M100PFS&lt;/a&gt;
-modules based on Michrochip PolarFire family.&lt;/p&gt;
+<a href="https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes">M100PFS</a>
+modules based on Michrochip PolarFire family.</p>
 
-&lt;h2 id=&quot;free-access-to-the-mi-v-virtual-summit-conference-content&quot;&gt;Free access to the Mi-V Virtual Summit Conference content&lt;/h2&gt;
+<h2 id="free-access-to-the-mi-v-virtual-summit-conference-content">Free access to the Mi-V Virtual Summit Conference content</h2>
 
-&lt;p&gt;Summit page &lt;a href=&quot;https://www.microchip.com/en-us/about/events/mi-v-virtual-summit-conference?utm_source=microchip.com&amp;amp;utm_medium=Event&amp;amp;utm_content=FPGA&amp;amp;utm_campaign=MiVSummit&quot; target=&quot;_blank&quot;&gt;on Microchip web-site&lt;/a&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"></summary></entry><entry xml:lang="ru"><title type="html">Онлайн конференция и выставка Mi-V Summit 2021</title><link href="https://blog.no-problem.cc/ak/ru/mi-v-announcement/" rel="alternate" type="text/html" title="Онлайн конференция и выставка Mi-V Summit 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-08-09T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/mi-v-announcement/">&lt;p&gt;&lt;a href=&quot;https://microchip.com/mi-vsummit&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/ak/assets/images/2021/miv-2021.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p>Summit page <a href="https://www.microchip.com/en-us/about/events/mi-v-virtual-summit-conference?utm_source=microchip.com&amp;utm_medium=Event&amp;utm_content=FPGA&amp;utm_campaign=MiVSummit" target="_blank">on Microchip web-site</a></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="ru"><title type="html">Онлайн конференция и выставка Mi-V Summit 2021</title><link href="https://blog.no-problem.cc/ak/ru/mi-v-announcement/" rel="alternate" type="text/html" title="Онлайн конференция и выставка Mi-V Summit 2021" /><published>2021-06-28T00:00:00+02:00</published><updated>2021-08-09T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/mi-v-announcement</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/mi-v-announcement/"><![CDATA[<p><a href="https://microchip.com/mi-vsummit" target="_blank"><img src="/ak/assets/images/2021/miv-2021.png" alt="" /></a></p>
 
-&lt;p&gt;В июле этого года я буду представлять ARIES Embedded на онлайн
+<p>В июле этого года я буду представлять ARIES Embedded на онлайн
 конференции, организованной Microchip для компаний-участников
-партнёрской программы Mi-V. Выступление будет транслироваться &lt;strong&gt;21
-июля в 19:30 MSK&lt;/strong&gt;, после выступления запланировано время для ответов на
-вопросы.&lt;/p&gt;
+партнёрской программы Mi-V. Выступление будет транслироваться <strong>21
+июля в 19:30 MSK</strong>, после выступления запланировано время для ответов на
+вопросы.</p>
 
-&lt;p&gt;На выставке-конференции у посетителей будет возможность познакомиться
+<p>На выставке-конференции у посетителей будет возможность познакомиться
 со многими компаниями, участвующими в
-&lt;a href=&quot;https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem&quot;&gt;партнёрской программе Mi-V&lt;/a&gt;,
+<a href="https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-design-resources/mi-v-partner-ecosystem">партнёрской программе Mi-V</a>,
 и продуктами основанными на архитектуре системы команд RISC-V
-и семействе ПЛИС и систем-на-кристалле PolarFire.&lt;/p&gt;
+и семействе ПЛИС и систем-на-кристалле PolarFire.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.aries-embedded.com/node/492&quot;&gt;ARIES Embdedded&lt;/a&gt;
+<p><a href="https://www.aries-embedded.com/node/492">ARIES Embdedded</a>
 представляет на выставке модули, построенные на семействе PolarFire:
-&lt;a href=&quot;https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes&quot;&gt;M100PF&lt;/a&gt;
+<a href="https://www.aries-embedded.com/polarfire-microchip-fpga-m100pf-som-mpf100t-pcie-serdes">M100PF</a>
 и
-&lt;a href=&quot;https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes&quot;&gt;M100PFS&lt;/a&gt;.&lt;/p&gt;
+<a href="https://www.aries-embedded.com/polarfire-soc-fpga-microsemi-m100pfs-som-mpfs025t-pcie-serdes">M100PFS</a>.</p>
 
-&lt;h2 id=&quot;бесплатный-доступ-к-записям-выступлений&quot;&gt;Бесплатный доступ к записям выступлений&lt;/h2&gt;
+<h2 id="бесплатный-доступ-к-записям-выступлений">Бесплатный доступ к записям выступлений</h2>
 
-&lt;p&gt;Страница конференции &lt;a href=&quot;https://www.microchip.com/en-us/about/events/mi-v-virtual-summit-conference?utm_source=microchip.com&amp;amp;utm_medium=Event&amp;amp;utm_content=FPGA&amp;amp;utm_campaign=MiVSummit&quot; target=&quot;_blank&quot;&gt;на сайте Микрочип&lt;/a&gt;&lt;/p&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"></summary></entry><entry xml:lang="en"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/en/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fosdem-20/">&lt;p&gt;On the first weekend of February 2020, I visited Brussels to experience
+<p>Страница конференции <a href="https://www.microchip.com/en-us/about/events/mi-v-virtual-summit-conference?utm_source=microchip.com&amp;utm_medium=Event&amp;utm_content=FPGA&amp;utm_campaign=MiVSummit" target="_blank">на сайте Микрочип</a></p>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="event" /><category term="riscv" /><category term="polarfire" /><category term="fpga" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="en"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/en/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/en/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/en/fosdem-20/"><![CDATA[<p>On the first weekend of February 2020, I visited Brussels to experience
 an exciting atmosphere of a global gathering of free software
-developers: &lt;a href=&quot;https://archive.fosdem.org/2020/&quot;&gt;FOSDEM 2020&lt;/a&gt;.&lt;/p&gt;
+developers: <a href="https://archive.fosdem.org/2020/">FOSDEM 2020</a>.</p>
 
-&lt;p&gt;Besides a unique opportunity to taste local beer and Belgian waffles
+<p>Besides a unique opportunity to taste local beer and Belgian waffles
 FOSDEM provides two days filled in with conversations with interesting
 people, a possibility to learn what is going on in free and open
 source software development and many areas next to it, and just a good
-reason to break a day-to-day routine.&lt;/p&gt;
+reason to break a day-to-day routine.</p>
 
-&lt;p&gt;Going there as a mere visitor would not have been for me a
+<p>Going there as a mere visitor would not have been for me a
 sufficiently potent motivator to bother with all the arrangements and
 expenses. To boost self-motivation I had submitted applications for
 two talks in a hope one or the other would be accepted. Surprisingly,
 both were approved, and that messed up almost all the plans for a
-couple months in front of the event.&lt;/p&gt;
+couple months in front of the event.</p>
 
-&lt;p&gt;Nevertheless, those two days in Brussels left behind pleasant
-reminiscence, and &lt;a href=&quot;https://github.com/ak-fau/fosdem20&quot;&gt;presentations&lt;/a&gt;
+<p>Nevertheless, those two days in Brussels left behind pleasant
+reminiscence, and <a href="https://github.com/ak-fau/fosdem20">presentations</a>
 saved on GitHub may be reused or just referenced to. Below are the
 annotations of those presentations accompanied by a few comments
-looking past.&lt;/p&gt;
+looking past.</p>
 
-&lt;h2 id=&quot;on-hardware-debugging-of-ip-cores-with-free-tools&quot;&gt;On-hardware debugging of IP cores with free tools&lt;/h2&gt;
+<h2 id="on-hardware-debugging-of-ip-cores-with-free-tools">On-hardware debugging of IP cores with free tools</h2>
 
-&lt;p&gt;An approach to challenges of an on-FPGA debugging of IP cores based on
+<p>An approach to challenges of an on-FPGA debugging of IP cores based on
 free software tools is demonstrated. Various aspects and related
 problems of an on-hardware debugging are presented along with the
 tools to address them, such as OpenOCD, sigrok/PulseView, GHDL.
 Real-life working configuration and missing bits of software are
 accompanied by the live debug session demo running on Open-source
-Hardware.&lt;/p&gt;
+Hardware.</p>
 
-&lt;p&gt;Debugging of hardware blocks on an FPGA is always challenging and may
+<p>Debugging of hardware blocks on an FPGA is always challenging and may
 be frustrating, especially with no reliable tools at hands. Way too
 often the process turns into developing and debugging of the tools,
-instead of a target.&lt;/p&gt;
+instead of a target.</p>
 
-&lt;p&gt;Commercial solutions are available (SignalTap, ChipScope, Synopsys
+<p>Commercial solutions are available (SignalTap, ChipScope, Synopsys
 Identify RTL Debugger, Microsemi Smart Debug), at the same time there
 are a lot of well-known problems associated with them: vendor lock,
 single target, closed source and not always flexible enough, license
-terms and costs.&lt;/p&gt;
+terms and costs.</p>
 
-&lt;p&gt;Owing to free software developers, essential tools for on-hardware
+<p>Owing to free software developers, essential tools for on-hardware
 debugging of IP cores are available today. However, there are problems
 associated with these tools too. The most notable ones are a weak
 integration between separate tools and small bits of code and
@@ -732,124 +732,124 @@ tools among with explanations of how they may be used together to
 debug IP cores is provided. A presentation covers such free software
 as GHDL, sigrok/PulseView, and OpenOCD. Source code of free IP cores,
 all configuration and script files and presentation slides are
-available on GitHub.&lt;/p&gt;
+available on GitHub.</p>
 
-&lt;p&gt;A live demonstration of the PulseView connected to an in-FPGA logic
+<p>A live demonstration of the PulseView connected to an in-FPGA logic
 analyzer via JTAG interface with an open and low-cost hardware is
-presented.&lt;/p&gt;
+presented.</p>
 
-&lt;p&gt;An outline of the open tasks and future development directions
-concludes the presentation.&lt;/p&gt;
+<p>An outline of the open tasks and future development directions
+concludes the presentation.</p>
 
-&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+<h3 id="links">Links</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/&quot;&gt;talk page&lt;/a&gt; on the FOSDEM archive site (with links to video recording)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ak-fau/la-demo&quot;&gt;demo sources on github&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/">talk page</a> on the FOSDEM archive site (with links to video recording)</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf">slides (pdf)</a></li>
+  <li><a href="https://github.com/ak-fau/la-demo">demo sources on github</a></li>
+</ul>
 
-&lt;h2 id=&quot;port-luajit-to-risc-vmotivation-first-steps-and-perspectives&quot;&gt;Port luajit to RISC-V&lt;br /&gt;&lt;em&gt;Motivation, first steps and perspectives&lt;/em&gt;&lt;/h2&gt;
+<h2 id="port-luajit-to-risc-vmotivation-first-steps-and-perspectives">Port luajit to RISC-V<br /><em>Motivation, first steps and perspectives</em></h2>
 
-&lt;p&gt;There is a need for a lightweight tools for experiments with RISC-V
+<p>There is a need for a lightweight tools for experiments with RISC-V
 custom extensions. Adding support for custom instructions in
 binutils/gcc/llvm is out of range for many hardware architects. LuaJIT
 includes a small and powerful assembler: dynasm, accessible from
 within Lua interpreter. Currently dynasm supports following 32 and
 64-bit instruction sets: x86, x64, ARM, PowerPC, and MIPS, and it is
-just reasonable to extend this support to RISC-V.&lt;/p&gt;
+just reasonable to extend this support to RISC-V.</p>
 
-&lt;p&gt;Lua itself is a very compact and simple yet powerful dynamic language,
+<p>Lua itself is a very compact and simple yet powerful dynamic language,
 its JIT compiler (luajit) makes it one of the fastest, if not the
 fastest, interpreted language, and it is used in many projects, so
 having it running on RISC-V would have use besides the mere internal
-need for experimental platform.&lt;/p&gt;
+need for experimental platform.</p>
 
-&lt;h3 id=&quot;looking-back-at-the-predictions-made-18-months-ago&quot;&gt;Looking back at the predictions made 18 months ago&lt;/h3&gt;
+<h3 id="looking-back-at-the-predictions-made-18-months-ago">Looking back at the predictions made 18 months ago</h3>
 
-&lt;p&gt;At the beginning of 2020 there were no single language with JIT
+<p>At the beginning of 2020 there were no single language with JIT
 support in the RISC-V foundation
-&lt;a href=&quot;https://riscv.org/exchange/software/&quot;&gt;list of Available Software&lt;/a&gt;. I
+<a href="https://riscv.org/exchange/software/">list of Available Software</a>. I
 was sufficiently bold in my talk to predict what languages were to be
-first to provide it and, consequently, to shape &lt;strong&gt;J&lt;/strong&gt; RISC-V ISA
-extension, reserved for such languages.&lt;/p&gt;
+first to provide it and, consequently, to shape <strong>J</strong> RISC-V ISA
+extension, reserved for such languages.</p>
 
-&lt;p&gt;It is entertaining to look at these predictions today. Slide 11
-included this:&lt;/p&gt;
+<p>It is entertaining to look at these predictions today. Slide 11
+included this:</p>
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;p&gt;RISC-V J extension — what language will be the first to shape it?&lt;/p&gt;
+<blockquote>
+  <ul>
+    <li>
+      <p>RISC-V J extension — what language will be the first to shape it?</p>
 
-      &lt;ul&gt;
-        &lt;li&gt;Java&lt;/li&gt;
-        &lt;li&gt;JavaScript&lt;/li&gt;
-        &lt;li&gt;C#&lt;/li&gt;
-        &lt;li&gt;what else?…&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+      <ul>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>what else?…</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
 
-&lt;p&gt;Let’s see what is available today in the RISC-V software list (in the
-Non-C Compilers/Runtimes section):&lt;/p&gt;
+<p>Let’s see what is available today in the RISC-V software list (in the
+Non-C Compilers/Runtimes section):</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Java — &lt;strong&gt;5 (!)&lt;/strong&gt; Virtual Machines&lt;/li&gt;
-  &lt;li&gt;JavaScript: V8 and Node.js&lt;/li&gt;
-  &lt;li&gt;Mono (C#)&lt;/li&gt;
-  &lt;li&gt;Forth — 3 different systems&lt;/li&gt;
-  &lt;li&gt;Eclipse OMR&lt;/li&gt;
-  &lt;li&gt;Ada, Nim, Pascal, Go, Rust…&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Java — <strong>5 (!)</strong> Virtual Machines</li>
+  <li>JavaScript: V8 and Node.js</li>
+  <li>Mono (C#)</li>
+  <li>Forth — 3 different systems</li>
+  <li>Eclipse OMR</li>
+  <li>Ada, Nim, Pascal, Go, Rust…</li>
+</ul>
 
-&lt;p&gt;So, was I right or wrong?.. Perhaps, both.&lt;/p&gt;
+<p>So, was I right or wrong?.. Perhaps, both.</p>
 
-&lt;p&gt;I obviously underestimated interest in porting Java to RISC-V
+<p>I obviously underestimated interest in porting Java to RISC-V
 architecture, but all the languages I expected to be available soon
 are in the list now, along with many others I did not expect to see or
 even have not heard about before. So, even if I was not exactly
 accurate with this prediction, I see it as a very positive sign:
 overall momentum behind RISC-V architecture is moving beyond cores and
 gaining a traction in all sorts of software ported to the
-architecture.&lt;/p&gt;
+architecture.</p>
 
-&lt;p&gt;The only pity part for me is that luajit is not in the list, but the J
+<p>The only pity part for me is that luajit is not in the list, but the J
 extension is not in sight either. An opportunity window is still ajar
 and a tide of development in both RISC-V architecture and software
 ecosystem around it is just at the very beginning with bigger waves to
-be expected.&lt;/p&gt;
+be expected.</p>
 
-&lt;h3 id=&quot;links-1&quot;&gt;Links&lt;/h3&gt;
+<h3 id="links-1">Links</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/&quot;&gt;talk page&lt;/a&gt; on the FOSDEM archive site (with links to video recording)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf&quot;&gt;slides (pdf)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="fpga" /><category term="riscv" /><category term="lua" /><summary type="html">On the first weekend of February 2020, I visited Brussels to experience an exciting atmosphere of a global gathering of free software developers: FOSDEM 2020.</summary></entry><entry xml:lang="ru"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/ru/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fosdem-20/">&lt;p&gt;Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился
-в потрясающую атмосферу &lt;a href=&quot;https://archive.fosdem.org/2020/&quot;&gt;FOSDEM 2020&lt;/a&gt; —
-сборища разработчиков свободного программного обеспечения со всего мира.&lt;/p&gt;
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/">talk page</a> on the FOSDEM archive site (with links to video recording)</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf">slides (pdf)</a></li>
+</ul>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="en" /><category term="event" /><category term="fpga" /><category term="riscv" /><category term="lua" /><summary type="html"><![CDATA[On the first weekend of February 2020, I visited Brussels to experience an exciting atmosphere of a global gathering of free software developers: FOSDEM 2020.]]></summary></entry><entry xml:lang="ru"><title type="html">FOSDEM 2020</title><link href="https://blog.no-problem.cc/ak/ru/fosdem-20/" rel="alternate" type="text/html" title="FOSDEM 2020" /><published>2021-06-01T00:00:00+02:00</published><updated>2021-06-01T00:00:00+02:00</updated><id>https://blog.no-problem.cc/ak/ru/fosdem-20</id><content type="html" xml:base="https://blog.no-problem.cc/ak/ru/fosdem-20/"><![CDATA[<p>Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился
+в потрясающую атмосферу <a href="https://archive.fosdem.org/2020/">FOSDEM 2020</a> —
+сборища разработчиков свободного программного обеспечения со всего мира.</p>
 
-&lt;p&gt;Помимо возможности попробовать местное пиво и брюссельские вафли,
+<p>Помимо возможности попробовать местное пиво и брюссельские вафли,
 FOSDEM — это два дня общения и встреч с интересными людьми, возможность
 узнать, что происходит в мире разработки свободного ПО и смежных
-областях, и просто хороший повод вырваться из повседневной рутины.&lt;/p&gt;
+областях, и просто хороший повод вырваться из повседневной рутины.</p>
 
-&lt;p&gt;Участие в качестве слушателя было бы для меня недостаточно сильным
+<p>Участие в качестве слушателя было бы для меня недостаточно сильным
 поводом для поездки, так что я подал заявки на два выступления,
 надеясь, что какая-нибудь одна будет принята. Неожиданно для меня, обе
 заявки были одобрены, что заметно изменило все планы на пару месяцев
-до поездки.&lt;/p&gt;
+до поездки.</p>
 
-&lt;p&gt;Тем не менее, два дня в Брюсселе оставили очень приятные воспоминания,
+<p>Тем не менее, два дня в Брюсселе оставили очень приятные воспоминания,
 а подготовленные и сохранённые на GitHub’е
-&lt;a href=&quot;https://github.com/ak-fau/fosdem20&quot;&gt;слайды выступлений&lt;/a&gt; всегда можно
+<a href="https://github.com/ak-fau/fosdem20">слайды выступлений</a> всегда можно
 использовать ещё раз или просто сослаться на них. Краткое содержание
-выступлений и комментарии к ним год спустя приведены ниже.&lt;/p&gt;
+выступлений и комментарии к ним год спустя приведены ниже.</p>
 
-&lt;h2 id=&quot;разработка-и-отладка-fpga-с-использованием-свободного-программного-обеспечения&quot;&gt;Разработка и отладка FPGA с использованием свободного программного обеспечения&lt;/h2&gt;
+<h2 id="разработка-и-отладка-fpga-с-использованием-свободного-программного-обеспечения">Разработка и отладка FPGA с использованием свободного программного обеспечения</h2>
 
-&lt;p&gt;В выступлении продемонстрирован подход к разработке и отладке
+<p>В выступлении продемонстрирован подход к разработке и отладке
 функциональных блоков (IP cores) на ПЛИС (FPGA) с использованием
 свободного программного обеспечения. Отладка непосредственно на
 аппаратуре и сопутствующие проблемы рассматриваются с разных сторон
@@ -857,49 +857,49 @@ FOSDEM — это два дня общения и встреч с интерес
 sigrok/PulseView, GHDL. На плате разработки с открытой документацией
 (open hardware) представлен реальный работающий пример отладочной
 конфигурации со всеми необходимыми фрагментами программного
-обеспечения.&lt;/p&gt;
+обеспечения.</p>
 
-&lt;p&gt;Отладка функциональных блоков на ПЛИС всегда является сложной задачей
+<p>Отладка функциональных блоков на ПЛИС всегда является сложной задачей
 и часто может вызывать разочарование, особенно если доступные
 инструменты ненадёжны. Слишком часто процесс превращается в разработку
-и отладку инструментов вместо основного блока.&lt;/p&gt;
+и отладку инструментов вместо основного блока.</p>
 
-&lt;p&gt;Для этих задачи доступны коммерческие решения (SignalTap, ChipScope,
+<p>Для этих задачи доступны коммерческие решения (SignalTap, ChipScope,
 Synopsys Identify RTL Debugger, MicroSemi Smart Debug), но с ними
 связано много хорошо известных проблем: привязка к поставщику, работа
 с единственной платформой, не всегда достаточно гибкое программное
 обеспечение с закрытым исходным кодом, лицензионные условия и
-стоимость лицензий.&lt;/p&gt;
+стоимость лицензий.</p>
 
-&lt;p&gt;Благодаря программистам, разрабатывающим свободное программное
+<p>Благодаря программистам, разрабатывающим свободное программное
 обеспечение, сегодня доступны все ключевые инструменты для отладки
 функциональных блоков на аппаратуре. Однако и эти инструменты не
 лишены проблем. Среди самых заметных из них слабая интеграция между
 отдельными инструментами и множество недостающих фрагментов связующего
 кода и настроек. В выступлении представлена работающая комбинация
 инструментов, и объясняется, как они могут совместно использоваться для
-отладки.&lt;/p&gt;
+отладки.</p>
 
-&lt;p&gt;Исходный код функциональных блоков, использованных в демонстрационном
+<p>Исходный код функциональных блоков, использованных в демонстрационном
 примере, файлы настройки и слайды выступления доступны на GitHub.
 Демонстрационный пример объединяет блок логического анализатора внутри
-ПЛИС, который через интерфейс JTAG обменивается данными с sigrok PulseView.&lt;/p&gt;
+ПЛИС, который через интерфейс JTAG обменивается данными с sigrok PulseView.</p>
 
-&lt;p&gt;Выступление завершается обзором нерешённых задач и возможных
-направлений разработки.&lt;/p&gt;
+<p>Выступление завершается обзором нерешённых задач и возможных
+направлений разработки.</p>
 
-&lt;h3 id=&quot;ссылки&quot;&gt;Ссылки&lt;/h3&gt;
+<h3 id="ссылки">Ссылки</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/&quot;&gt;страница&lt;/a&gt;
-на архивном сайте FOSDEM’а с видео выступления&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf&quot;&gt;слайды (pdf)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ak-fau/la-demo&quot;&gt;исходный код (VHDL, Tcl, C)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/">страница</a>
+на архивном сайте FOSDEM’а с видео выступления</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/fpga_hw_dbg/attachments/slides/4171/export/events/attachments/fpga_hw_dbg/slides/4171/ip_debug_fosdem_2020_02_02.pdf">слайды (pdf)</a></li>
+  <li><a href="https://github.com/ak-fau/la-demo">исходный код (VHDL, Tcl, C)</a></li>
+</ul>
 
-&lt;h2 id=&quot;перенос-luajit-на-архитектуру-risc-v-мотивация-первые-шаги-и-перспективы&quot;&gt;Перенос luajit на архитектуру RISC-V. &lt;em&gt;Мотивация, первые шаги и перспективы&lt;/em&gt;&lt;/h2&gt;
+<h2 id="перенос-luajit-на-архитектуру-risc-v-мотивация-первые-шаги-и-перспективы">Перенос luajit на архитектуру RISC-V. <em>Мотивация, первые шаги и перспективы</em></h2>
 
-&lt;p&gt;Для экспериментов с расширениями набора команд RISC-V желательно иметь
+<p>Для экспериментов с расширениями набора команд RISC-V желательно иметь
 простые и компактные программные средства. Добавление поддержки
 нестандартных команд процессора к binutils/gcc/llvm находится за
 пределом возможностей многих разработчиков архитектуры. LuaJIT
@@ -907,77 +907,77 @@ Synopsys Identify RTL Debugger, MicroSemi Smart Debug), но с ними
 непосредственно из интерпретатора Lua. В настоящее время dynasm
 поддерживает несколько 64-х и 32-битых архитектур: x86, x64, ARM,
 PowerPC и MIPS. Поэтому представляется логичным добавить поддержку
-архитектуры RISC-V.&lt;/p&gt;
+архитектуры RISC-V.</p>
 
-&lt;p&gt;Lua является очень компактным, простым и мощным динамическим языком, а
+<p>Lua является очень компактным, простым и мощным динамическим языком, а
 реализация компилятора времени выполнения (luajit, just in time, JIT)
 делает Lua одним из самых быстрых, если не самым быстрым,
 интерпретируемым языком, и используется во многих программных
 системах. Таким образом, перенос luajit на архитектуру RISC-V может
 быть полезен и помимо удовлетворения внутренних потребностей в
-экспериментальной платформе.&lt;/p&gt;
+экспериментальной платформе.</p>
 
-&lt;h3 id=&quot;предсказания--взгляд-18-месяцев-спустя&quot;&gt;Предсказания – взгляд 18 месяцев спустя&lt;/h3&gt;
+<h3 id="предсказания--взгляд-18-месяцев-спустя">Предсказания – взгляд 18 месяцев спустя</h3>
 
-&lt;p&gt;В начале 2020-го года в
-&lt;a href=&quot;https://riscv.org/exchange/software/&quot;&gt;списке доступного программного обеспечения&lt;/a&gt;
+<p>В начале 2020-го года в
+<a href="https://riscv.org/exchange/software/">списке доступного программного обеспечения</a>
 на сайте фонда RISC-V не было ни одного языка с поддержкой
 JIT-компиляции. В своём выступлении я набрался смелости предсказать,
 какие языки первыми реализуют её и тем самым повлияют на J-расширение
-набора команд RISC-V, отведённое для поддержки JIT.&lt;/p&gt;
+набора команд RISC-V, отведённое для поддержки JIT.</p>
 
-&lt;p&gt;Интересно посмотреть на эти предсказания сегодня. Слайд 11 содержал
-такой список:&lt;/p&gt;
+<p>Интересно посмотреть на эти предсказания сегодня. Слайд 11 содержал
+такой список:</p>
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;
-      &lt;p&gt;RISC-V J extension — what language will be the first to shape it?&lt;/p&gt;
+<blockquote>
+  <ul>
+    <li>
+      <p>RISC-V J extension — what language will be the first to shape it?</p>
 
-      &lt;ul&gt;
-        &lt;li&gt;Java&lt;/li&gt;
-        &lt;li&gt;JavaScript&lt;/li&gt;
-        &lt;li&gt;C#&lt;/li&gt;
-        &lt;li&gt;what else?…&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+      <ul>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>what else?…</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
 
-&lt;p&gt;Посмотрим, что доступно сегодня на странице программного обеспечения
-фонда RISC-V (в разделе языков и сред исполнения, кроме C)&lt;/p&gt;
+<p>Посмотрим, что доступно сегодня на странице программного обеспечения
+фонда RISC-V (в разделе языков и сред исполнения, кроме C)</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Java — &lt;strong&gt;5 (!)&lt;/strong&gt; реализаций виртуальной машины&lt;/li&gt;
-  &lt;li&gt;JavaScript: V8 и Node.js&lt;/li&gt;
-  &lt;li&gt;Mono (C#)&lt;/li&gt;
-  &lt;li&gt;Forth — 3 различные системы&lt;/li&gt;
-  &lt;li&gt;Eclipse OMR&lt;/li&gt;
-  &lt;li&gt;Ada, Nim, Pascal, Go, Rust…&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Java — <strong>5 (!)</strong> реализаций виртуальной машины</li>
+  <li>JavaScript: V8 и Node.js</li>
+  <li>Mono (C#)</li>
+  <li>Forth — 3 различные системы</li>
+  <li>Eclipse OMR</li>
+  <li>Ada, Nim, Pascal, Go, Rust…</li>
+</ul>
 
-&lt;p&gt;Итак, был ли я прав или нет?.. Вероятно, и так, и так.&lt;/p&gt;
+<p>Итак, был ли я прав или нет?.. Вероятно, и так, и так.</p>
 
-&lt;p&gt;Я явно недооценил интерес к переносу Java на архитектуру RISC-V, но
+<p>Я явно недооценил интерес к переносу Java на архитектуру RISC-V, но
 все языки, которые я ожидал увидеть в ближайшее время, сейчас уже
 доступны, как и многие другие, которыx я не ожидал, или даже о которых
 до этого ничего не слышал. Хотя я и не был совсем уж точен в
 предсказаниях, мне это кажется очень хорошим признаком: общий импульс
 развития архитектуры RISC-V вышел за пределы разработки
 процессорных ядер, и набирают обороты усилия по переносу
-разнообразного программного обеспечения.&lt;/p&gt;
+разнообразного программного обеспечения.</p>
 
-&lt;p&gt;Единственной ложкой дёгтя для меня является то, что luajit всё ещё не
+<p>Единственной ложкой дёгтя для меня является то, что luajit всё ещё не
 в списке доступных программ, однако и про J-расширение пока нет
 никаких новостей.  Возможность повлиять на формирование этого
 расширения пока остаётся, а вал разработок, связанных с архитектурой
 RISC-V и программным обеспечением вокруг неё, только поднимается, так
-что можно ожидать больше интересных новостей и событий.&lt;/p&gt;
+что можно ожидать больше интересных новостей и событий.</p>
 
-&lt;h3 id=&quot;ссылки-1&quot;&gt;Ссылки&lt;/h3&gt;
+<h3 id="ссылки-1">Ссылки</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/&quot;&gt;страница&lt;/a&gt;
-на архивном сайте FOSDEM’а с видео выступления&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf&quot;&gt;слайды (pdf)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="event" /><category term="fpga" /><category term="riscv" /><category term="lua" /><summary type="html">Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился в потрясающую атмосферу FOSDEM 2020 — сборища разработчиков свободного программного обеспечения со всего мира.</summary></entry></feed>
+<ul>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/">страница</a>
+на архивном сайте FOSDEM’а с видео выступления</li>
+  <li><a href="https://archive.fosdem.org/2020/schedule/event/riscv_luajit/attachments/slides/4170/export/events/attachments/riscv_luajit/slides/4170/luajit_riscv_fosdem_2020_02_01.pdf">слайды (pdf)</a></li>
+</ul>]]></content><author><name>Anton Kuzmin</name><email>blog+ak@no-problem.cc</email></author><category term="ru" /><category term="event" /><category term="fpga" /><category term="riscv" /><category term="lua" /><summary type="html"><![CDATA[Первые выходные февраля 2020 года я провёл в Брюсселе, где погрузился в потрясающую атмосферу FOSDEM 2020 — сборища разработчиков свободного программного обеспечения со всего мира.]]></summary></entry></feed>
