@@ -112,4 +112,10 @@ var store = [{
         "tags": ["analysis","problem","problem-solving","root-cause","method","tool","statistics","Pareto"],
         "url": "https://blog.no-problem.cc/si/en/RCA-quantitative-methods/",
         "teaser": null
+      },{
+        "title": "Pitfalls in communication",
+        "excerpt":"Communication is one of the ultimate qualities we apply in different situations. In a business environment, effective communication is a crucial skill to succeed. It can be done in various forms and types, through different channels, and by using many tools, which define the route to deliver a message from...","categories": ["en"],
+        "tags": ["communication","pitfall","analysis","model","statistics"],
+        "url": "https://blog.no-problem.cc/si/en/Presentation-of-analysis/",
+        "teaser": null
       }]
